@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<title>Bilimly</title>
+<link rel="icon" type="image/jpeg" href="/assets/logo.jpg" />
+<link rel="apple-touch-icon" href="/assets/logo.jpg" />
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<div id="app"><div class="loading-screen"><div class="spinner"></div></div></div>
+<script>
+  // Surface any crash as visible text instead of leaving a blank/frozen
+  // screen — mobile WebViews give no console access, so without this a
+  // script error anywhere looks identical to "the app doesn't work".
+  window.addEventListener("error", function (e) {
+    var app = document.getElementById("app");
+    if (app && !app.dataset.booted) {
+      app.innerHTML =
+        '<div style="padding:24px;font-family:sans-serif;color:#3c3c3c;">' +
+        '<b>Xatolik yuz berdi / Error</b><br/><br/>' +
+        (e.message || "Unknown error") +
+        "<br/><br/>" +
+        (e.filename ? e.filename + ":" + e.lineno : "") +
+        "</div>";
+    }
+  });
+  // If nothing has taken over the spinner within 10s (e.g. a script failed
+  // to load at all over a slow/flaky mobile connection), say so instead of
+  // spinning forever.
+  setTimeout(function () {
+    var app = document.getElementById("app");
+    if (app && !app.dataset.booted) {
+      app.innerHTML =
+        '<div style="padding:24px;font-family:sans-serif;color:#3c3c3c;">' +
+        "Ilova yuklanmadi. Internet aloqasini tekshiring va qayta urining.<br/><br/>" +
+        "The app failed to load. Check your connection and try again." +
+        "</div>";
+    }
+  }, 10000);
+</script>
+<script src="/api.js"></script>
+<script src="/i18n.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,742 @@
+[
+ {
+  "subject_code": "XT11210",
+  "themes": [
+   {
+    "title": "Present Simple vs Present Continuous",
+    "title_ru": "Present Simple и Present Continuous",
+    "title_en": "Present Simple vs Present Continuous",
+    "cards": [
+     {
+      "uz": "Present Simple odatiy harakatlar, kundalik tartib va umumiy haqiqatlar uchun ishlatiladi. Tuzilishi: ega + fe'lning asosiy shakli (he/she/it uchun +s qo'shiladi). Masalan: 'She studies Finance at TSUE.' (U TSUEda moliyani o'rganadi.)",
+      "ru": "Present Simple используется для привычных действий, распорядка дня и общих фактов. Структура: подлежащее + базовая форма глагола (+s для he/she/it). Пример: 'She studies Finance at TSUE.' (Она изучает финансы в ТГЭУ.)",
+      "en": "Present Simple is used for habits, routines, and facts that are generally true. Structure: subject + base verb (+s for he/she/it). Example: 'She studies Finance at TSUE.'"
+     },
+     {
+      "uz": "Present Continuous hozir sodir bo'layotgan harakatlar yoki vaqtinchalik holatlar uchun ishlatiladi. Tuzilishi: ega + am/is/are + fe'l-ing. Masalan: 'She is studying for her exam right now.' (U hozir imtihonga tayyorlanmoqda.)",
+      "ru": "Present Continuous используется для действий, происходящих прямо сейчас, или временных ситуаций. Структура: подлежащее + am/is/are + глагол-ing. Пример: 'She is studying for her exam right now.' (Она сейчас готовится к экзамену.)",
+      "en": "Present Continuous is used for actions happening right now, or temporary situations. Structure: subject + am/is/are + verb-ing. Example: 'She is studying for her exam right now.'"
+     },
+     {
+      "uz": "Vaqt so'zlariga e'tibor bering: 'usually', 'every day', 'often' — Present Simple belgisi. 'Now', 'right now', 'at the moment', 'Look!' — Present Continuous belgisi.",
+      "ru": "Обратите внимание на слова-маркеры времени: 'usually', 'every day', 'often' указывают на Present Simple. 'Now', 'right now', 'at the moment', 'Look!' указывают на Present Continuous.",
+      "en": "Time words are a clue: 'usually', 'every day', 'often' signal Present Simple. 'Now', 'right now', 'at the moment', 'Look!' signal Present Continuous."
+     },
+     {
+      "uz": "Ba'zi fe'llar (know, want, believe, understand, love) harakatni emas, holatni ifodalaydi — ular 'hozir' haqida gapirganda ham deyarli hech qachon continuous shaklda ishlatilmaydi. 'I know the answer' deyiladi, 'I am knowing the answer' emas.",
+      "ru": "Некоторые глаголы (know, want, believe, understand, love) обозначают состояние, а не действие — они почти никогда не используются в форме continuous, даже когда речь идёт о 'сейчас'. Говорят 'I know the answer', а не 'I am knowing the answer'.",
+      "en": "Some verbs (know, want, believe, understand, love) describe states, not actions — they are rarely used in continuous form, even when talking about 'now'. Say 'I know the answer', not 'I am knowing the answer.'"
+     }
+    ],
+    "questions": [
+     {
+      "text": "She ___ to the university every day by bus.",
+      "options": [
+       "go",
+       "goes",
+       "is going",
+       "going"
+      ],
+      "correct_index": 1,
+      "explanation": "Odatiy harakatlar uchun 'he/she/it' bilan Present Simple ishlatiladi, fe'lga -s qo'shiladi: 'goes'.",
+      "explanation_ru": "Для привычных действий с 'he/she/it' используется Present Simple с окончанием -s: 'goes'.",
+      "explanation_en": "Habitual actions use Present Simple with 'he/she/it' + verb-s: 'goes'."
+     },
+     {
+      "text": "Look! The students ___ the exam results right now.",
+      "options": [
+       "check (Present Simple, ko'plik)",
+       "checks (Present Simple, birlik)",
+       "are checking (Present Continuous)",
+       "checked (Past Simple, o'tgan)"
+      ],
+      "correct_index": 2,
+      "explanation": "'Right now' hozir sodir bo'layotgan harakatni bildiradi, shuning uchun Present Continuous ('are checking') to'g'ri.",
+      "explanation_ru": "'Right now' указывает на действие, происходящее в данный момент, поэтому верен Present Continuous ('are checking').",
+      "explanation_en": "'Right now' signals an action in progress, so Present Continuous ('are checking') is correct.",
+      "options_ru": [
+       "check (Present Simple, мн. число)",
+       "checks (Present Simple, ед. число)",
+       "are checking (Present Continuous)",
+       "checked (Past Simple, прошлое)"
+      ],
+      "options_en": [
+       "check (Present Simple, plural)",
+       "checks (Present Simple, singular)",
+       "are checking (Present Continuous)",
+       "checked (Past Simple, finished)"
+      ]
+     },
+     {
+      "text": "Which sentence is correct?",
+      "options": [
+       "I am knowing the answer.",
+       "I know the answer.",
+       "I knows the answer.",
+       "I am know the answer."
+      ],
+      "correct_index": 1,
+      "explanation": "'Know' holat fe'li bo'lib, odatda continuous shaklda ishlatilmaydi.",
+      "explanation_ru": "'Know' — глагол состояния, обычно не используется в форме continuous.",
+      "explanation_en": "'Know' is a stative verb and is not normally used in continuous forms."
+     },
+     {
+      "text": "We usually ___ our finance homework on Sundays.",
+      "options": [
+       "do (Present Simple, ko'plik shakl)",
+       "does (Present Simple, birlik shakl)",
+       "are doing (Present Continuous shakl)",
+       "did (Past Simple, o'tgan shakl)"
+      ],
+      "correct_index": 0,
+      "explanation": "'Usually' va 'we' bilan Present Simple ning asosiy shakli ishlatiladi: 'do'.",
+      "explanation_ru": "С 'usually' и 'we' используется базовая форма Present Simple: 'do'.",
+      "explanation_en": "'Usually' with 'we' takes the base form in Present Simple: 'do'.",
+      "options_ru": [
+       "do (Present Simple, мн. число)",
+       "does (Present Simple, ед. число)",
+       "are doing (Present Continuous)",
+       "did (Past Simple, прошлое)"
+      ],
+      "options_en": [
+       "do (Present Simple, plural form)",
+       "does (Present Simple, singular)",
+       "are doing (Present Continuous)",
+       "did (Past Simple, finished act)"
+      ]
+     },
+     {
+      "text": "Choose the correct question: ___ you studying Financial Technology this semester?",
+      "options": [
+       "Do",
+       "Does",
+       "Are",
+       "Is"
+      ],
+      "correct_index": 2,
+      "explanation": "'You' bilan Present Continuous savoli 'Are' bilan boshlanadi: 'Are you studying...?'",
+      "explanation_ru": "Вопрос в Present Continuous с 'you' начинается с 'Are': 'Are you studying...?'",
+      "explanation_en": "Present Continuous questions with 'you' use 'Are': 'Are you studying...?'"
+     },
+     {
+      "text": "He never ___ late for lectures.",
+      "options": [
+       "is",
+       "be",
+       "are",
+       "being"
+      ],
+      "correct_index": 0,
+      "explanation": "'He' bilan 'to be' fe'lining Present Simple shakli 'is' bo'ladi.",
+      "explanation_ru": "С 'he' форма глагола 'to be' в Present Simple — 'is'.",
+      "explanation_en": "Present Simple with 'he' uses 'is' for the verb 'to be'."
+     },
+     {
+      "text": "They ___ a new banking app right now.",
+      "options": [
+       "test (Present Simple, ko'plik)",
+       "tests (Present Simple, birlik)",
+       "are testing (Present Continuous)",
+       "tested (Past Simple, o'tgan)"
+      ],
+      "correct_index": 2,
+      "explanation": "Odatiy harakat emas, hozir davom etayotgan jarayon bo'lgani uchun Present Continuous ishlatiladi: 'are testing'.",
+      "explanation_ru": "Так как это не привычное действие, а процесс, происходящий сейчас, используется Present Continuous: 'are testing'.",
+      "explanation_en": "Since this is not a habitual action but something happening right now, Present Continuous is used: 'are testing'.",
+      "options_ru": [
+       "test (Present Simple, мн. число)",
+       "tests (Present Simple, ед. число)",
+       "are testing (Present Continuous)",
+       "tested (Past Simple, прошлое)"
+      ],
+      "options_en": [
+       "test (Present Simple, plural)",
+       "tests (Present Simple, singular)",
+       "are testing (Present Continuous)",
+       "tested (Past Simple, finished)"
+      ]
+     },
+     {
+      "text": "My professor ___ three classes every semester.",
+      "options": [
+       "teach",
+       "teaches",
+       "is teaching",
+       "taught"
+      ],
+      "correct_index": 1,
+      "explanation": "'Every semester' odatiy harakatni bildiradi, shuning uchun Present Simple va 'he/she' uchun -s qo'shiladi: 'teaches'.",
+      "explanation_ru": "'Every semester' указывает на привычное действие, поэтому используется Present Simple с окончанием -s для 'he/she': 'teaches'.",
+      "explanation_en": "'Every semester' signals a habitual action, so Present Simple is used with -s for 'he/she': 'teaches'."
+     },
+     {
+      "text": "Choose the correct sentence.",
+      "options": [
+       "She don't like statistics.",
+       "She doesn't likes statistics.",
+       "She doesn't like statistics.",
+       "She not like statistics."
+      ],
+      "correct_index": 2,
+      "explanation": "'She' bilan Present Simple inkor shakli 'doesn't' + fe'lning asosiy shakli bo'ladi: 'doesn't like'.",
+      "explanation_ru": "Отрицательная форма Present Simple с 'she' образуется как 'doesn't' + базовая форма глагола: 'doesn't like'.",
+      "explanation_en": "The negative form of Present Simple with 'she' is 'doesn't' + the base verb: 'doesn't like'."
+     },
+     {
+      "text": "At the moment, the finance department ___ next year's budget.",
+      "options": [
+       "prepare (Present Simple, ko'plik)",
+       "prepares (Present Simple, birlik)",
+       "is preparing (Present Continuous)",
+       "prepared (Past Simple, o'tgan)"
+      ],
+      "correct_index": 2,
+      "explanation": "'At the moment' hozir davom etayotgan jarayonni bildiradi, shuning uchun Present Continuous to'g'ri: 'is preparing'.",
+      "explanation_ru": "'At the moment' указывает на процесс, происходящий сейчас, поэтому верен Present Continuous: 'is preparing'.",
+      "explanation_en": "'At the moment' signals an action in progress right now, so Present Continuous is correct: 'is preparing'.",
+      "options_ru": [
+       "prepare (Present Simple, мн. число)",
+       "prepares (Present Simple, ед. число)",
+       "is preparing (Present Continuous)",
+       "prepared (Past Simple, прошлое)"
+      ],
+      "options_en": [
+       "prepare (Present Simple, plural)",
+       "prepares (Present Simple, singular)",
+       "is preparing (Present Continuous)",
+       "prepared (Past Simple, finished)"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Finance & Banking Vocabulary",
+    "title_ru": "Финансовая и банковская лексика",
+    "title_en": "Finance & Banking Vocabulary",
+    "cards": [
+     {
+      "uz": "'Loan' — bank mijozga beradigan va foiz bilan qaytarilishi shart bo'lgan pul. 'Interest rate' — shu pulni qarzga olganlik uchun to'lanadigan foiz stavkasi.",
+      "ru": "'Loan' — деньги, которые банк даёт клиенту и которые нужно вернуть с процентами. 'Interest rate' — процентная ставка, взимаемая за пользование этими деньгами.",
+      "en": "A 'loan' is money a bank lends to a customer, which must be repaid with interest. The 'interest rate' is the percentage charged for borrowing it."
+     },
+     {
+      "uz": "'Share' (yoki 'stock') — kompaniyaning bir qismiga egalik huquqini tasdiqlovchi hujjat. Kompaniyalar investorlarga aksiya sotish orqali mablag' jalb qiladi.",
+      "ru": "'Share' (или 'stock') — документ, подтверждающий право собственности на часть компании. Компании привлекают средства, продавая акции инвесторам.",
+      "en": "A 'share' (or 'stock') is a document proving part-ownership of a company. Companies raise money by selling shares to investors."
+     },
+     {
+      "uz": "'Revenue' — kompaniyaning xarajatlar chiqarilmasdan oldingi umumiy daromadi. 'Net profit' — barcha xarajatlar to'langandan keyin qolgan summa.",
+      "ru": "'Revenue' — общий доход компании до вычета расходов. 'Net profit' — то, что остаётся после оплаты всех расходов.",
+      "en": "'Revenue' is a company's total income before any costs are subtracted. 'Net profit' is what's left after all expenses are paid."
+     },
+     {
+      "uz": "'Savings' — kelajakda ishlatish uchun ajratib qo'yilgan pul. Valyutaning 'depreciation'si — uning boshqa valyutalarga nisbatan qadrsizlanishi, aksi esa 'appreciation' deyiladi.",
+      "ru": "'Savings' — деньги, отложенные на будущее использование. 'Depreciation' валюты означает её обесценивание по отношению к другим валютам, противоположное — 'appreciation'.",
+      "en": "'Savings' is money set aside for future use. 'Depreciation' of a currency means it has lost value compared to other currencies — the opposite is 'appreciation'."
+     }
+    ],
+    "questions": [
+     {
+      "text": "Money that a bank lends to a customer, which must be paid back with interest, is called a ___.",
+      "options": [
+       "deposit - a bank account item",
+       "loan - a bank credit product",
+       "dividend - a shareholder item",
+       "asset - a balance sheet item"
+      ],
+      "correct_index": 1,
+      "explanation": "'Loan' — foiz bilan qaytariladigan qarz pul.",
+      "explanation_ru": "'Loan' — заёмные деньги, которые возвращаются с процентами.",
+      "explanation_en": "A 'loan' is borrowed money that is repaid, usually with interest.",
+      "options_ru": [
+       "deposit - a bank account item",
+       "loan - a bank credit product",
+       "dividend - a shareholder item",
+       "asset - a balance sheet item"
+      ],
+      "options_en": [
+       "deposit - a bank account item",
+       "loan - a bank credit product",
+       "dividend - a shareholder item",
+       "asset - a balance sheet item"
+      ]
+     },
+     {
+      "text": "The percentage charged by a lender for the use of money is the ___.",
+      "options": [
+       "interest rate",
+       "exchange rate",
+       "tax rate",
+       "growth rate"
+      ],
+      "correct_index": 0,
+      "explanation": "'Interest rate' — pul qarzga olish narxi, foizda ifodalanadi.",
+      "explanation_ru": "'Interest rate' — стоимость заимствования денег, выраженная в процентах.",
+      "explanation_en": "'Interest rate' is the cost of borrowing money, expressed as a percentage."
+     },
+     {
+      "text": "A document proving part-ownership of a company is called a ___.",
+      "options": [
+       "bond - a debt security type",
+       "share/stock - an equity unit",
+       "invoice - a billing document",
+       "receipt - a payment document"
+      ],
+      "correct_index": 1,
+      "explanation": "'Share' (yoki 'stock') kompaniyadagi qisman egalikni bildiradi.",
+      "explanation_ru": "'Share' (или 'stock') означает долю собственности в компании.",
+      "explanation_en": "A 'share' (or 'stock') represents partial ownership in a company.",
+      "options_ru": [
+       "bond - a debt security type",
+       "share/stock - an equity unit",
+       "invoice - a billing document",
+       "receipt - a payment document"
+      ],
+      "options_en": [
+       "bond - a debt security type",
+       "share/stock - an equity unit",
+       "invoice - a billing document",
+       "receipt - a payment document"
+      ]
+     },
+     {
+      "text": "The total income a company earns before expenses are subtracted is its ___.",
+      "options": [
+       "net profit",
+       "revenue",
+       "liability",
+       "equity"
+      ],
+      "correct_index": 1,
+      "explanation": "'Revenue' — xarajatlar chiqarilmasdan oldingi umumiy daromad.",
+      "explanation_ru": "'Revenue' — это общий доход до вычета каких-либо расходов.",
+      "explanation_en": "'Revenue' is total income before any costs are deducted."
+     },
+     {
+      "text": "Money set aside regularly for future use, often in a bank account, is called ___.",
+      "options": [
+       "savings",
+       "spending",
+       "debt",
+       "credit"
+      ],
+      "correct_index": 0,
+      "explanation": "'Savings' — sarflanmagan, jamg'arilgan pulni bildiradi.",
+      "explanation_ru": "'Savings' означает отложенные, а не потраченные деньги.",
+      "explanation_en": "'Savings' refers to money kept rather than spent."
+     },
+     {
+      "text": "When a currency loses value relative to others, this is called ___.",
+      "options": [
+       "inflation",
+       "depreciation",
+       "appreciation",
+       "recession"
+      ],
+      "correct_index": 1,
+      "explanation": "Valyutaning 'depreciation'si — uning boshqa valyutalarga nisbatan qadrsizlanishi.",
+      "explanation_ru": "'Depreciation' валюты означает её обесценивание по отношению к другим валютам.",
+      "explanation_en": "'Depreciation' (of a currency) means it has lost value compared to other currencies."
+     },
+     {
+      "text": "The document that lists what a company owns and owes at a point in time is called a ___.",
+      "options": [
+       "balance sheet - a financial report",
+       "receipt - a proof of payment made",
+       "invoice - a request for a payment",
+       "paycheck - an employee wage slip"
+      ],
+      "correct_index": 0,
+      "explanation": "'Balance sheet' — kompaniyaning ma'lum vaqtdagi aktivlari va majburiyatlarini ko'rsatuvchi moliyaviy hisobot.",
+      "explanation_ru": "'Balance sheet' (баланс) — финансовый отчёт, показывающий активы и обязательства компании на определённый момент.",
+      "explanation_en": "A 'balance sheet' is a financial statement showing a company's assets and liabilities at a point in time.",
+      "options_ru": [
+       "balance sheet - a financial report",
+       "receipt - a proof of payment made",
+       "invoice - a request for a payment",
+       "paycheck - an employee wage slip"
+      ],
+      "options_en": [
+       "balance sheet - a financial report",
+       "receipt - a proof of payment made",
+       "invoice - a request for a payment",
+       "paycheck - an employee wage slip"
+      ]
+     },
+     {
+      "text": "When a company sells its products or services, the money it receives is its ___.",
+      "options": [
+       "expense",
+       "liability",
+       "revenue",
+       "deficit"
+      ],
+      "correct_index": 2,
+      "explanation": "'Revenue' — mahsulot yoki xizmat sotishdan olingan pul, kompaniyaning asosiy daromad manbai.",
+      "explanation_ru": "'Revenue' (выручка) — деньги, полученные от продажи товаров или услуг, основной источник дохода компании.",
+      "explanation_en": "'Revenue' is the money a company earns from selling goods or services — its primary source of income."
+     },
+     {
+      "text": "A sum of money that a government or company owes to others is called ___.",
+      "options": [
+       "equity - an ownership stake",
+       "debt - a borrowing liability",
+       "asset - an owned resource item",
+       "profit - an earnings surplus"
+      ],
+      "correct_index": 1,
+      "explanation": "'Debt' — boshqalarga qarzdor bo'lgan pul summasi.",
+      "explanation_ru": "'Debt' (долг) — сумма денег, которую должны другим.",
+      "explanation_en": "'Debt' is a sum of money owed to others.",
+      "options_ru": [
+       "equity - an ownership stake",
+       "debt - a borrowing liability",
+       "asset - an owned resource item",
+       "profit - an earnings surplus"
+      ],
+      "options_en": [
+       "equity - an ownership stake",
+       "debt - a borrowing liability",
+       "asset - an owned resource item",
+       "profit - an earnings surplus"
+      ]
+     },
+     {
+      "text": "The process of spreading investments across different assets to reduce risk is called ___.",
+      "options": [
+       "inflation - a price process",
+       "diversification - a strategy",
+       "taxation - a fiscal process",
+       "liquidation - a wind-up step"
+      ],
+      "correct_index": 1,
+      "explanation": "'Diversification' — xavfni kamaytirish uchun investitsiyalarni turli aktivlar bo'yicha taqsimlash.",
+      "explanation_ru": "'Diversification' (диверсификация) — распределение инвестиций между разными активами для снижения риска.",
+      "explanation_en": "'Diversification' is spreading investments across different assets to reduce risk.",
+      "options_ru": [
+       "inflation - a price process",
+       "diversification - a strategy",
+       "taxation - a fiscal process",
+       "liquidation - a wind-up step"
+      ],
+      "options_en": [
+       "inflation - a price process",
+       "diversification - a strategy",
+       "taxation - a fiscal process",
+       "liquidation - a wind-up step"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "subject_code": "MT1605",
+  "themes": [
+   {
+    "title": "Fintech asoslari (demo)",
+    "title_ru": "Основы финтеха (демо)",
+    "title_en": "Fintech Fundamentals (demo)",
+    "cards": [
+     {
+      "uz": "Moliyaviy texnologiya (fintech) — moliyaviy xizmatlarni ko'rsatish yoki yaxshilash uchun texnologiyadan foydalanish. Masalan: mobil bank ilovalari, onlayn to'lov tizimlari, raqamli hamyonlar.",
+      "ru": "Финансовые технологии (финтех) — использование технологий для оказания или улучшения финансовых услуг. Например: мобильные банковские приложения, онлайн-платёжные системы, цифровые кошельки.",
+      "en": "Financial technology (fintech) is the use of technology to deliver or improve financial services. Examples: mobile banking apps, online payment systems, digital wallets."
+     },
+     {
+      "uz": "O'zbekistonda fintechga misollar: Payme, Click, Uzum Bank — bu platformalar to'lovlar, pul o'tkazmalari va kreditlarni mobil ilova orqali amalga oshiradi, bankka borish shart emas.",
+      "ru": "Примеры финтеха в Узбекистане: Payme, Click, Uzum Bank — эти платформы проводят платежи, переводы и кредиты через мобильное приложение, без необходимости идти в банк.",
+      "en": "Examples of fintech in Uzbekistan: Payme, Click, Uzum Bank — these platforms handle payments, transfers, and loans through a mobile app, with no need to visit a bank branch."
+     },
+     {
+      "uz": "P2P (peer-to-peer) kreditlash — bank vositachiligisiz, odamlar to'g'ridan-to'g'ri bir-biriga pul qarz berishi mumkin bo'lgan platformalar.",
+      "ru": "P2P (peer-to-peer) кредитование — платформы, позволяющие людям напрямую давать друг другу деньги в долг без участия банка.",
+      "en": "P2P (peer-to-peer) lending — platforms that let people lend money directly to each other without a bank as intermediary."
+     },
+     {
+      "uz": "Robo-advisor — sun'iy intellekt yordamida investitsiya portfelini avtomatik boshqaradigan dastur; inson moliyaviy maslahatchisiga qaraganda arzonroq.",
+      "ru": "Robo-advisor — программа, которая с помощью искусственного интеллекта автоматически управляет инвестиционным портфелем; дешевле, чем услуги человека-консультанта.",
+      "en": "A robo-advisor is software that uses artificial intelligence to manage an investment portfolio automatically — cheaper than a human financial advisor."
+     },
+     {
+      "uz": "Fintech an'anaviy banklardan farqli o'laroq, odatda past xarajat, tezkor xizmat va mobil-first (avvalo mobil qurilmalar uchun mo'ljallangan) yondashuvga ega.",
+      "ru": "В отличие от традиционных банков, финтех обычно отличается низкими издержками, быстрым обслуживанием и mobile-first подходом (ориентацией прежде всего на мобильные устройства).",
+      "en": "Unlike traditional banks, fintech companies typically offer lower costs, faster service, and a mobile-first approach (designed primarily for mobile devices)."
+     }
+    ],
+    "questions": [
+     {
+      "text": "Fintech atamasi nimani anglatadi?",
+      "text_ru": "Что означает термин «финтех»?",
+      "text_en": "What does the term \"fintech\" mean?",
+      "options": [
+       "Birjada kriptovalyuta savdosi va boshqa hech narsa emas",
+       "Moliyaviy xizmatlarda texnologiyani qo'llash va yaxshilash",
+       "Davlat byudjeti defitsitini rejalashtirish metodikasi",
+       "Tijorat banklari xodimlarini o'qitish bo'yicha dastur"
+      ],
+      "options_ru": [
+       "Торговля криптовалютой на бирже и ничего более того",
+       "Применение технологий для оказания финансовых услуг",
+       "Методика планирования дефицита государственного бюджета",
+       "Программа обучения сотрудников коммерческих банков"
+      ],
+      "options_en": [
+       "Trading cryptocurrency on an exchange and nothing else",
+       "Using technology to deliver or improve financial services",
+       "A method for planning the annual state budget deficit",
+       "A training program for commercial bank employees"
+      ],
+      "correct_index": 1,
+      "explanation": "Fintech — moliyaviy xizmatlarda texnologiyani qo'llash orqali ularni tezroq, qulayroq yoki arzonroq qilish.",
+      "explanation_ru": "Финтех — применение технологий в финансовых услугах, делающее их быстрее, удобнее или дешевле.",
+      "explanation_en": "Fintech means applying technology to financial services to make them faster, more convenient, or cheaper."
+     },
+     {
+      "text": "Quyidagilardan qaysi biri O'zbekistondagi fintech platformasiga misol bo'la oladi?",
+      "text_ru": "Что из перечисленного является примером финтех-платформы в Узбекистане?",
+      "text_en": "Which of the following is an example of a fintech platform in Uzbekistan?",
+      "options": [
+       "Payme",
+       "IMF",
+       "Jahon banki",
+       "Markaziy bank"
+      ],
+      "options_ru": [
+       "Payme",
+       "МВФ",
+       "Всемирный банк",
+       "Центральный банк"
+      ],
+      "options_en": [
+       "Payme",
+       "IMF",
+       "World Bank",
+       "Central Bank"
+      ],
+      "correct_index": 0,
+      "explanation": "Payme — O'zbekistonda keng qo'llaniladigan mobil to'lov platformasi, fintech kompaniyasi hisoblanadi.",
+      "explanation_ru": "Payme — широко используемая в Узбекистане мобильная платёжная платформа, финтех-компания.",
+      "explanation_en": "Payme is a widely used mobile payment platform in Uzbekistan and counts as a fintech company."
+     },
+     {
+      "text": "P2P kreditlash platformalarining asosiy xususiyati nima?",
+      "text_ru": "Какова главная особенность платформ P2P-кредитования?",
+      "text_en": "What is the main feature of P2P lending platforms?",
+      "options": [
+       "Kredit berishda faqat davlat banklari ishtirok etishi mumkin",
+       "Odamlar bankdan tashqari bir-biriga to'g'ridan-to'g'ri qarz beradi",
+       "Platformadan faqat ro'yxatdan o'tgan yuridik shaxslar foydalanadi",
+       "Platformadagi har qanday kredit butunlay foizsiz beriladi"
+      ],
+      "options_ru": [
+       "Участвовать в выдаче кредитов могут только государственные банки",
+       "Люди дают деньги в долг друг другу напрямую, минуя банк",
+       "Пользоваться платформой могут только юридические лица",
+       "Любой кредит на платформе выдаётся совершенно без процентов"
+      ],
+      "options_en": [
+       "Only state-owned banks are allowed to take part in the lending",
+       "People lend money to each other directly, without a bank",
+       "Only registered legal entities are allowed to use the platform",
+       "Every loan on the platform is issued completely interest-free"
+      ],
+      "correct_index": 1,
+      "explanation": "P2P kreditlash — bank o'rniga platforma orqali shaxslarning o'zaro qarz berishi.",
+      "explanation_ru": "P2P-кредитование — это когда люди дают друг другу в долг через платформу, а не через банк.",
+      "explanation_en": "P2P lending means individuals lend to each other through a platform instead of a bank."
+     },
+     {
+      "text": "Robo-advisor nima qiladi?",
+      "text_ru": "Что делает robo-advisor?",
+      "text_en": "What does a robo-advisor do?",
+      "options": [
+       "Jismoniy robot yordamida mijozning uyiga naqd pul yetkazadi",
+       "Sun'iy intellekt yordamida investitsiya portfelini boshqaradi",
+       "Tijorat banki filiallarida mijozlar navbatini boshqaradi",
+       "Bank mijozlarining yillik soliq hisobotlarini tekshiradi"
+      ],
+      "options_ru": [
+       "Доставляет наличные клиенту домой с помощью физического робота",
+       "Автоматически управляет инвестиционным портфелем с помощью ИИ",
+       "Управляет очередью клиентов в отделениях коммерческого банка",
+       "Проверяет годовую налоговую отчётность клиентов банка"
+      ],
+      "options_en": [
+       "Delivers cash to a customer's home using a physical robot",
+       "Automatically manages an investment portfolio using AI",
+       "Manages the customer queue at the branches of a bank",
+       "Checks the annual tax reports filed by bank clients"
+      ],
+      "correct_index": 1,
+      "explanation": "Robo-advisor — avtomatlashtirilgan, algoritmga asoslangan investitsiya boshqaruvi xizmati.",
+      "explanation_ru": "Robo-advisor — это автоматизированная, основанная на алгоритмах услуга управления инвестициями.",
+      "explanation_en": "A robo-advisor is an automated, algorithm-based investment management service."
+     },
+     {
+      "text": "Fintech kompaniyalari an'anaviy banklardan ko'pincha nimasi bilan farq qiladi?",
+      "text_ru": "Чем финтех-компании часто отличаются от традиционных банков?",
+      "text_en": "How do fintech companies often differ from traditional banks?",
+      "options": [
+       "Yuqori operatsion xarajatlar va sezilarli sekin xizmat",
+       "Ular faqat yirik korporatsiyalarga xizmat qiladi, shaxslarga emas",
+       "Past xarajat, tezkor xizmat va mobil-first yondashuvi",
+       "Ular mijozlarga xizmat ko'rsatmaydi, agentlar orqali ishlaydi"
+      ],
+      "options_ru": [
+       "Более высокие издержки и заметно более медленное обслуживание",
+       "Они обслуживают только крупные корпорации, а не частных лиц",
+       "Низкие издержки, быстрое обслуживание и mobile-first подход",
+       "Они вообще не обслуживают клиентов и работают через агентов"
+      ],
+      "options_en": [
+       "Higher operating costs and noticeably slower customer service",
+       "They serve only large corporations and never private persons",
+       "Lower costs, faster service and a mobile-first approach",
+       "They provide no customer service and work through agents only"
+      ],
+      "correct_index": 2,
+      "explanation": "Fintech kompaniyalar odatda arzonroq, tezroq va mobil qurilmalarga moslashgan xizmat taqdim etadi.",
+      "explanation_ru": "Финтех-компании обычно предлагают более дешёвые, быстрые и адаптированные под мобильные устройства услуги.",
+      "explanation_en": "Fintech companies typically offer cheaper, faster service that's optimized for mobile devices."
+     },
+     {
+      "text": "Blokcheyn texnologiyasining asosiy xususiyati nima?",
+      "text_ru": "Какова основная особенность технологии блокчейн?",
+      "text_en": "What is the main characteristic of blockchain technology?",
+      "options": [
+       "Ma'lumot markazidagi bitta serverda saqlanadigan markaziy baza",
+       "Ko'plab kompyuterlarga nusxalangan o'zgarmas yozuvlar reestri",
+       "Faqat litsenziyali tijorat banklari foydalanadigan yopiq tizim",
+       "Fizik pulning o'rnini to'liq bosuvchi qog'oz hujjat shakli"
+      ],
+      "options_ru": [
+       "Централизованная база данных на одном сервере в дата-центре",
+       "Реестр неизменяемых записей, скопированный на многие компьютеры",
+       "Закрытая система, которой могут пользоваться только банки",
+       "Бумажный документ, полностью заменяющий наличные деньги"
+      ],
+      "options_en": [
+       "A centralized database stored on one server in a data centre",
+       "A ledger of unchangeable records copied across many computers",
+       "A closed system that only licensed commercial banks may use",
+       "A paper document that fully replaces physical cash in trade"
+      ],
+      "correct_index": 1,
+      "explanation": "Blokcheyn — markazlashmagan, tarmoqdagi ko'plab tugunlarda nusxalangan va o'zgartirib bo'lmaydigan yozuvlar reestri.",
+      "explanation_ru": "Блокчейн — децентрализованный реестр, копии которого хранятся на множестве узлов сети, а записи защищены от изменения.",
+      "explanation_en": "Blockchain is a decentralized ledger copied across many nodes in a network, with records that are tamper-resistant."
+     },
+     {
+      "text": "Mobil to'lov ilovasi orqali QR-kod skanerlab to'lov qilish qaysi fintech xizmatiga misol?",
+      "text_ru": "Оплата через сканирование QR-кода в мобильном платёжном приложении — пример какой финтех-услуги?",
+      "text_en": "Paying by scanning a QR code through a mobile payment app is an example of which fintech service?",
+      "options": [
+       "Raqamli to'lov tizimlari",
+       "Kriptovalyuta mayning",
+       "Davlat byudjeti",
+       "Aktuar hisob-kitob"
+      ],
+      "options_ru": [
+       "Цифровые платёжные системы",
+       "Майнинг криптовалюты",
+       "Государственный бюджет",
+       "Актуарные расчёты"
+      ],
+      "options_en": [
+       "Digital payment systems",
+       "Cryptocurrency mining",
+       "Government budgeting",
+       "Actuarial calculations"
+      ],
+      "correct_index": 0,
+      "explanation": "QR-kod orqali to'lov — raqamli to'lov tizimlarining keng tarqalgan ko'rinishi, naqd pulsiz va tezkor to'lovni ta'minlaydi.",
+      "explanation_ru": "Оплата через QR-код — распространённая форма цифровых платёжных систем, обеспечивающая быструю безналичную оплату.",
+      "explanation_en": "QR-code payment is a common form of digital payment systems, enabling fast, cashless transactions."
+     },
+     {
+      "text": "Fintech kompaniyalari uchun 'KYC' (Know Your Customer) jarayoni nima uchun kerak?",
+      "text_ru": "Для чего финтех-компаниям нужен процесс «KYC» (Know Your Customer)?",
+      "text_en": "Why do fintech companies need the 'KYC' (Know Your Customer) process?",
+      "options": [
+       "Mijozlarga yangi mahsulotlar haqida maqsadli reklama yuborish",
+       "Mijoz shaxsini tasdiqlab, firibgarlik va pul yuvishni to'xtatish",
+       "Mijozning karta hisobidagi ish haqi limitini oshirish uchun",
+       "Bank mobil ilovasini yiliga ikki marta yangilab turish uchun"
+      ],
+      "options_ru": [
+       "Чтобы рассылать клиентам адресную рекламу о новых продуктах",
+       "Чтобы подтвердить личность и пресечь мошенничество и отмывание",
+       "Чтобы повысить зарплатный лимит клиента по карточному счёту",
+       "Чтобы дважды в год обновлять мобильное приложение этого банка"
+      ],
+      "options_en": [
+       "To send customers targeted ads about new banking products",
+       "To verify identity and prevent fraud and money laundering",
+       "To raise the customer's salary limit on the card account",
+       "To update the bank's mobile application twice every year"
+      ],
+      "correct_index": 1,
+      "explanation": "KYC jarayoni mijoz shaxsini tekshirib, firibgarlik, pul yuvish va boshqa noqonuniy faoliyatning oldini olishga xizmat qiladi.",
+      "explanation_ru": "Процесс KYC проверяет личность клиента, помогая предотвратить мошенничество, отмывание денег и другую незаконную деятельность.",
+      "explanation_en": "The KYC process verifies customer identity, helping prevent fraud, money laundering, and other illegal activity."
+     },
+     {
+      "text": "'Neobank' atamasi nimani anglatadi?",
+      "text_ru": "Что означает термин «необанк» (neobank)?",
+      "text_en": "What does the term 'neobank' mean?",
+      "options": [
+       "Jismoniy filiallari yo'q, to'liq onlayn ishlaydigan bank",
+       "Mamlakat markaziy bankining yangi ochilgan filiali",
+       "Faqat iste'mol kreditlari beradigan moliya tashkiloti",
+       "Davlat tomonidan boshqariladigan investitsiya fondi"
+      ],
+      "options_ru": [
+       "Банк без физических отделений, работающий полностью онлайн",
+       "Недавно открытое отделение центрального банка страны",
+       "Организация, выдающая только потребительские кредиты",
+       "Инвестиционный фонд, управляемый государством страны"
+      ],
+      "options_en": [
+       "A bank with no physical branches, working entirely online",
+       "A newly opened branch office of the country's central bank",
+       "An institution that issues consumer loans and nothing else",
+       "An investment fund that is run by the national government"
+      ],
+      "correct_index": 0,
+      "explanation": "Neobank — jismoniy filiallarsiz, faqat mobil ilova yoki veb-sayt orqali xizmat ko'rsatuvchi raqamli bank.",
+      "explanation_ru": "Необанк — цифровой банк без физических отделений, обслуживающий клиентов только через мобильное приложение или сайт.",
+      "explanation_en": "A neobank is a digital bank with no physical branches, serving customers entirely through a mobile app or website."
+     },
+     {
+      "text": "Chatbot yordamida mijozlarga 24/7 moliyaviy maslahat berish qaysi texnologiyaga asoslanadi?",
+      "text_ru": "На какой технологии основано предоставление клиентам финансовых консультаций 24/7 с помощью чат-бота?",
+      "text_en": "Providing customers with 24/7 financial guidance through a chatbot relies on which technology?",
+      "options": [
+       "Sun'iy intellekt (AI)",
+       "Qog'oz hujjat aylanishi",
+       "Faqat telefon qo'ng'iroqlari",
+       "Pochta orqali xabarlashish"
+      ],
+      "options_ru": [
+       "Искусственный интеллект (ИИ)",
+       "Бумажный документооборот",
+       "Только телефонные звонки",
+       "Переписка по почте"
+      ],
+      "options_en": [
+       "Artificial intelligence (AI)",
+       "Paper-based document processing",
+       "Phone calls only",
+       "Postal mail correspondence"
+      ],
+      "correct_index": 0,
+      "explanation": "Chatbotlar sun'iy intellekt yordamida mijozlar savollariga avtomatik va tezkor javob berib, 24/7 xizmat ko'rsatadi.",
+      "explanation_ru": "Чат-боты используют искусственный интеллект для автоматических и быстрых ответов на вопросы клиентов, обеспечивая обслуживание 24/7.",
+      "explanation_en": "Chatbots use artificial intelligence to respond to customer questions automatically and quickly, providing 24/7 service."
+     }
+    ]
+   }
+  ]
+ }
+]

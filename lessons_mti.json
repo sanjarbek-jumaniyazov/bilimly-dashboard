@@ -1,0 +1,2743 @@
+[
+ {
+  "subject_code": "MTI1305",
+  "themes": [
+   {
+    "title": "1-mavzu: Moliyaviy tizim va uning funksiyalari",
+    "title_ru": "Тема 1: Финансовая система и её функции",
+    "title_en": "Topic 1: The Financial System and Its Functions",
+    "cards": [],
+    "questions": []
+   },
+   {
+    "title": "2-mavzu: Xalqaro moliyaviy tizim",
+    "title_ru": "Тема 2: Международная финансовая система",
+    "title_en": "Topic 2: The International Financial System",
+    "cards": [],
+    "questions": []
+   },
+   {
+    "title": "3-mavzu: Raqamli iqtisodiyotda moliyaviy tizim",
+    "title_ru": "Тема 3: Финансовая система в цифровой экономике",
+    "title_en": "Topic 3: The Financial System in the Digital Economy",
+    "cards": [],
+    "questions": []
+   },
+   {
+    "title": "4-mavzu: Islomiy moliyaviy tizim",
+    "title_ru": "Тема 4: Исламская финансовая система",
+    "title_en": "Topic 4: The Islamic Financial System",
+    "cards": [],
+    "questions": [
+     {
+      "text": "Islomiy moliyaviy tizim nima bilan belgilanadi?",
+      "text_ru": "Чем определяется исламская финансовая система?",
+      "text_en": "What defines the Islamic financial system?",
+      "options": [
+       "Mijozning dini bilan",
+       "Shartnomaning tuzilishi (shariatga muvofiqligi) bilan",
+       "Faqat musulmon davlatlarda joylashganligi bilan",
+       "Faqat naqd pul bilan ishlashi bilan"
+      ],
+      "options_ru": [
+       "Религией клиента",
+       "Структурой контракта (соответствием шариату)",
+       "Расположением только в мусульманских странах",
+       "Работой только с наличными"
+      ],
+      "options_en": [
+       "The customer's religion",
+       "The structure of the contract (Shariah compliance)",
+       "Being located only in Muslim-majority countries",
+       "Dealing only in cash"
+      ],
+      "correct_index": 1,
+      "explanation": "Islomiy moliya mijoz diniga emas, balki shartnoma tuzilishiga qarab belgilanadi — Malayziya va Buyuk Britaniyada ko'plab mijozlar musulmon emas.",
+      "explanation_ru": "Исламские финансы определяются структурой контракта, а не религией клиента — в Малайзии и Великобритании многие клиенты не являются мусульманами.",
+      "explanation_en": "Islamic finance is defined by contract structure, not customer religion — in Malaysia and the UK, many customers are non-Muslims."
+     },
+     {
+      "text": "Shariat qoidalarining manbalariga quyidagilardan qaysi biri KIRMAYDI?",
+      "text_ru": "Что из перечисленного НЕ входит в источники норм шариата?",
+      "text_en": "Which of the following is NOT a source of Shariah rules?",
+      "options": [
+       "Qur'on",
+       "Sunnat",
+       "Ijma (olimlar konsensusi)",
+       "Markaziy bank nizomi"
+      ],
+      "options_ru": [
+       "Коран",
+       "Сунна",
+       "Иджма (консенсус учёных)",
+       "Устав центрального банка"
+      ],
+      "options_en": [
+       "The Qur'an",
+       "The Sunnah",
+       "Ijma (scholarly consensus)",
+       "A central bank's charter"
+      ],
+      "correct_index": 3,
+      "explanation": "Shariat manbalari: Qur'on, Sunnat, ijma va qiyas (analogiya), fiqh al-muamalat orqali talqin qilinadi — markaziy bank nizomi bunga kirmaydi.",
+      "explanation_ru": "Источники шариата: Коран, Сунна, иджма и кыяс (аналогия), интерпретируемые через фикх аль-муамалат — устав центрального банка сюда не входит.",
+      "explanation_en": "Shariah sources are the Qur'an, Sunnah, ijma, and qiyas (analogy), interpreted through fiqh al-muamalat — a central bank charter is not one of them."
+     },
+     {
+      "text": "2024-yilda global islomiy moliya sanoatining taxminiy hajmi qancha edi?",
+      "text_ru": "Каков был примерный объём глобальной индустрии исламских финансов в 2024 году?",
+      "text_en": "What was the approximate size of the global Islamic finance industry in 2024?",
+      "options": [
+       "$1 trillion",
+       "$2.2 trillion",
+       "$6 trillion",
+       "$20 trillion"
+      ],
+      "options_ru": [
+       "$1 триллион",
+       "$2.2 триллиона",
+       "$6 триллионов",
+       "$20 триллионов"
+      ],
+      "options_en": [
+       "$1 trillion",
+       "$2.2 trillion",
+       "$6 trillion",
+       "$20 trillion"
+      ],
+      "correct_index": 2,
+      "explanation": "2024-yilda sanoat hajmi taxminan $6 trillion ni tashkil etdi, 80 dan ortiq davlatda faoliyat yuritadi va 2029-yilga borib $9.7 trillionga yetishi kutilmoqda.",
+      "explanation_ru": "В 2024 году объём индустрии составил около $6 триллионов, она действует более чем в 80 странах, а к 2029 году ожидается рост до $9.7 триллиона.",
+      "explanation_en": "In 2024 the industry was worth about $6 trillion, operating in over 80 countries, and is projected to reach $9.7 trillion by 2029."
+     },
+     {
+      "text": "Islomiy moliyaning asosiy g'oyasini bitta jumlada ifodalasak, u qanday bo'ladi?",
+      "text_ru": "Как одним предложением выразить главную идею исламских финансов?",
+      "text_en": "What is the core idea of Islamic finance summarized in one sentence?",
+      "options": [
+       "Faqat musulmonlarga davlat belgilagan yillik to'rt foiz stavkada kredit beradi",
+       "Foiz stavkalarini ikki baravar oshirib, omonatchilarga kafolatlangan daromad beradi",
+       "Pulni pulga sotishni real aktivlar savdosi va umumiy biznes xatari bilan almashtiradi",
+       "Nasiya to'lovni taqiqlab, har bir shartnomani faqat naqd pulda hisob-kitob qiladi"
+      ],
+      "options_ru": [
+       "Выдаёт кредиты только мусульманам по ставке четыре процента в год",
+       "Удваивает процентные ставки, чтобы вкладчики получали гарантированный доход",
+       "Заменяет продажу денег за деньги торговлей реальными активами и разделением риска",
+       "Запрещает отсрочку платежа и требует расчёта по каждому договору наличными"
+      ],
+      "options_en": [
+       "It lends only to Muslims, at a fixed state-approved rate of four percent",
+       "It doubles interest rates so depositors get a larger guaranteed return",
+       "It replaces money-for-money lending with trade in real assets and shared risk",
+       "It bans deferred payment and requires every contract to be settled in cash"
+      ],
+      "correct_index": 2,
+      "explanation": "Islomiy moliyaning markaziy g'oyasi — pulni ko'proq pulga aylantirish o'rniga real aktivlarga asoslangan savdo va biznes xatarini baham ko'rish.",
+      "explanation_ru": "Центральная идея исламских финансов — замена превращения денег в большие деньги финансированием через торговлю реальными активами и разделение риска.",
+      "explanation_en": "The central idea of Islamic finance is replacing money-for-more-money with financing based on trade in real assets and shared business risk."
+     },
+     {
+      "text": "Islomiy moliya sanoatining tarkibiy qismlariga quyidagilardan qaysi biri KIRMAYDI?",
+      "text_ru": "Что из перечисленного НЕ входит в состав индустрии исламских финансов?",
+      "text_en": "Which of the following is NOT a component of the Islamic finance industry?",
+      "options": [
+       "Islomiy bank ishi — foizsiz omonat va moliyalashtirish mahsulotlari",
+       "Sukuk — aktivlar bilan ta'minlangan shariatga mos sertifikatlar",
+       "Takaful — o'zaro xayriya badallariga asoslangan kooperativ sug'urta",
+       "Kazino va onlayn qimor — daromad faqat tasodifga bog'liq bo'ladi"
+      ],
+      "options_ru": [
+       "Исламский банкинг — беспроцентные депозиты и финансирование клиентов",
+       "Сукук — обеспеченные реальными активами инвестиционные сертификаты",
+       "Такафул — кооперативная модель страхования на взаимных взносах",
+       "Казино и онлайн-игры на деньги — выигрыш по чистой случайности"
+      ],
+      "options_en": [
+       "Islamic banking, which offers deposits and financing without interest",
+       "Sukuk, which are asset-backed Shariah-compliant investment certificates",
+       "Takaful, a cooperative insurance model based on mutual donations",
+       "Casinos and online gambling, which pay out purely by chance"
+      ],
+      "correct_index": 3,
+      "explanation": "Islomiy moliya tarkibiga islomiy bank ishi, sukuk, islomiy fondlar, takaful va islomiy fintech kiradi — qimor maysir sifatida taqiqlangan.",
+      "explanation_ru": "В состав исламских финансов входят исламский банкинг, сукук, исламские фонды, такафул и исламский финтех — азартные игры запрещены как майсир.",
+      "explanation_en": "Islamic finance includes Islamic banking, sukuk, Islamic funds, takaful, and Islamic fintech — gambling is prohibited as maysir."
+     },
+     {
+      "text": "Fiqh al-muamalat atamasi nimani anglatadi?",
+      "text_ru": "Что означает термин «фикх аль-муамалат»?",
+      "text_en": "What does the term 'fiqh al-muamalat' mean?",
+      "options": [
+       "Ibodat amallari fiqhi: namoz va ro'za qoidalari",
+       "Jinoyat jazolari va sud ishlari bo'yicha fiqh",
+       "Xalifalik diplomatik protokoli bo'yicha fiqh",
+       "Muomalalar fiqhi — moliyaviy shartnomalar huquqi"
+      ],
+      "options_ru": [
+       "Фикх обрядов поклонения: молитвы и поста",
+       "Фикх уголовных наказаний и судебных дел",
+       "Фикх дипломатического протокола халифата",
+       "Фикх сделок — право финансовых договоров"
+      ],
+      "options_en": [
+       "The fiqh of worship rituals such as prayer and fasting",
+       "The fiqh of criminal punishments and court cases",
+       "The fiqh of the caliphate's diplomatic protocol",
+       "The fiqh of transactions — financial contract law"
+      ],
+      "correct_index": 3,
+      "explanation": "Fiqh al-muamalat — bitimlar (muomalalar) huquqi bo'lib, shariat manbalarini amaliy moliyaviy shartnomalarga tatbiq etadi.",
+      "explanation_ru": "Фикх аль-муамалат — это право сделок, которое применяет источники шариата к практическим финансовым контрактам.",
+      "explanation_en": "Fiqh al-muamalat is the jurisprudence of transactions, applying Shariah sources to practical financial contracts."
+     },
+     {
+      "text": "Quyidagilardan qaysi biri islomiy moliyada taqiqlangan TO'RTTA asosiy elementdan BIRI emas?",
+      "text_ru": "Что из перечисленного НЕ входит в число четырёх основных запрещённых элементов в исламских финансах?",
+      "text_en": "Which of the following is NOT one of the four core prohibited elements in Islamic finance?",
+      "options": [
+       "Riba — pul qarziga oldindan belgilangan qaytim",
+       "Gharar — shartnoma shartlaridagi ortiqcha noaniqlik",
+       "Maysir — faqat tasodifdan olingan daromad, garov",
+       "Diversifikatsiya — xatarni aktivlar bo'yicha taqsimlash"
+      ],
+      "options_ru": [
+       "Риба — заранее установленная надбавка на заём",
+       "Гарар — чрезмерная неопределённость условий сделки",
+       "Майсир — доход от чистой случайности, то есть пари",
+       "Диверсификация — распределение риска между активами"
+      ],
+      "options_en": [
+       "Riba — a predetermined return charged on a money loan",
+       "Gharar — excessive uncertainty in a contract's terms",
+       "Maysir — gain obtained from pure chance or betting",
+       "Diversification — spreading risk across many assets"
+      ],
+      "correct_index": 3,
+      "explanation": "To'rtta asosiy taqiq: riba (foiz), gharar (noaniqlik), maysir (qimor) va harom sohalarga moliyalashtirish. Diversifikatsiya taqiqlanmagan, aksincha tavsiya etiladi.",
+      "explanation_ru": "Четыре основных запрета: риба (процент), гарар (неопределённость), майсир (азарт) и финансирование харамных отраслей. Диверсификация не запрещена, напротив — рекомендуется.",
+      "explanation_en": "The four core prohibitions are riba (interest), gharar (uncertainty), maysir (gambling), and financing haram sectors. Diversification is not prohibited — it's actually encouraged."
+     },
+     {
+      "text": "Riba atamasi asosan nimani bildiradi?",
+      "text_ru": "Что в основном обозначает термин «риба»?",
+      "text_en": "What does the term 'riba' primarily mean?",
+      "options": [
+       "Real tovarlarni sotib qayta sotishdan olingan foyda",
+       "Davlat biznes daromadiga belgilagan soliq stavkasi",
+       "Pul qarziga oldindan belgilangan har qanday qaytim",
+       "Qo'shimcha bir birlik mahsulot ishlab chiqarish xarajati"
+      ],
+      "options_ru": [
+       "Прибыль от покупки и перепродажи реальных товаров",
+       "Ставка налога на доход бизнеса, введённая властями",
+       "Любая заранее установленная надбавка на денежный заём",
+       "Издержки производства дополнительной единицы товара"
+      ],
+      "options_en": [
+       "Profit earned from buying and reselling real goods",
+       "A tax rate set by the state on business income",
+       "Any predetermined return charged on a loan of money",
+       "The cost of producing one additional unit of output"
+      ],
+      "correct_index": 2,
+      "explanation": "Riba — pul qarziga, kattaligidan qat'i nazar, oldindan belgilangan har qanday qaytim bo'lib, islomiy moliyaning asosiy taqig'idir.",
+      "explanation_ru": "Риба — это любая заранее установленная прибыль на денежный заём, независимо от размера, и является основным запретом в исламских финансах.",
+      "explanation_en": "Riba is any predetermined return on a loan of money, regardless of size, and is the core prohibition in Islamic finance."
+     },
+     {
+      "text": "Nega riba shariatda noto'g'ri (adolatsiz) deb hisoblanadi — iqtisodiy mantig'i nimada?",
+      "text_ru": "Почему риба считается несправедливой с точки зрения шариата — в чём экономическая логика?",
+      "text_en": "Why is riba considered unjust under Shariah — what is the economic logic?",
+      "options": [
+       "Chunki u keltirgan foyda bank joriy xarajatlarini qoplashga yetmaydi",
+       "Chunki uning murakkab foiz formulasini oddiy mijozlar hisoblay olmaydi",
+       "Chunki u faqat yirik firmalarga beriladi, kichik oilaviy firmalarga emas",
+       "Chunki u butun xatarni qarz oluvchiga yuklab, kreditor daromadini kafolatlaydi"
+      ],
+      "options_ru": [
+       "Потому что приносимая прибыль слишком мала для текущих расходов банка",
+       "Потому что её формулу сложных процентов обычный клиент не рассчитает",
+       "Потому что она даётся только крупным фирмам, но не малым семейным",
+       "Потому что весь риск она кладёт на заёмщика и гарантирует доход кредитора"
+      ],
+      "options_en": [
+       "Because the profit it yields is far too small to cover the bank's costs",
+       "Because its compound interest formula is too complex for most customers",
+       "Because it is offered only to large firms and never to small family firms",
+       "Because it puts all business risk on the borrower and guarantees the lender's gain"
+      ],
+      "correct_index": 3,
+      "explanation": "Foiz barcha biznes xatarini qarz oluvchiga o'tkazib, moliyachi daromadini kafolatlaydi — shariat bu holatni adolatsiz deb hisoblaydi: mukofot xatar olish orqali qozonilishi kerak (al-ghunm bil-ghurm).",
+      "explanation_ru": "Процент переносит весь бизнес-риск на заёмщика, гарантируя доход финансиста — шариат считает это несправедливым: вознаграждение должно зарабатываться через принятие риска (al-ghunm bil-ghurm).",
+      "explanation_en": "Interest shifts all business risk to the borrower while guaranteeing the financier's return — Shariah views this as unjust: reward must be earned by taking risk (al-ghunm bil-ghurm)."
+     },
+     {
+      "text": "Gharar nimani anglatadi?",
+      "text_ru": "Что означает «гарар»?",
+      "text_en": "What does 'gharar' refer to?",
+      "options": [
+       "Markaziy bank talab qilgan bank kapitali yetarliligi ko'rsatkichi",
+       "Nazorat kengashi tekshirgan shariatga mos investitsiya fondi",
+       "Savdogarning tugallangan sotuvdan olgan qonuniy savdo foydasi",
+       "Ortiqcha noaniqlik — ob'ekt, narx yoki yetkazib berish noma'lum"
+      ],
+      "options_ru": [
+       "Коэффициент достаточности капитала, требуемый центральным банком",
+       "Инвестиционный фонд по шариату, проверенный надзорным советом",
+       "Законная торговая прибыль продавца от завершённой сделки",
+       "Чрезмерная неопределённость — объект, цена или поставка неизвестны"
+      ],
+      "options_en": [
+       "A bank's capital adequacy ratio required by the central bank",
+       "A Shariah-compliant investment fund screened by a supervisory board",
+       "Legitimate profit earned by a merchant from a completed sale",
+       "Excessive uncertainty — the object, price or delivery is unknown"
+      ],
+      "correct_index": 3,
+      "explanation": "Gharar — shartnomada ob'ekt, narx yoki yetkazib berish noaniq bo'lgan holat, masalan, o'zingizga tegishli bo'lmagan narsani sotish.",
+      "explanation_ru": "Гарар — это ситуация, когда объект, цена или поставка по контракту неизвестны, например, продажа того, чем вы не владеете.",
+      "explanation_en": "Gharar is a situation where a contract's object, price, or delivery is unknown — for example, selling something you don't own."
+     },
+     {
+      "text": "Maysir tufayli islomiy moliyada nima keng ravishda taqiqlanadi?",
+      "text_ru": "Что из-за майсира широко запрещено в исламских финансах?",
+      "text_en": "Because of maysir, what is broadly prohibited in Islamic finance?",
+      "options": [
+       "Tovar kelishilgan narxda qo'ldan qo'lga o'tadigan oddiy savdo bitimi",
+       "Butun muddatga ijara to'lovi qat'iy belgilangan uy-joy ijarasi",
+       "Faqat tasodif bilan hal bo'ladigan kazino uslubidagi derivativ savdo",
+       "Xaridorning individual buyurtmasi bo'yicha ishlab chiqarish shartnomasi"
+      ],
+      "options_ru": [
+       "Обычные торговые сделки: товар переходит по согласованной цене",
+       "Договор аренды жилья с платой, фиксированной на весь срок",
+       "Торговля деривативами в стиле казино с исходом по случайности",
+       "Договор на изготовление товара по индивидуальному заказу"
+      ],
+      "options_en": [
+       "Ordinary trade deals where goods change hands at an agreed price",
+       "Housing lease contracts with rent fixed for the whole term",
+       "Casino-style derivatives trading settled purely by chance",
+       "Manufacturing contracts for goods built to the buyer's order"
+      ],
+      "correct_index": 2,
+      "explanation": "Maysir — tasodif yoki nol-summali garovlardan foyda olish, bu kazino uslubidagi hosilaviy savdoni istisno qiladi.",
+      "explanation_ru": "Майсир — это получение прибыли от чистой случайности или игр с нулевой суммой, что исключает торговлю деривативами в стиле казино.",
+      "explanation_en": "Maysir is gain from pure chance or zero-sum bets, which rules out casino-style derivatives trading."
+     },
+     {
+      "text": "Quyidagi sohalardan qaysi biri islomiy moliya tomonidan moliyalashtirilMAYDI (harom)?",
+      "text_ru": "Какая из следующих отраслей НЕ финансируется исламскими финансами (харам)?",
+      "text_en": "Which of the following sectors is NOT financed by Islamic finance (haram)?",
+      "options": [
+       "Qishloq xo'jaligi — don yetishtirish va chorva mollarini boqish",
+       "Qurilish — shartnoma asosida uy-joy va yo'llar barpo etish",
+       "Ulgurji savdo — tovarlarni sotib ustama bilan qayta sotish",
+       "Spirtli ichimliklar ishlab chiqarish va ulgurji sotish"
+      ],
+      "options_ru": [
+       "Сельское хозяйство — выращивание зерна и разведение скота",
+       "Строительство — возведение жилья и дорог по договору",
+       "Оптовая торговля — покупка и перепродажа товаров с наценкой",
+       "Производство алкоголя — выгонка и продажа спиртного"
+      ],
+      "options_en": [
+       "Agriculture — growing grain and raising livestock for sale",
+       "Construction — building housing and roads under contract",
+       "Wholesale trade — buying and reselling goods at a margin",
+       "Alcohol production — distilling and selling spirits"
+      ],
+      "correct_index": 3,
+      "explanation": "Harom sohalar: alkogol, qimor, cho'chqa go'shti, tamaki, qurol-yarog' va kattalar sanoati — bularga moliyalashtirish taqiqlangan.",
+      "explanation_ru": "Харамные отрасли: алкоголь, азартные игры, свинина, табак, оружие и индустрия для взрослых — финансирование этих отраслей запрещено.",
+      "explanation_en": "Haram sectors include alcohol, gambling, pork, tobacco, weapons, and the adult industry — financing them is prohibited."
+     },
+     {
+      "text": "\"Al-ghunm bil-ghurm\" tamoyili nimani anglatadi?",
+      "text_ru": "Что означает принцип «аль-гунм биль-гурм»?",
+      "text_en": "What does the principle 'al-ghunm bil-ghurm' mean?",
+      "options": [
+       "Xatar olmasdan daromad bo'lmaydi — mukofot xatar bilan keladi",
+       "Foydani hech qanday xatar olmasdan ham olish mumkin bo'ladi",
+       "Loyihaning xatarini faqat davlat o'z zimmasiga olishi kerak",
+       "Daromad har doim qat'iy teng ulushlarga bo'linishi shart"
+      ],
+      "options_ru": [
+       "Без принятого риска нет дохода — доход идёт вместе с риском",
+       "Прибыль можно получать, вовсе не принимая на себя риск",
+       "Риск по проекту должно нести только само государство",
+       "Доход всегда должен делиться строго на равные доли"
+      ],
+      "options_en": [
+       "There is no gain without risk — reward comes with risk taken",
+       "Profit may be earned without bearing any risk at all",
+       "Only the state should bear the risk of any project",
+       "Income must always be divided into strictly equal shares"
+      ],
+      "correct_index": 0,
+      "explanation": "Al-ghunm bil-ghurm — \"xatarsiz foyda yo'q\" tamoyili, riba taqig'ining asosiy iqtisodiy mantig'ini ifodalaydi.",
+      "explanation_ru": "Al-ghunm bil-ghurm — принцип «нет выгоды без риска», выражающий основную экономическую логику запрета рибы.",
+      "explanation_en": "Al-ghunm bil-ghurm — 'no gain without risk' — expresses the core economic logic behind the prohibition of riba."
+     },
+     {
+      "text": "Quyidagilardan qaysi biri \"gharar\"ga misol bo'ladi?",
+      "text_ru": "Что из перечисленного является примером «гарара»?",
+      "text_en": "Which of the following is an example of 'gharar'?",
+      "options": [
+       "Aniq narxda uy sotish",
+       "Siz hali egalik qilmagan baliq ovini oldindan sotish",
+       "Belgilangan ijara haqi bilan mashina ijaraga berish",
+       "Standartlashtirilgan g'allani kelajakda yetkazib berish shartida sotish"
+      ],
+      "options_ru": [
+       "Продажа дома по фиксированной цене",
+       "Предварительная продажа улова рыбы, которым вы ещё не владеете",
+       "Сдача машины в аренду с фиксированной арендной платой",
+       "Продажа стандартизированного зерна с условием будущей поставки"
+      ],
+      "options_en": [
+       "Selling a house at a fixed price",
+       "Pre-selling a catch of fish you do not yet own",
+       "Leasing a car for a fixed rental fee",
+       "Selling standardized grain for future delivery"
+      ],
+      "correct_index": 1,
+      "explanation": "O'zingizga tegishli bo'lmagan va noaniq narsani (masalan, hali tutilmagan baliqni) sotish — klassik gharar namunasi.",
+      "explanation_ru": "Продажа того, чем вы не владеете и что неопределённо (например, ещё не пойманной рыбы), — классический пример гарара.",
+      "explanation_en": "Selling something you don't own and that is uncertain (like a fish not yet caught) is a classic example of gharar."
+     },
+     {
+      "text": "Oddiy sug'urta (konventsional insurance) nega islomiy nuqtai nazardan muammoli hisoblanadi?",
+      "text_ru": "Почему обычное страхование считается проблематичным с исламской точки зрения?",
+      "text_en": "Why is conventional insurance considered problematic from an Islamic perspective?",
+      "options": [
+       "Chunki uning badallari takaful qoplamasidan ancha qimmatroq",
+       "Chunki u faqat uy-joy uchun, avtomobil uchun sotilmaydi",
+       "Chunki unda gharar bor va u voqeaga qo'yilgan garovga o'xshaydi",
+       "Chunki musulmon davlatlar uni rasman taqiqlab qo'ygan"
+      ],
+      "options_ru": [
+       "Потому что его взносы намного дороже покрытия такафула",
+       "Потому что оно продаётся только для жилья, но не для авто",
+       "Потому что оно содержит гарар и похоже на пари на событие",
+       "Потому что государство официально запретило его в стране"
+      ],
+      "options_en": [
+       "Because its premiums are far more expensive than takaful cover",
+       "Because it may be sold only for housing and not for cars",
+       "Because it contains gharar and resembles a bet on an event",
+       "Because the state has formally banned it in Muslim countries"
+      ],
+      "correct_index": 2,
+      "explanation": "Oddiy sug'urta noaniq natija (gharar) va garov elementlarini o'z ichiga oladi, shuning uchun takaful kabi muqobil tuzilma ishlab chiqilgan.",
+      "explanation_ru": "Обычное страхование содержит элементы неопределённости (гарар) и пари, поэтому была разработана альтернативная структура — такафул.",
+      "explanation_en": "Conventional insurance involves uncertain outcomes (gharar) and bet-like elements, which is why the alternative structure of takaful was developed."
+     },
+     {
+      "text": "Islomiy moliyaning \"nima qurilishi\" tamoyillaridan biri — risk sharing (xatarni baham ko'rish) nimani anglatadi?",
+      "text_ru": "Что означает принцип «разделение риска» (risk sharing) — один из принципов того, что «строится» в исламских финансах?",
+      "text_en": "One of the 'what is built instead' principles is risk sharing — what does it mean?",
+      "options": [
+       "Zararni faqat bank ko'taradi, foyda esa mijozda qoladi",
+       "Loyiha keltirgan barcha zararni faqat mijozning o'zi ko'taradi",
+       "Loyiha zararini davlat xazinasi to'liq qoplab beradi",
+       "Moliyachi va tadbirkor foyda va zararni baham ko'radi"
+      ],
+      "options_ru": [
+       "Убыток несёт только банк, а прибыль остаётся клиенту",
+       "Все убытки проекта несёт исключительно сам клиент",
+       "Любой убыток проекта покрывает государственная казна",
+       "Финансист и предприниматель делят и прибыль, и убыток"
+      ],
+      "options_en": [
+       "Only the bank bears the loss while the client keeps the profit",
+       "The customer alone bears every loss the project produces",
+       "The state treasury covers any loss the project produces",
+       "The financier and entrepreneur share both profit and loss"
+      ],
+      "correct_index": 3,
+      "explanation": "Risk sharing — moliyachi va tadbirkor foyda hamda zararni baham ko'radigan PLS (profit-and-loss sharing) shartnomalari asosida ishlaydi.",
+      "explanation_ru": "Разделение риска означает, что финансист и предприниматель делят прибыль и убыток через PLS-контракты (profit-and-loss sharing).",
+      "explanation_en": "Risk sharing means the financier and entrepreneur share both profit and loss through PLS (profit-and-loss sharing) contracts."
+     },
+     {
+      "text": "\"Asset backing\" (aktiv bilan ta'minlanganlik) tamoyili nimani talab qiladi?",
+      "text_ru": "Что требует принцип «обеспеченности активом» (asset backing)?",
+      "text_en": "What does the 'asset backing' principle require?",
+      "options": [
+       "Har bir bitim o'sha kuni naqd pulda hisob-kitob qilinishi shart",
+       "Ta'minot sifatida faqat davlat aktivlaridan foydalanish mumkin",
+       "Har bir bitim real aktiv yoki xizmatga bog'langan bo'lishi shart",
+       "Ta'minotga qo'yilgan aktivlar keyin qayta sotilmasligi kerak"
+      ],
+      "options_ru": [
+       "Каждая сделка должна быть в тот же день оплачена наличными",
+       "В обеспечение можно брать только активы государства",
+       "Каждая сделка должна быть привязана к реальному активу",
+       "Заложенные в обеспечение активы нельзя перепродавать"
+      ],
+      "options_en": [
+       "Every transaction must be settled in cash on the same day",
+       "Only assets owned by the state may be used as backing",
+       "Every transaction must be tied to a real asset or service",
+       "Assets pledged as backing may never be resold later"
+      ],
+      "correct_index": 2,
+      "explanation": "Asset backing tamoyiliga ko'ra, har bir moliyaviy bitim real aktiv yoki xizmat bilan bog'liq bo'lishi shart — bu pulni tovardan ajratib qo'ymaydi.",
+      "explanation_ru": "Принцип обеспеченности активом требует, чтобы каждая финансовая сделка была привязана к реальному активу или услуге — деньги не отделяются от товара.",
+      "explanation_en": "Asset backing requires every financial transaction to be tied to a real asset or service — keeping money connected to real goods."
+     },
+     {
+      "text": "Pulning vaqt qiymati (time value of money) islomiy moliyada qanday tan olinadi?",
+      "text_ru": "Как временная стоимость денег признаётся в исламских финансах?",
+      "text_en": "How is the time value of money recognized in Islamic finance?",
+      "options": [
+       "Faqat real bitim ichida narxlanadi — nasiya narxi spot narxdan yuqori",
+       "Umuman tan olinmaydi, nasiya narx spot naqd narxga teng bo'lishi shart",
+       "Markaziy bank stavkasidagi foiz har qanday qarzga avtomatik qo'shiladi",
+       "Faqat davlat obligatsiyalarida tan olinadi, qat'iy yillik kupon bilan"
+      ],
+      "options_ru": [
+       "Оценивается только внутри реальной сделки: цена в рассрочку выше спотовой",
+       "Вообще не признаётся, цена в рассрочку обязана равняться спотовой цене",
+       "Процент по ставке центрального банка автоматически добавляется к долгу",
+       "Признаётся только для гособлигаций, где разрешён фиксированный купон"
+      ],
+      "options_en": [
+       "It may be priced inside a real sale — a credit price above the spot price",
+       "It is not recognised at all, so a credit price must equal the spot price",
+       "Interest at the central bank's published rate is added to every debt",
+       "It is recognised only for government bonds, with a fixed annual coupon"
+      ],
+      "correct_index": 0,
+      "explanation": "Pulning vaqt qiymati tan olinadi, lekin faqat real bitim ichida narxlanishi mumkin — masalan, nasiya narx spot narxdan qimmat bo'lishi mumkin, lekin pulning o'ziga to'g'ridan-to'g'ri foiz sifatida emas.",
+      "explanation_ru": "Временная стоимость денег признаётся, но может учитываться в цене только внутри реальной сделки — например, цена в рассрочку может быть выше цены за наличные, но не как прямой процент на деньги.",
+      "explanation_en": "The time value of money is recognized, but it may only be priced inside a real transaction — a credit price can exceed a spot price, but never as a direct charge on the money itself."
+     },
+     {
+      "text": "Zakat, waqf va qard hasan qaysi tamoyil ostida birlashadi?",
+      "text_ru": "Под каким принципом объединяются закят, вакф и кард хасан?",
+      "text_en": "Under which principle do zakat, waqf, and qard hasan fall?",
+      "options": [
+       "Ethical screening (axloqiy saralash)",
+       "Redistribution (qayta taqsimlash)",
+       "Materiality (moddiylik)",
+       "Asset backing (aktiv bilan ta'minlanganlik)"
+      ],
+      "options_ru": [
+       "Этический скрининг",
+       "Перераспределение",
+       "Материальность",
+       "Обеспеченность активом"
+      ],
+      "options_en": [
+       "Ethical screening",
+       "Redistribution",
+       "Materiality",
+       "Asset backing"
+      ],
+      "correct_index": 1,
+      "explanation": "Zakat (majburiy xayriya), waqf (xayriya jamg'armasi) va qard hasan (foizsiz xayrli qarz) — redistribution (qayta taqsimlash) tamoyilining namunalari.",
+      "explanation_ru": "Закят (обязательная милостыня), вакф (благотворительный фонд) и кард хасан (беспроцентный благой заём) — примеры принципа перераспределения.",
+      "explanation_en": "Zakat (obligatory alms), waqf (endowments), and qard hasan (benevolent loans) are examples of the redistribution principle."
+     },
+     {
+      "text": "Leksiyada aytilishicha, Gʻarb tafakkurida islomiy moliyaning axloqiy saralash g'oyasiga qanday parallel keltiriladi?",
+      "text_ru": "Какая параллель из западной мысли приводится в лекции к идее этического скрининга в исламских финансах?",
+      "text_en": "What parallel from Western thought is mentioned for the ethical-screening idea in Islamic finance?",
+      "options": [
+       "Adam Smitning ko'rinmas qo'li va bozor deregulyatsiyasi",
+       "Keynsning talabni boshqarishi va davlat xarajatlari",
+       "Aristotelning sudxo'rlik tanqidi va axloqiy ESG investitsiyasi",
+       "Oltin standart va Bretton-Vuds davrining qat'iy kurslari"
+      ],
+      "options_ru": [
+       "«Невидимая рука» Адама Смита и дерегуляция рынков",
+       "Кейнсианское управление спросом и госрасходы в спад",
+       "Критика ростовщичества Аристотелем и ESG-инвестиции",
+       "Золотой стандарт и фиксированные курсы Бреттон-Вудса"
+      ],
+      "options_en": [
+       "Adam Smith's invisible hand and free-market deregulation",
+       "Keynesian demand management and state spending in a slump",
+       "Aristotle's critique of usury and today's ESG investing",
+       "The gold standard and the fixed rates of Bretton Woods"
+      ],
+      "correct_index": 2,
+      "explanation": "Leksiyaga ko'ra, Aristotelning sudxo'rlikka tanqidi, o'rta asr kanon huquqi va bugungi ESG/axloqiy investitsiya g'oyalari saralash tamoyili bilan parallellik ko'rsatadi.",
+      "explanation_ru": "Согласно лекции, критика ростовщичества Аристотелем, средневековое каноническое право и сегодняшние ESG и этические инвестиции имеют параллели с принципом скрининга.",
+      "explanation_en": "According to the lecture, Aristotle's critique of usury, medieval canon law, and today's ESG and ethical investing share parallels with the screening principle."
+     },
+     {
+      "text": "Zamonaviy islomiy moliya sanoatining birinchi tajribasi qayerda va qachon boshlangan?",
+      "text_ru": "Где и когда начался первый опыт современной индустрии исламских финансов?",
+      "text_en": "Where and when did the first experiment of the modern Islamic finance industry begin?",
+      "options": [
+       "Dubay, 1990-yilda, birinchi islomiy kredit kartasi bilan",
+       "Malayziya, 1950-yilda, haj jamg'arma fondi bilan",
+       "Mit G'amr (Misr), 1963-yilda, jamg'arma banki sifatida",
+       "London, 2000-yilda, birinchi islomiy ipoteka bilan"
+      ],
+      "options_ru": [
+       "Дубай, 1990 год, первая исламская кредитная карта",
+       "Малайзия, 1950 год, фонд накоплений для хаджа",
+       "Мит Гамр в Египте, 1963 год, сберегательный банк",
+       "Лондон, 2000 год, первая исламская ипотека"
+      ],
+      "options_en": [
+       "Dubai, in 1990, with the first Islamic credit card",
+       "Malaysia, in 1950, with a pilgrimage savings fund",
+       "Mit Ghamr in Egypt, in 1963, as a savings bank",
+       "London, in 2000, with the first Islamic mortgage"
+      ],
+      "correct_index": 2,
+      "explanation": "Birinchi foizsiz jamg'arma banki tajribasi 1963-yilda Misrning Mit G'amr qishlog'ida boshlangan.",
+      "explanation_ru": "Первый эксперимент с беспроцентным сберегательным банком начался в 1963 году в египетской деревне Мит Гамр.",
+      "explanation_en": "The first interest-free savings bank experiment began in 1963 in the Egyptian village of Mit Ghamr."
+     },
+     {
+      "text": "Birinchi tijorat islomiy banki qanday ataladi va qachon tashkil etilgan?",
+      "text_ru": "Как назывался первый коммерческий исламский банк и когда он был основан?",
+      "text_en": "What was the first commercial Islamic bank, and when was it established?",
+      "options": [
+       "HSBC Amanah, 2000-yilda Britaniyada tashkil etilgan",
+       "Al Rajhi Bank, 1963-yilda Riyodda tashkil etilgan",
+       "Maybank Islamic, 1991-yilda Malayziyada tashkil etilgan",
+       "Dubai Islamic Bank, 1975-yilda Dubayda tashkil etilgan"
+      ],
+      "options_ru": [
+       "HSBC Amanah, основан в Британии в 2000 году",
+       "Al Rajhi Bank, основан в Рияде в 1963 году",
+       "Maybank Islamic, основан в Малайзии в 1991 году",
+       "Dubai Islamic Bank, основан в Дубае в 1975 году"
+      ],
+      "options_en": [
+       "HSBC Amanah, founded in Britain in 2000",
+       "Al Rajhi Bank, founded in Riyadh in 1963",
+       "Maybank Islamic, founded in Malaysia in 1991",
+       "Dubai Islamic Bank, founded in Dubai in 1975"
+      ],
+      "correct_index": 3,
+      "explanation": "1975-yilda Islom Taraqqiyot Banki (IsDB) tashkil etildi va Dubai Islamic Bank birinchi tijorat islomiy banki bo'ldi.",
+      "explanation_ru": "В 1975 году был основан Исламский банк развития (IsDB), а Dubai Islamic Bank стал первым коммерческим исламским банком.",
+      "explanation_en": "In 1975 the Islamic Development Bank (IsDB) was founded, and Dubai Islamic Bank became the first commercial Islamic bank."
+     },
+     {
+      "text": "AAOIFI qanday tashkilot va qachon tashkil etilgan?",
+      "text_ru": "Что такое AAOIFI и когда она была основана?",
+      "text_en": "What is AAOIFI, and when was it founded?",
+      "options": [
+       "2002-yilda tuzilgan; Ko'rfaz banklariga bank litsenziyasini beradi",
+       "1991-yilda tuzilgan; buxgalteriya va shariat standartlarini belgilaydi",
+       "1963-yilda tuzilgan; faqat Misr qishloqlarida faoliyat yuritadi",
+       "1975-yilda tuzilgan; a'zo davlatlar uchun soliq yig'ib boradi"
+      ],
+      "options_ru": [
+       "Основана в 2002 году; выдаёт лицензии банкам Залива",
+       "Основана в 1991 году; устанавливает стандарты учёта и шариата",
+       "Основана в 1963 году; работает только в деревнях Египта",
+       "Основана в 1975 году; собирает налоги для стран-членов"
+      ],
+      "options_en": [
+       "Founded in 2002; it issues banking licences to Gulf banks",
+       "Founded in 1991; it sets accounting and Shariah standards",
+       "Founded in 1963; it operates only inside Egypt's villages",
+       "Founded in 1975; it collects taxes for member states"
+      ],
+      "correct_index": 1,
+      "explanation": "AAOIFI 1991-yilda tashkil etilgan bo'lib, islomiy moliya institutlari uchun buxgalteriya va shariat standartlarini belgilaydi.",
+      "explanation_ru": "AAOIFI основана в 1991 году и устанавливает стандарты бухучёта и шариата для исламских финансовых институтов.",
+      "explanation_en": "AAOIFI was founded in 1991 and sets accounting and Shariah standards for Islamic financial institutions."
+     },
+     {
+      "text": "IFSB nima va qachon tashkil etilgan?",
+      "text_ru": "Что такое IFSB и когда она была основана?",
+      "text_en": "What is the IFSB, and when was it established?",
+      "options": [
+       "1975-yilda Jiddada tuzilgan xalqaro savdo tashkiloti",
+       "1991-yilda Ko'rfaz uchun tuzilgan Jahon banki bo'limi",
+       "2002-yilda prudensial qoidalar uchun tuzilgan kengash",
+       "1980-yildan faqat Saudiyada ishlaydigan nazorat agentligi"
+      ],
+      "options_ru": [
+       "Международная торговая организация, основана в 1975 году",
+       "Подразделение Всемирного банка, создано в 1991 году для Залива",
+       "Совет стандартов, созданный в 2002 году для надзорных норм",
+       "Надзорное агентство, работающее только в Саудовской Аравии"
+      ],
+      "options_en": [
+       "An international trade body founded in 1975 in Jeddah",
+       "A World Bank division created in 1991 for Gulf states",
+       "A standards board founded in 2002 for prudential rules",
+       "A supervisory agency working only in Saudi Arabia since 1980"
+      ],
+      "correct_index": 2,
+      "explanation": "IFSB 2002-yilda tashkil etilgan va islomiy moliya institutlari uchun prudensial (ehtiyotkorlik) standartlarini ishlab chiqadi, qarorgohi Kuala-Lumpurda joylashgan.",
+      "explanation_ru": "IFSB основан в 2002 году и разрабатывает пруденциальные стандарты для исламских финансовых институтов, штаб-квартира находится в Куала-Лумпуре.",
+      "explanation_en": "The IFSB was established in 2002 and develops prudential standards for Islamic financial institutions, headquartered in Kuala Lumpur."
+     },
+     {
+      "text": "Leksiyaga ko'ra, zamonaviy islomiy moliya sanoati taxminan necha yoshda?",
+      "text_ru": "Согласно лекции, сколько примерно лет современной индустрии исламских финансов?",
+      "text_en": "According to the lecture, approximately how old is the modern Islamic finance industry?",
+      "options": [
+       "10 yosh",
+       "50 yosh",
+       "200 yosh",
+       "500 yosh"
+      ],
+      "options_ru": [
+       "10 лет",
+       "50 лет",
+       "200 лет",
+       "500 лет"
+      ],
+      "options_en": [
+       "10 years",
+       "50 years",
+       "200 years",
+       "500 years"
+      ],
+      "correct_index": 1,
+      "explanation": "Zamonaviy sanoat taxminan 50 yoshda — nisbatan yangi, noldan qurilgan moliyaviy tizimning kamyob namunasi.",
+      "explanation_ru": "Современная индустрия насчитывает примерно 50 лет — относительно новый, редкий пример финансовой системы, построенной с нуля.",
+      "explanation_en": "The modern industry is only about 50 years old — a relatively new, rare example of a financial system built from scratch."
+     },
+     {
+      "text": "2008-yildan keyin islomiy moliyaga bo'lgan qiziqishni kuchaytirgan omil nima edi?",
+      "text_ru": "Какой фактор усилил интерес к исламским финансам после 2008 года?",
+      "text_en": "What factor increased interest in Islamic finance after 2008?",
+      "options": [
+       "Barqarorroq, aktivga bog'liq moliyaga qiziqishning ortishi",
+       "Global inflyatsiya pasayishi, omonat qiymatini kamaytirdi",
+       "Onlayn bankni arzonlashtirgan yangi internet texnologiyalari",
+       "Yevropa Ittifoqining sharqiy bozorlarga kengayib borishi"
+      ],
+      "options_ru": [
+       "Рост интереса к стабильным, привязанным к активам финансам",
+       "Снижение глобальной инфляции и удешевление депозитов",
+       "Новые интернет-технологии, удешевившие онлайн-банкинг",
+       "Расширение Европейского союза на восточные рынки Европы"
+      ],
+      "options_en": [
+       "Growing interest in more stable, asset-tied forms of finance",
+       "Falling global inflation, which cut the cost of bank deposits",
+       "New internet technologies that made online banking cheaper",
+       "The expansion of the European Union into eastern markets"
+      ],
+      "correct_index": 0,
+      "explanation": "2008-yilgi moliyaviy inqirozdan keyin barqarorroq, aktivga bog'liq moliyaga qiziqish ortishi islomiy moliya o'sishining muhim omillaridan biriga aylandi.",
+      "explanation_ru": "После финансового кризиса 2008 года рост интереса к более стабильным, привязанным к активам финансам стал одним из важных факторов роста исламских финансов.",
+      "explanation_en": "After the 2008 financial crisis, growing interest in more stable, asset-tied finance became an important driver of Islamic finance growth."
+     },
+     {
+      "text": "Malayziya o'zining islomiy moliya markazini qachondan beri izchil davlat strategiyasi sifatida quryapti?",
+      "text_ru": "С какого времени Малайзия последовательно строит свой центр исламских финансов как государственную стратегию?",
+      "text_en": "Since when has Malaysia been building its Islamic finance hub as a deliberate state strategy?",
+      "options": [
+       "1963-yildan, haj jamg'arma fondi tizimi bilan",
+       "1983-yildan, Islomiy Bank Ishi Qonuni bilan",
+       "2008-yildan, global moliyaviy inqirozdan keyin",
+       "2020-yildan, raqamli banklar tartibi doirasida"
+      ],
+      "options_ru": [
+       "С 1963 года, со схемой накоплений для хаджа",
+       "С 1983 года, с Законом об исламском банкинге",
+       "С 2008 года, после мирового финансового кризиса",
+       "С 2020 года, в рамках режима цифровых банков"
+      ],
+      "options_en": [
+       "Since 1963, with the Pilgrims Fund savings scheme",
+       "Since 1983, with the Islamic Banking Act",
+       "Since 2008, after the global financial crisis",
+       "Since 2020, under the digital banking framework"
+      ],
+      "correct_index": 1,
+      "explanation": "Malayziya 1983-yildagi Islomiy Bank Ishi Qonunidan boshlab izchil davlat strategiyasi bilan dual (ikki yo'nalishli) bank tizimini qurgan.",
+      "explanation_ru": "Малайзия последовательно строит двойную банковскую систему с 1983 года, начиная с Закона об исламском банковском деле.",
+      "explanation_en": "Malaysia has been deliberately building a dual banking system since 1983, starting with the Islamic Banking Act."
+     },
+     {
+      "text": "Malayziyada \"dual banking system\" (ikki yo'nalishli bank tizimi) nimani anglatadi?",
+      "text_ru": "Что означает «двойная банковская система» (dual banking system) в Малайзии?",
+      "text_en": "What does Malaysia's 'dual banking system' mean?",
+      "options": [
+       "Mamlakatda ikki xil milliy valyuta bir vaqtda muomalada bo'ladi",
+       "Har bir mijoz turli banklarda ikkita hisob ochishi shart bo'ladi",
+       "Islomiy va an'anaviy banklar bitta markaziy bank ostida raqobatlashadi",
+       "Faqat chet el banklari aholi va firmalardan omonat qabul qiladi"
+      ],
+      "options_ru": [
+       "В стране одновременно обращаются две разные национальные валюты",
+       "Каждый клиент обязан открыть два счёта в разных банках страны",
+       "Исламские и традиционные банки конкурируют под одним центробанком",
+       "Только иностранные банки могут принимать вклады населения"
+      ],
+      "options_en": [
+       "Two separate national currencies circulate in the country",
+       "Every customer must hold two accounts at different banks",
+       "Islamic and conventional banks compete under one central bank",
+       "Only foreign banks may take deposits from local savers and firms"
+      ],
+      "correct_index": 2,
+      "explanation": "Dual banking system — islomiy va an'anaviy banklar bitta markaziy bank (Bank Negara) nazorati ostida bir vaqtda, yonma-yon ishlaydigan tizim.",
+      "explanation_ru": "Двойная банковская система означает, что исламские и традиционные банки работают одновременно, бок о бок, под надзором одного центрального банка (Bank Negara).",
+      "explanation_en": "A dual banking system means Islamic and conventional banks operate side by side at the same time, under one central bank (Bank Negara)."
+     },
+     {
+      "text": "Malayziyada fatvo (shariy xulosa) ziddiyatlarini hal qiluvchi yakuniy organ qaysi?",
+      "text_ru": "Какой орган в Малайзии является последней инстанцией для разрешения конфликтов фатв?",
+      "text_en": "Which body in Malaysia has the final authority to resolve conflicting fatwas?",
+      "options": [
+       "Moliya vazirligining islomiy bank ishi departamenti",
+       "Federal Oliy sudning tijorat huquqi bo'yicha palatasi",
+       "Markaziy bank qoshidagi Milliy Shariat Maslahat Kengashi",
+       "Kuala-Lumpur fond birjasi qoshidagi shariat qo'mitasi"
+      ],
+      "options_ru": [
+       "Департамент исламского банкинга Министерства финансов",
+       "Палата по коммерческому праву Федерального верховного суда",
+       "Национальный шариатский совет при центральном банке",
+       "Шариатский комитет фондовой биржи в Куала-Лумпуре"
+      ],
+      "options_en": [
+       "The Islamic banking department of the Ministry of Finance",
+       "The commercial chamber of the Federal Supreme Court",
+       "The National Shariah Advisory Council of the central bank",
+       "The Shariah committee of the Kuala Lumpur stock exchange"
+      ],
+      "correct_index": 2,
+      "explanation": "Milliy Shariat Maslahat Kengashi Malayziyada fatvo ziddiyatlarini hal qiluvchi yakuniy vakolatli organ hisoblanadi.",
+      "explanation_ru": "Национальный шариатский консультативный совет является высшим органом, разрешающим конфликты фатв в Малайзии.",
+      "explanation_en": "The National Shariah Advisory Council is the final authority that resolves conflicting fatwas in Malaysia."
+     },
+     {
+      "text": "Malayziya global sukuk bozorida qanday o'ringa ega?",
+      "text_ru": "Какое место занимает Малайзия на мировом рынке сукук?",
+      "text_en": "What position does Malaysia hold in the global sukuk market?",
+      "options": [
+       "Faqat davlat sukukini chiqaradi, korporativ sukukni emas",
+       "Sukuk umuman chiqarmaydi, bank kreditlariga tayanadi",
+       "Turkiya va Indoneziyadan keyin faqat beshinchi o'rinda",
+       "Dunyodagi eng katta sukuk bozori, umumiy hajmning ~40%"
+      ],
+      "options_ru": [
+       "Выпускает только государственные сукук, но не корпоративные",
+       "Вообще не выпускает сукук, опирается на кредиты банков",
+       "Занимает лишь пятое место, после Турции и Индонезии",
+       "Крупнейший в мире рынок сукук, около 40% всего объёма"
+      ],
+      "options_en": [
+       "It issues government sukuk only, never corporate ones",
+       "It issues no sukuk at all and relies on bank loans",
+       "It ranks only fifth, behind Turkey and Indonesia",
+       "The world's largest sukuk market, about 40% of the total"
+      ],
+      "correct_index": 3,
+      "explanation": "Malayziya dunyodagi eng katta sukuk bozori bo'lib, global chiqarilgan sukukning taxminan 40% ini tashkil etadi va Islomiy Moliya Rivojlanish Indikatorida 1-o'rinni egallaydi.",
+      "explanation_ru": "Малайзия — крупнейший в мире рынок сукук, составляющий около 40% мирового объёма, и занимает 1-е место в Индикаторе развития исламских финансов.",
+      "explanation_en": "Malaysia is the world's largest sukuk market, accounting for about 40% of global outstanding sukuk, and ranks #1 on the Islamic Finance Development Indicator."
+     },
+     {
+      "text": "Leksiyaga ko'ra, Malayziya modeli nega muvaffaqiyatli bo'ldi?",
+      "text_ru": "Согласно лекции, почему модель Малайзии оказалась успешной?",
+      "text_en": "According to the lecture, why did Malaysia's model succeed?",
+      "options": [
+       "Faqat musulmon fuqarolarga bank hisobi ochishga ruxsat berilgani uchun",
+       "Mamlakatda foizli kredit berish hech qachon taqiqlanmagani uchun",
+       "Chet el banklari ichki bozordan butunlay chetlatilgani uchun",
+       "Soliq betarafligi, markazlashgan shariat nazorati va sukuk likvidligi"
+      ],
+      "options_ru": [
+       "Потому что счёт в банке могли открыть только мусульмане страны",
+       "Потому что процентные кредиты в стране никогда не запрещались",
+       "Потому что иностранные банки были полностью удалены с рынка",
+       "Налоговая нейтральность, централизованный шариатский надзор, сукук"
+      ],
+      "options_en": [
+       "Because only Muslim citizens were allowed to open bank accounts there",
+       "Because interest charges were never prohibited in the country",
+       "Because foreign banks were completely banned from the market",
+       "Tax neutrality, centralised Shariah oversight and sukuk liquidity"
+      ],
+      "correct_index": 3,
+      "explanation": "Soliq betarafligi (ikki martalik soliqsiz savdo), markazlashgan shariat boshqaruvi va hukumat sukuki orqali likvidlik ta'minlanishi Malayziya muvaffaqiyatining asosiy omillari bo'ldi.",
+      "explanation_ru": "Налоговая нейтральность (отсутствие двойного налогообложения сделок), централизованное шариатское управление и ликвидность через государственные сукук стали ключевыми факторами успеха Малайзии.",
+      "explanation_en": "Tax neutrality (no double taxation on trade-based deals), centralized Shariah governance, and liquidity via government sukuk were the key drivers of Malaysia's success."
+     },
+     {
+      "text": "Malayziya tajribasidan olingan asosiy saboq nima?",
+      "text_ru": "Каков главный урок из опыта Малайзии?",
+      "text_en": "What is the main lesson from Malaysia's experience?",
+      "options": [
+       "Mijoz talabi bo'lgan har qanday mamlakatda o'z-o'zidan rivojlanadi",
+       "Davlat qonun, soliq, standart va likvidlik tizimini qurganda rivojlanadi",
+       "Faqat yirik suveren fondlari bor neftga boy davlatlarda ishlaydi",
+       "O'sishi uchun donor muassasalardan chet el yordami grantlari kerak"
+      ],
+      "options_ru": [
+       "Развиваются автоматически в любой стране, где есть спрос клиентов",
+       "Растут, когда государство строит закон, налоги, стандарты, ликвидность",
+       "Работают только в богатых нефтью странах с суверенными фондами",
+       "Для роста им необходимы гранты иностранной помощи от доноров"
+      ],
+      "options_en": [
+       "It develops automatically in any country where customer demand exists",
+       "It scales when the state builds the law, tax, standards and liquidity stack",
+       "It works only in oil-rich states with large sovereign wealth funds",
+       "It needs foreign aid grants from donor institutions in order to grow"
+      ],
+      "correct_index": 1,
+      "explanation": "Leksiyaning asosiy xulosasi: islomiy moliya faqat talab mavjud bo'lganda emas, balki davlat huquqiy, soliq, standart va likvidlik infratuzilmasini qurganda keng ko'lamda rivojlanadi.",
+      "explanation_ru": "Главный вывод лекции: исламские финансы масштабируются не просто при наличии спроса, а когда государство выстраивает правовую, налоговую, стандартную и ликвидную инфраструктуру.",
+      "explanation_en": "The lecture's key lesson: Islamic finance scales not just because demand exists, but when the state builds the legal, tax, standards, and liquidity infrastructure."
+     },
+     {
+      "text": "Islomiy moliyaviy asboblar xaritasida \"sale-based financing\" (savdoga asoslangan moliyalashtirish) toifasiga qaysi asboblar kiradi?",
+      "text_ru": "Какие инструменты входят в категорию «финансирование на основе продажи» (sale-based financing)?",
+      "text_en": "Which instruments fall under the 'sale-based financing' category?",
+      "options": [
+       "Mudaraba va musharaka — sheriklik shartnomalari",
+       "Murabaha, salam va istisna — savdo shartnomalari",
+       "Sukuk va takaful — kapital bozori vositalari",
+       "Wakala va wadiah — vakillik va omonat shartnomalari"
+      ],
+      "options_ru": [
+       "Мудараба и мушарака — партнёрские договоры",
+       "Мурабаха, салям и истисна — договоры продажи",
+       "Сукук и такафул — инструменты рынка капитала",
+       "Вакала и вадиа — агентский и депозитный договоры"
+      ],
+      "options_en": [
+       "Mudaraba and musharaka, the partnership contracts",
+       "Murabaha, salam and istisna, the sale contracts",
+       "Sukuk and takaful, the capital-market instruments",
+       "Wakala and wadiah, the agency and deposit contracts"
+      ],
+      "correct_index": 1,
+      "explanation": "Savdoga asoslangan moliyalashtirish toifasiga murabaha (narx ustiga ustama), salam (oldindan to'langan forvard) va istisna (ishlab chiqarish) kiradi.",
+      "explanation_ru": "К категории финансирования на основе продажи относятся мурабаха (продажа по себестоимости с наценкой), салям (предоплаченный форвард) и истисна (производство).",
+      "explanation_en": "The sale-based financing category includes murabaha (cost-plus sale), salam (prepaid forward), and istisna (manufacturing)."
+     },
+     {
+      "text": "Global islomiy moliyalashtirishning taxminan necha foizi murabaha va uning variantlaridan iborat?",
+      "text_ru": "Какой примерно процент глобального исламского финансирования составляют мурабаха и её варианты?",
+      "text_en": "What approximate percentage of global Islamic financing is murabaha and its variants?",
+      "options": [
+       "10%",
+       "30%",
+       "70%",
+       "95%"
+      ],
+      "options_ru": [
+       "10%",
+       "30%",
+       "70%",
+       "95%"
+      ],
+      "options_en": [
+       "10%",
+       "30%",
+       "70%",
+       "95%"
+      ],
+      "correct_index": 2,
+      "explanation": "Murabaha va uning variantlari (tovar murabahasi/tavarruq kabi) dunyo bo'yicha islomiy moliyalashtirishning taxminan 70% ini tashkil etadi.",
+      "explanation_ru": "Мурабаха и её варианты (например, товарная мурабаха/таваррук) составляют около 70% исламского финансирования в мире.",
+      "explanation_en": "Murabaha and its variants (like commodity murabaha/tawarruq) make up roughly 70% of Islamic financing worldwide."
+     },
+     {
+      "text": "Murabaha bitimida bank qaysi rolni o'ynaydi?",
+      "text_ru": "Какую роль играет банк в сделке мурабаха?",
+      "text_en": "What role does the bank play in a murabaha transaction?",
+      "options": [
+       "Faqat pul qarz beradi, aktivni mijozning o'zi sotib oladi",
+       "Faqat aktivning asl sotuvchisiga kafolat xati beradi",
+       "Aktivni sotib olib egalik qiladi, so'ng ustama bilan sotadi",
+       "Mijozning aktiv bo'yicha soliqlarini ikki yil to'lab beradi"
+      ],
+      "options_ru": [
+       "Только даёт деньги, а актив покупает сам клиент",
+       "Только выдаёт гарантию первоначальному продавцу актива",
+       "Покупает актив, владеет им и перепродаёт с наценкой",
+       "Платит налоги клиента по этому активу в течение двух лет"
+      ],
+      "options_en": [
+       "It only lends the money and lets the client buy the asset",
+       "It only issues a guarantee to the asset's original seller",
+       "It buys and owns the asset, then resells it at a markup",
+       "It pays the client's taxes on the asset for two years"
+      ],
+      "correct_index": 2,
+      "explanation": "Murabahada bank aktivni haqiqatan sotib oladi va (hatto qisqa muddatga) egalik qiladi, keyin uni oshkora ustama bilan mijozga sotadi — shuning uchun bu oddiy foizdan farq qiladi.",
+      "explanation_ru": "В мурабахе банк действительно покупает актив и владеет им (даже кратковременно), а затем продаёт его клиенту с раскрытой наценкой — поэтому это отличается от обычного процента.",
+      "explanation_en": "In murabaha, the bank genuinely buys and owns the asset (even briefly), then sells it to the client at a disclosed markup — which is why it differs from plain interest."
+     },
+     {
+      "text": "Jihozlar narxi $10,000, bank uni $11,500 ga 24 oyga muddatli sotadi. Agar mijoz to'lovni kechiktirsa, nima bo'ladi?",
+      "text_ru": "Оборудование стоит $10,000, банк продаёт его за $11,500 с рассрочкой на 24 месяца. Что происходит, если клиент опаздывает с платежом?",
+      "text_en": "Equipment costs $10,000, and the bank sells it for $11,500 over 24 months. What happens if the client is late on a payment?",
+      "options": [
+       "Qarz avtomatik oshadi, har oy qo'shimcha foiz qo'shiladi",
+       "Narx o'zgarmaydi, kechikish to'lovi xayriyaga yo'naltiriladi",
+       "Shartnoma bekor qilinadi va aktiv bankka qaytariladi",
+       "Mijoz aktivni ham, to'langan to'lovlarini ham yo'qotadi"
+      ],
+      "options_ru": [
+       "Долг автоматически растёт, так как каждый месяц добавляется процент",
+       "Цена остаётся фиксированной, просрочка идёт на благотворительность",
+       "Договор автоматически расторгается, и актив возвращается банку",
+       "Клиент теряет и сам актив, и все уже внесённые им платежи"
+      ],
+      "options_en": [
+       "The debt automatically grows, as extra interest is added monthly",
+       "The price stays fixed, and any late charge goes to charity",
+       "The contract is cancelled and the asset returns to the bank",
+       "The client loses the asset and the payments already made"
+      ],
+      "correct_index": 1,
+      "explanation": "Murabahada narx abadiy belgilangan — kechikish bo'lsa ham qarz o'sa olmaydi; kechikish uchun olingan har qanday to'lov xayriyaga yo'naltiriladi, bankning shaxsiy daromadi bo'lmaydi.",
+      "explanation_ru": "В мурабахе цена фиксирована навсегда — даже при просрочке долг не может расти; любые сборы за просрочку направляются на благотворительность и не становятся личным доходом банка.",
+      "explanation_en": "In murabaha the price is fixed forever — even if the client is late, the debt cannot grow; any late-payment charges go to charity rather than becoming the bank's income."
+     },
+     {
+      "text": "Sanoat ichidagi tanqidchilar murabahani qanday baholaydi?",
+      "text_ru": "Как критики внутри отрасли оценивают мурабаху?",
+      "text_en": "How do critics within the industry view murabaha?",
+      "options": [
+       "Uni to'liq haqiqiy savdo deb bilib, hech qanday muammo ko'rmaydilar",
+       "Uni barcha islomiy banklarda butunlay taqiqlash kerak deb bilishadi",
+       "Uni faqat kichik biznes va startaplar uchun yaroqli deb hisoblaydilar",
+       "Belgilangan stavkali kreditga o'xshaydi, real xatar baham ko'rilsin"
+      ],
+      "options_ru": [
+       "Считают её полностью подлинной торговлей и не видят проблем",
+       "Считают, что её следует полностью запретить в исламских банках",
+       "Считают её пригодной только для малого бизнеса и стартапов",
+       "Похожа на кредит с фиксированной ставкой, нужно разделение риска"
+      ],
+      "options_en": [
+       "They treat it as fully genuine trade and see no problem with it",
+       "They believe it should be banned outright in every Islamic bank",
+       "They consider it suitable only for small businesses and start-ups",
+       "It resembles fixed-rate credit, so they urge genuine risk sharing"
+      ],
+      "correct_index": 3,
+      "explanation": "Olimlar murabahani qabul qiladi, lekin uning iqtisodiy jihatdan belgilangan stavkali kreditga o'xshashligini tan olib, ko'proq haqiqiy xatar baham ko'rishga (mudaraba, musharaka) undaydi.",
+      "explanation_ru": "Учёные принимают мурабаху, но признают, что экономически она напоминает кредит с фиксированной ставкой, и призывают к более подлинному разделению риска (мудараба, мушарака).",
+      "explanation_en": "Scholars accept murabaha but acknowledge it economically resembles fixed-rate credit, and push for more genuine risk-sharing (mudaraba, musharaka)."
+     },
+     {
+      "text": "Ijara shartnomasida bank (ijaraga beruvchi sifatida) nimaga javobgar?",
+      "text_ru": "За что отвечает банк (как арендодатель) в договоре иджара?",
+      "text_en": "In an ijara contract, what is the bank (as lessor) responsible for?",
+      "options": [
+       "Hech narsaga, chunki barcha xatar ijarachi zimmasida",
+       "Egalik xatarlariga — yirik ta'mirlash va sug'urtaga",
+       "Faqat ijarachidan oylik ijara haqini yig'ib olishga",
+       "Ijara davrida ijarachining daromad solig'ini to'lashga"
+      ],
+      "options_ru": [
+       "Ни за что, поскольку весь риск лежит на арендаторе",
+       "За риски владения — капитальный ремонт и страхование",
+       "Только за сбор ежемесячной арендной платы с клиента",
+       "За уплату налога на доход арендатора в период аренды"
+      ],
+      "options_en": [
+       "Nothing at all, since every single risk falls on the lessee",
+       "Ownership risks, such as major maintenance and insurance",
+       "Only collecting the monthly rent payments from the lessee",
+       "Paying the lessee's income taxes during the lease term"
+      ],
+      "correct_index": 1,
+      "explanation": "Ijarada bank aktiv egasi sifatida yirik ta'mirlash va sug'urta kabi egalik xatarlarini o'z zimmasiga oladi, chunki u hali ham mulkning egasi hisoblanadi.",
+      "explanation_ru": "В иджаре банк как владелец актива несёт риски владения, такие как капитальный ремонт и страхование, поскольку он остаётся собственником.",
+      "explanation_en": "In ijara, the bank as the asset's owner bears ownership risks like major maintenance and insurance, since it remains the owner."
+     },
+     {
+      "text": "\"Ijara muntahia bittamlik\" nimani anglatadi?",
+      "text_ru": "Что означает «иджара мунтахия биттамлик»?",
+      "text_en": "What does 'ijara muntahia bittamlik' mean?",
+      "options": [
+       "Ijara cheksiz davom etadi va sotuv bilan tugamaydi",
+       "Ijara oxirida mulk huquqi mijozga o'tib ketadi",
+       "Ijara haqi har oy mijoz bilan qayta kelishiladi",
+       "Bu tuzilma faqat uy-joy moliyasida qo'llaniladi"
+      ],
+      "options_ru": [
+       "Аренда длится бессрочно и не завершается продажей",
+       "В конце аренды собственность переходит к клиенту",
+       "Арендная плата пересогласуется с клиентом каждый месяц",
+       "Схема применяется только для финансирования жилья"
+      ],
+      "options_en": [
+       "The lease runs indefinitely and never ends in a sale",
+       "Ownership passes to the client at the end of the lease",
+       "The rent is renegotiated with the client every month",
+       "The structure may be used only for housing finance"
+      ],
+      "correct_index": 1,
+      "explanation": "Ijara muntahia bittamlikda ijara muddati oxirida mulk mijozga o'tkaziladi — bu moliyaviy lizingning islomiy analogidir.",
+      "explanation_ru": "В иджаре мунтахия биттамлик право собственности переходит клиенту по окончании срока аренды — это исламский аналог финансового лизинга.",
+      "explanation_en": "In ijara muntahia bittamlik, ownership transfers to the client at the end of the lease term — the Islamic analogue of financial leasing."
+     },
+     {
+      "text": "Kamayuvchi musharaka (diminishing musharaka) uy sotib olishda qanday ishlaydi?",
+      "text_ru": "Как работает уменьшающаяся мушарака (diminishing musharaka) при покупке жилья?",
+      "text_en": "How does diminishing musharaka work in home purchase?",
+      "options": [
+       "Mijoz uyga darhol to'liq egalik qiladi va bankka qat'iy to'lov to'laydi",
+       "Bank uyni sotib olmaydi, faqat sotuvchiga to'lov kafolatini beradi",
+       "Mijoz faqat ijara to'laydi va hech qachon ulushga ega bo'lmaydi",
+       "Bank va mijoz hamkor egalar; mijoz har oy ijara to'lab, ulush sotib oladi"
+      ],
+      "options_ru": [
+       "Клиент сразу владеет жильём целиком и платит банку фиксированный сбор",
+       "Банк не покупает жильё, а лишь гарантирует оплату продавцу квартиры",
+       "Клиент только платит аренду и никогда не получает доли в жилье",
+       "Банк и клиент — совладельцы; клиент платит аренду и выкупает долю"
+      ],
+      "options_en": [
+       "The client owns the whole home at once and pays the bank a fixed fee",
+       "The bank never buys the home and only guarantees the seller's payment",
+       "The client only ever pays rent and never acquires any ownership share",
+       "The bank and client co-own; each month the client pays rent and buys a unit"
+      ],
+      "correct_index": 3,
+      "explanation": "Kamayuvchi musharakada bank va mijoz uyga birgalikda egalik qiladi; mijoz har oy bankning qolgan ulushiga ijara to'laydi va bir qismini sotib oladi, oxir-oqibat 100% egalikka ega bo'ladi.",
+      "explanation_ru": "В уменьшающейся мушараке банк и клиент совместно владеют жильём; клиент ежемесячно платит аренду за оставшуюся долю банка и выкупает её часть, в итоге становясь полным собственником.",
+      "explanation_en": "In diminishing musharaka, the bank and client co-own the home; each month the client pays rent on the bank's remaining share and buys another unit, eventually owning 100%."
+     },
+     {
+      "text": "Uy narxi $120,000, bank ulushi 75% ($90,000). Mijoz har oy $1,500 bankning ulushini sotib olsa, necha oydan keyin ijara to'xtaydi?",
+      "text_ru": "Дом стоит $120,000, доля банка 75% ($90,000). Если клиент ежемесячно выкупает долю банка на $1,500, через сколько месяцев аренда прекратится?",
+      "text_en": "A house costs $120,000, with the bank's share at 75% ($90,000). If the client buys $1,500 of the bank's share each month, after how many months does the rent stop?",
+      "options": [
+       "40 oy",
+       "60 oy",
+       "75 oy",
+       "90 oy"
+      ],
+      "options_ru": [
+       "40 месяцев",
+       "60 месяцев",
+       "75 месяцев",
+       "90 месяцев"
+      ],
+      "options_en": [
+       "40 months",
+       "60 months",
+       "75 months",
+       "90 months"
+      ],
+      "correct_index": 1,
+      "explanation": "Bankning ulushi $90,000. $90,000 / $1,500 = 60 oy — shuncha vaqtdan so'ng mijoz bankning butun ulushini sotib oladi va ijara to'xtaydi.",
+      "explanation_ru": "Доля банка составляет $90,000. $90,000 / $1,500 = 60 месяцев — после этого срока клиент полностью выкупит долю банка, и аренда прекратится.",
+      "explanation_en": "The bank's share is $90,000. $90,000 / $1,500 = 60 months — after that, the client has bought out the bank's entire share and rent stops."
+     },
+     {
+      "text": "Agar kamayuvchi musharaka ostidagi uy halokatga uchrasa, zarar kim tomonidan ko'tariladi?",
+      "text_ru": "Если дом, находящийся в уменьшающейся мушараке, разрушен, кто несёт убыток?",
+      "text_en": "If a home under diminishing musharaka is destroyed, who bears the loss?",
+      "options": [
+       "Faqat mijoz, chunki bankda umuman egalik ulushi yo'q",
+       "Faqat bank, chunki u yakka qonuniy egasi bo'lib qoladi",
+       "Ikkala ega — bank va mijoz — ulushlariga mutanosib ravishda",
+       "Hech kim, chunki davlat to'liq qiymatini qoplab beradi"
+      ],
+      "options_ru": [
+       "Только клиент, так как у банка нет никакой доли владения",
+       "Только банк, так как он остаётся единственным владельцем",
+       "Оба владельца — банк и клиент — пропорционально своим долям",
+       "Никто, так как государство возмещает полную стоимость"
+      ],
+      "options_en": [
+       "Only the client, since the bank holds no ownership at all",
+       "Only the bank, since it remains the sole legal owner",
+       "Both owners, the bank and client, in proportion to shares",
+       "No one, because the state compensates the full value"
+      ],
+      "correct_index": 2,
+      "explanation": "Hamkorlik asosida mulkchilik mortgage kredit o'rniga keladi — agar uy halokatga uchrasa, zararlar bank va mijoz tomonidan ularning egalik ulushlariga mutanosib ravishda baham ko'riladi.",
+      "explanation_ru": "Совместное владение заменяет ипотечный кредит — если дом разрушен, убытки делятся между банком и клиентом пропорционально их долям владения.",
+      "explanation_en": "Co-ownership replaces a mortgage loan — if the house is destroyed, losses are shared by both owners in proportion to their ownership shares."
+     },
+     {
+      "text": "Mudaraba shartnomasida kim kapital beradi va kim mehnat/ko'nikma beradi?",
+      "text_ru": "Кто в мударабе предоставляет капитал, а кто — труд и навыки?",
+      "text_en": "In a mudaraba contract, who provides the capital and who provides the labor/skill?",
+      "options": [
+       "Ikkala taraf ham kapital beradi va boshqaruvni bo'lishadi",
+       "Rabb al-mal kapital beradi, mudarib esa mehnat qo'shadi",
+       "Mudarib kapital beradi, rabb al-mal esa mehnat qo'shadi",
+       "Hech biri kapital bermaydi; uchinchi investor moliyalashtiradi"
+      ],
+      "options_ru": [
+       "Обе стороны вносят капитал и делят управленческие функции",
+       "Рабб аль-маль вносит капитал, мудариб — труд и навыки",
+       "Мудариб вносит капитал, а рабб аль-маль — труд и навыки",
+       "Никто не вносит капитал; всё финансирует третий инвестор"
+      ],
+      "options_en": [
+       "Both parties provide capital and split the management duties",
+       "The rabb al-mal provides capital, the mudarib the labour",
+       "The mudarib provides the capital, the rabb al-mal the labour",
+       "Neither party provides capital; a third investor funds it all"
+      ],
+      "correct_index": 1,
+      "explanation": "Mudarabada rabb al-mal (kapital egasi) pul beradi, mudarib (tadbirkor-boshqaruvchi) o'z mehnati va ko'nikmasini qo'shadi.",
+      "explanation_ru": "В мударабе рабб аль-маль (владелец капитала) предоставляет деньги, а мудариб (предприниматель-управляющий) вносит свой труд и навыки.",
+      "explanation_en": "In mudaraba, the rabb al-mal (capital owner) provides money, while the mudarib (entrepreneur-manager) contributes labor and skill."
+     },
+     {
+      "text": "Mudarabada moliyaviy zarar yuz bersa, kim uni ko'taradi?",
+      "text_ru": "Если в мударабе возникает денежный убыток, кто его несёт?",
+      "text_en": "If a monetary loss occurs in a mudaraba, who bears it?",
+      "options": [
+       "Faqat mudarib — loyihani boshqargan tadbirkorning o'zi",
+       "Ikkala sherik teng, umumiy zararning yarmidan yarmi",
+       "Faqat rabb al-mal — kapitalni kiritgan tomonning o'zi",
+       "Hech kim, chunki davlat yo'qolgan kapitalni qoplaydi"
+      ],
+      "options_ru": [
+       "Только мудариб — предприниматель, управлявший проектом",
+       "Оба партнёра поровну, по половине общего убытка",
+       "Только рабб аль-маль — сторона, внёсшая капитал",
+       "Никто, поскольку государство возмещает потерю капитала"
+      ],
+      "options_en": [
+       "Only the mudarib, the entrepreneur who managed the venture",
+       "Both partners equally, in two halves of the total loss",
+       "Only the rabb al-mal, who provided the invested capital",
+       "No one, since the state reimburses the lost capital"
+      ],
+      "correct_index": 2,
+      "explanation": "Mudarabada moliyaviy zarar to'liq kapital beruvchiga tegishli — tadbirkor esa o'z mehnatini yo'qotadi, lekin pul to'lashi shart emas.",
+      "explanation_ru": "В мударабе денежный убыток полностью ложится на поставщика капитала — предприниматель теряет свой труд, но не обязан платить деньги.",
+      "explanation_en": "In mudaraba, a monetary loss falls entirely on the capital provider — the entrepreneur loses their effort but owes nothing."
+     },
+     {
+      "text": "$80,000 mudaraba, foyda nisbati 70:30 (investor:menejer). Agar foyda $12,000 bo'lsa, investor qancha oladi?",
+      "text_ru": "Мудараба на $80,000, соотношение прибыли 70:30 (инвестор:менеджер). Если прибыль $12,000, сколько получит инвестор?",
+      "text_en": "An $80,000 mudaraba has a 70:30 profit split (investor:manager). If the profit is $12,000, how much does the investor receive?",
+      "options": [
+       "$3,600",
+       "$8,400",
+       "$9,600",
+       "$12,000"
+      ],
+      "options_ru": [
+       "$3,600",
+       "$8,400",
+       "$9,600",
+       "$12,000"
+      ],
+      "options_en": [
+       "$3,600",
+       "$8,400",
+       "$9,600",
+       "$12,000"
+      ],
+      "correct_index": 1,
+      "explanation": "Investor ulushi = $12,000 × 70% = $8,400.",
+      "explanation_ru": "Доля инвестора = $12,000 × 70% = $8,400.",
+      "explanation_en": "Investor's share = $12,000 × 70% = $8,400."
+     },
+     {
+      "text": "Musharaka shartnomasida zarar qanday taqsimlanishi SHART?",
+      "text_ru": "Как ОБЯЗАТЕЛЬНО должны распределяться убытки в договоре мушарака?",
+      "text_en": "In a musharaka contract, how must losses be distributed?",
+      "options": [
+       "Sheriklar o'rtasida teng, kim qancha kapital qo'shganidan qat'i nazar",
+       "Qat'iy kapital ulushiga mutanosib, bu qoidani o'zgartirib bo'lmaydi",
+       "Zararni faqat boshqaruvchi sherik to'liq o'z zimmasiga oladi",
+       "Zarar bo'lmaydi, chunki bank kapitalni to'liq kafolatlaydi"
+      ],
+      "options_ru": [
+       "Поровну между партнёрами, независимо от вклада капитала",
+       "Строго пропорционально капиталу, и это правило неизменно",
+       "Весь убыток несёт только управляющий партнёр проекта",
+       "Убытков не бывает, так как банк гарантирует капитал"
+      ],
+      "options_en": [
+       "Equally between partners, whatever capital each contributed",
+       "Strictly in proportion to capital, and this rule cannot be waived",
+       "Only the managing partner bears the entire loss of the venture",
+       "Losses are ruled out, since the bank fully guarantees the capital"
+      ],
+      "correct_index": 1,
+      "explanation": "Musharakada zararlar qat'iy ravishda kapital ulushiga mutanosib taqsimlanishi shart — bu qoida shartnoma bilan o'zgartirib bo'lmaydi, foyda esa istalgan kelishilgan nisbatda bo'linishi mumkin.",
+      "explanation_ru": "В мушараке убытки должны распределяться строго пропорционально доле капитала — это правило нельзя изменить договором, тогда как прибыль может делиться в любом согласованном соотношении.",
+      "explanation_en": "In musharaka, losses must be distributed strictly in proportion to capital contribution — this rule cannot be contracted away, while profits may be split in any agreed ratio."
+     },
+     {
+      "text": "Mudaraba va musharaka orasidagi asosiy farq nimada?",
+      "text_ru": "В чём основное различие между мударабой и мушаракой?",
+      "text_en": "What is the main difference between mudaraba and musharaka?",
+      "options": [
+       "Ular bir xil shartnoma, faqat ikki xil arabcha nom bilan yuritiladi",
+       "Musharaka faqat uy-joy bitimlariga, mudaraba faqat savdoga xizmat qiladi",
+       "Mudarabada zarar baham ko'riladi, musharakada esa baham ko'rilmaydi",
+       "Mudarabada bitta taraf kapital beradi, musharakada hammasi beradi va boshqaradi"
+      ],
+      "options_ru": [
+       "Это один и тот же договор под двумя разными арабскими названиями",
+       "Мушарака применяется только к жилью, а мудараба только к торговле",
+       "В мударабе убыток делится, а в мушараке он не делится вовсе",
+       "В мударабе капитал даёт один, в мушараке — все партнёры и управляют"
+      ],
+      "options_en": [
+       "They are the same contract, written under two different Arabic names",
+       "Musharaka serves only housing deals while mudaraba serves only trade",
+       "In mudaraba losses are shared, while in musharaka no loss is shared",
+       "In mudaraba one party funds it; in musharaka all partners fund and manage"
+      ],
+      "correct_index": 3,
+      "explanation": "Mudarabada faqat bitta taraf (rabb al-mal) kapital beradi, ikkinchisi mehnat qo'shadi; musharakada esa barcha sheriklar kapital qo'shadi va boshqaruvda qatnashishi mumkin.",
+      "explanation_ru": "В мударабе капитал вносит только одна сторона (рабб аль-маль), а другая вносит труд; в мушараке же все партнёры вносят капитал и могут участвовать в управлении.",
+      "explanation_en": "In mudaraba, only one party (the rabb al-mal) contributes capital while the other contributes labor; in musharaka, all partners contribute capital and may participate in management."
+     },
+     {
+      "text": "PLS (profit-and-loss sharing) islomiy moliyaning \"nazariy yuragi\" deb ataladi, lekin amaliyotda uning ulushi qanday?",
+      "text_ru": "PLS (разделение прибыли и убытков) называют «теоретическим сердцем» исламских финансов, но каков её фактический вес на практике?",
+      "text_en": "PLS (profit-and-loss sharing) is called the 'theoretical heart' of Islamic finance, but what is its actual share in practice?",
+      "options": [
+       "Amaliyotda eng katta ulushga ega, taxminan to'qson foizga yaqin",
+       "Amaliyotda ancha kichik; savdo va ijara usullari ustunlik qiladi",
+       "Hech bir islomiy bankda umuman qo'llanilmaydi bugungi kunda",
+       "Faqat Malayziyada, dunyoning boshqa joyida ishlatilmaydi"
+      ],
+      "options_ru": [
+       "На практике имеет наибольшую долю, около девяноста процентов",
+       "На практике довольно мала; преобладают продажа и аренда",
+       "Сегодня вообще не используется ни одним исламским банком",
+       "Используется только в Малайзии и больше нигде в мире"
+      ],
+      "options_en": [
+       "It holds the largest share in practice, close to ninety percent",
+       "It is fairly small in practice; sale and lease modes dominate",
+       "It is never used at all by any Islamic bank anywhere today",
+       "It is used only in Malaysia and nowhere else in the world"
+      ],
+      "correct_index": 1,
+      "explanation": "PLS nazariy jihatdan markaziy bo'lsa-da, amaliyotda uning ulushi kichik — axloqiy xatar (moral hazard) va monitoring xarajatlari sababli savdo- va ijaraga asoslangan usullar ustunlik qiladi.",
+      "explanation_ru": "Хотя PLS теоретически является центральным элементом, на практике её доля мала — из-за морального риска и издержек мониторинга преобладают методы на основе продажи и аренды.",
+      "explanation_en": "Although PLS is theoretically central, its practical share is small — due to moral hazard and monitoring costs, sale- and lease-based modes dominate."
+     },
+     {
+      "text": "$100,000 mudaraba trading loyihasiga sarflanadi, foyda nisbati 60:40 (investor:menejer). Agar zarar $10,000 bo'lsa, natija qanday bo'ladi?",
+      "text_ru": "$100,000 вложены в мудараба-проект по торговле, соотношение прибыли 60:40 (инвестор:менеджер). Если убыток $10,000, каков результат?",
+      "text_en": "$100,000 is invested in a mudaraba trading venture with a 60:40 profit split (investor:manager). If there is a $10,000 loss, what is the outcome?",
+      "options": [
+       "Investor $6,000 zarar ko'radi, menejer esa $4,000 zarar ko'radi",
+       "Investor butun $10,000 zararni ko'taradi, menejer hech narsa",
+       "Ikki tomon $5,000 dan zarar ko'rib, zararni teng bo'lishadi",
+       "Bank butun zararni o'z zaxira fondidan qoplab beradi"
+      ],
+      "options_ru": [
+       "Инвестор теряет $6,000, а менеджер теряет $4,000",
+       "Инвестор несёт весь убыток $10,000, менеджер ничего",
+       "Обе стороны теряют по $5,000, деля убыток поровну",
+       "Банк покрывает весь убыток из своего резервного фонда"
+      ],
+      "options_en": [
+       "The investor loses $6,000 while the manager loses $4,000",
+       "The investor bears the whole $10,000 and the manager nothing",
+       "Both sides lose $5,000 each, splitting the loss equally",
+       "The bank covers the whole loss out of its own reserve fund"
+      ],
+      "correct_index": 1,
+      "explanation": "Mudarabada moliyaviy zarar to'liq kapital beruvchiga (investorga) tegishli; menejer o'z mehnatini yo'qotadi, lekin pul to'lashga majbur emas.",
+      "explanation_ru": "В мударабе денежный убыток полностью ложится на поставщика капитала (инвестора); менеджер теряет свой труд, но не обязан платить.",
+      "explanation_en": "In mudaraba, the monetary loss falls entirely on the capital provider (investor); the manager loses their effort but owes nothing."
+     },
+     {
+      "text": "Salam shartnomasida to'lov qachon amalga oshiriladi?",
+      "text_ru": "Когда производится оплата в договоре салям?",
+      "text_en": "When is payment made in a salam contract?",
+      "options": [
+       "Yetkazib berilgandan keyin",
+       "To'liq narx oldindan, hozir to'lanadi",
+       "Hech qachon to'lanmaydi",
+       "Oylik bo'lib-bo'lib to'lanadi"
+      ],
+      "options_ru": [
+       "После поставки",
+       "Полная цена оплачивается заранее, сейчас",
+       "Никогда не оплачивается",
+       "Выплачивается ежемесячными частями"
+      ],
+      "options_en": [
+       "After delivery",
+       "The full price is paid upfront, today",
+       "It is never paid",
+       "It is paid in monthly installments"
+      ],
+      "correct_index": 1,
+      "explanation": "Salamda xaridor standartlashtirilgan tovar uchun to'liq narxni bugun to'laydi, tovar esa kelajakda (masalan, hosildan keyin) yetkazib beriladi.",
+      "explanation_ru": "В саляме покупатель сегодня полностью оплачивает стандартизированный товар, который будет поставлен позже (например, после урожая).",
+      "explanation_en": "In salam, the buyer pays the full price today for standardized goods that will be delivered later (for example, after harvest)."
+     },
+     {
+      "text": "Salam shartnomasining klassik qo'llanilishi qaysi sohada?",
+      "text_ru": "В какой сфере классически применяется договор салям?",
+      "text_en": "In which sector is salam classically used?",
+      "options": [
+       "Qishloq xo'jaligi — dehqonga bahorda to'lanadi, hosil keyin beriladi",
+       "Ko'chmas mulk — xaridor bino qurib bitgandan keyin to'lov qiladi",
+       "Raqamli aktivlar — tokenlar to'lovdan oldin yetkazib beriladi",
+       "Tibbiyot — klinikaga faqat davolash tugagach pul to'lanadi"
+      ],
+      "options_ru": [
+       "Сельское хозяйство: фермеру платят весной, урожай позже",
+       "Недвижимость: покупатель платит после завершения стройки",
+       "Цифровые активы: токены поставляются до всякой оплаты",
+       "Медицина: клинике платят только после окончания лечения"
+      ],
+      "options_en": [
+       "Agriculture, where a farmer is paid in spring and delivers later",
+       "Real estate, where a buyer pays after the building is completed",
+       "Digital assets, where tokens are delivered before any payment",
+       "Medicine, where a clinic is paid only after the treatment ends"
+      ],
+      "correct_index": 0,
+      "explanation": "Klassik misol: bank bahorda dehqonga pul to'laydi, dehqon esa hosildan keyin g'allani yetkazib beradi — foizsiz qishloq xo'jaligi aylanma mablag'i.",
+      "explanation_ru": "Классический пример: банк платит фермеру весной, а фермер поставляет зерно после урожая — беспроцентный оборотный капитал для сельского хозяйства.",
+      "explanation_en": "A classic example: a bank pays a farmer in spring, and the farmer delivers grain after harvest — interest-free working capital for agriculture."
+     },
+     {
+      "text": "Istisna shartnomasi odatda qaysi sohada qo'llaniladi?",
+      "text_ru": "В какой сфере обычно применяется договор истисна?",
+      "text_en": "In which sector is istisna typically used?",
+      "options": [
+       "Ishlab chiqarish va qurilish — zavodlar va infratuzilma",
+       "Qishloq xo'jaligi — ekin ekishdan oldin oldindan to'lanadi",
+       "Sug'urta — o'zaro fond a'zolarning baxtsiz hodisasini qoplaydi",
+       "Valyuta almashinuvi — ikki valyuta joyida ayirboshlanadi"
+      ],
+      "options_ru": [
+       "Производство и строительство — заводы и инфраструктура",
+       "Сельское хозяйство — оплата вперёд до начала сева",
+       "Страхование — взаимный фонд платит по случаям членов",
+       "Валютный обмен — две валюты обмениваются на месте"
+      ],
+      "options_en": [
+       "Manufacturing and construction, such as plants and infrastructure",
+       "Agriculture, where a crop is prepaid before the sowing season",
+       "Insurance, where a mutual fund pays members' accident claims",
+       "Currency exchange, where two currencies are swapped on the spot"
+      ],
+      "correct_index": 0,
+      "explanation": "Istisna buyurtma asosida ishlab chiqarish yoki qurilish shartnomasi bo'lib, narx belgilangan, to'lov esa ish jarayoniga qarab moslashuvchan, infratuzilma va zavodlar uchun ishlatiladi.",
+      "explanation_ru": "Истисна — это контракт на производство или строительство по заказу с фиксированной ценой и гибкой оплатой по мере выполнения работ, используется для инфраструктуры и заводов.",
+      "explanation_en": "Istisna is a commissioned manufacturing or construction contract with a fixed price and flexible payment as work progresses, used for infrastructure and plants."
+     },
+     {
+      "text": "Salam va istisna nima uchun \"o'zingizga tegishli bo'lmagan narsani sotmang\" qoidasining ISTISNOSI hisoblanadi?",
+      "text_ru": "Почему салям и истисна считаются ИСКЛЮЧЕНИЕМ из правила «не продавай то, чем не владеешь»?",
+      "text_en": "Why are salam and istisna considered EXCEPTIONS to the 'do not sell what you do not have' rule?",
+      "options": [
+       "Chunki real ishlab chiqarishni moliyalashtiradi, gharar aniq belgilanadi",
+       "Chunki banklar ularni kundalik amaliyotda hech qachon qo'llamaydi",
+       "Chunki ularga faqat davlat kirishi mumkin, xususiy firmalar emas",
+       "Chunki ularda majburiy shartnoma yo'q va erkin bekor qilinadi"
+      ],
+      "options_ru": [
+       "Потому что они финансируют реальное производство, гарар ограничен",
+       "Потому что банки никогда не применяют их в повседневной практике",
+       "Потому что в них могут входить только государства, но не фирмы",
+       "Потому что в них нет обязывающего договора и их легко отменить"
+      ],
+      "options_en": [
+       "Because they finance real production, curbing gharar by specification",
+       "Because they are never actually used by banks in day-to-day practice",
+       "Because only governments may enter them, and private firms may not",
+       "Because they involve no binding contract and can be cancelled freely"
+      ],
+      "correct_index": 0,
+      "explanation": "Salam va istisna ruxsat etilgan istisnolardir, chunki ular real ishlab chiqarishni moliyalashtiradi va noaniqlikni (gharar) qat'iy spetsifikatsiya orqali nazorat qiladi.",
+      "explanation_ru": "Салям и истисна являются разрешёнными исключениями, поскольку они финансируют реальное производство и контролируют неопределённость (гарар) через строгую спецификацию.",
+      "explanation_en": "Salam and istisna are permitted exceptions because they finance real production, controlling uncertainty (gharar) through strict specification."
+     },
+     {
+      "text": "Salam va istisna funksional jihatdan qanday moliyaviy asbobga o'xshaydi, lekin qanday farq qiladi?",
+      "text_ru": "На какой финансовый инструмент функционально похожи салям и истисна, но чем они отличаются?",
+      "text_en": "What financial instrument do salam and istisna functionally resemble, and how do they differ?",
+      "options": [
+       "Optsionlar, lekin xaridor chiqsa mukofot qaytariladi",
+       "Kompaniya aksiyalari, lekin egasiga dividend to'lanmaydi",
+       "Obligatsiyalar, lekin foizsiz va bir yo'la qaytariladi",
+       "Forvard shartnomalar, lekin har doim tovar jismonan yetkaziladi"
+      ],
+      "options_ru": [
+       "Опционы, но с возвратом премии, если покупатель уходит",
+       "Акции компании, но без выплаты каких-либо дивидендов владельцу",
+       "Облигации, но без процента и с возвратом одним платежом",
+       "Форвардные контракты, но всегда с физической поставкой товара"
+      ],
+      "options_en": [
+       "Options, but with the premium returned if the buyer walks away",
+       "Shares in a company, but paying no dividend to the holder at all",
+       "Bonds, but carrying no interest and repaid in a single payment",
+       "Forward contracts, but always settled by physical delivery of goods"
+      ],
+      "correct_index": 3,
+      "explanation": "Salam va istisna forvard shartnomalarning iqtisodiy vazifasini bajaradi, lekin har doim real tovarning jismoniy yetkazib berilishi bilan tugaydi — naqd pulda hisob-kitob qiluvchi spekulyatsiya emas.",
+      "explanation_ru": "Салям и истисна выполняют экономическую функцию форвардных контрактов, но всегда завершаются физической поставкой реального товара — а не спекуляцией с расчётом наличными.",
+      "explanation_en": "Salam and istisna do the economic work of forward contracts, but always settle in physical delivery of a real good — never cash-settled speculation."
+     },
+     {
+      "text": "Sukuk tuzilmasida SPV (maxsus maqsadli kompaniya) ning roli nima?",
+      "text_ru": "Какова роль SPV (компании специального назначения) в структуре сукук?",
+      "text_en": "What is the role of the SPV (special purpose vehicle) in a sukuk structure?",
+      "options": [
+       "Asosiy aktivni ushlab turadi va sertifikatlar chiqaradi",
+       "Faqat ijaraga berilgan aktiv bo'yicha soliqlarni to'laydi",
+       "Sertifikatlar garoviga investorlarga naqd pul qarz beradi",
+       "Bankning shariat kengashini tayinlaydi va boshqaradi"
+      ],
+      "options_ru": [
+       "Держит базовый актив и выпускает сертификаты",
+       "Платит только налоги по сданному в аренду активу",
+       "Выдаёт инвесторам наличные под залог сертификатов",
+       "Назначает шариатский совет банка и управляет им"
+      ],
+      "options_en": [
+       "It holds the underlying asset and issues the certificates",
+       "It only pays the originator's taxes on the leased assets",
+       "It lends cash to investors against their certificates",
+       "It appoints and manages the bank's own Shariah board"
+      ],
+      "correct_index": 0,
+      "explanation": "SPV (maxsus maqsadli kompaniya) originatordan aktivni sotib oladi/ijaraga oladi, uni ushlab turadi va investorlarga sertifikatlar (sukuk) chiqaradi.",
+      "explanation_ru": "SPV (компания специального назначения) покупает/арендует актив у оригинатора, удерживает его и выпускает сертификаты (сукук) инвесторам.",
+      "explanation_en": "The SPV (special purpose vehicle) buys/leases the asset from the originator, holds it, and issues certificates (sukuk) to investors."
+     },
+     {
+      "text": "Sukuk investorlari daromadni qanday shaklda oladi?",
+      "text_ru": "В какой форме держатели сукук получают доход?",
+      "text_en": "In what form do sukuk holders receive income?",
+      "options": [
+       "Qarz foizi sifatida, kelishilgan yillik stavkada hisoblanadi",
+       "Real asosiy aktiv keltirgan ijara haqi yoki foyda sifatida",
+       "Har yili budjetdan to'lanadigan davlat subsidiyasi sifatida",
+       "Daromad olmaydi, faqat muddat oxirida asosiy summani oladi"
+      ],
+      "options_ru": [
+       "В виде процента по займу, по согласованной годовой ставке",
+       "В виде арендной платы или прибыли от реального актива",
+       "В виде государственной субсидии, выплачиваемой из бюджета",
+       "Дохода не получают, только основную сумму в конце срока"
+      ],
+      "options_en": [
+       "As interest on a loan, calculated at an agreed annual rate",
+       "As rent or profit generated by a real underlying asset",
+       "As a government subsidy paid out of the budget each year",
+       "They receive no income, only the principal at maturity"
+      ],
+      "correct_index": 1,
+      "explanation": "Sukuk daromadi real aktivdan olingan ijara haqi yoki foyda bo'lib, qarz foizidan farq qiladi; muddat oxirida aktiv qayta sotib olinadi.",
+      "explanation_ru": "Доход по сукук — это арендная плата или прибыль от реального актива, а не процент по займу; по окончании срока актив выкупается обратно.",
+      "explanation_en": "Sukuk income is rent or profit from a real asset, not loan interest; at maturity the asset is repurchased."
+     },
+     {
+      "text": "2024-yilda jahon bo'yicha muomaladagi sukuk hajmi taxminan qancha bo'lgan?",
+      "text_ru": "Каков был примерно объём сукук в обращении во всём мире в 2024 году?",
+      "text_en": "What was the approximate amount of sukuk outstanding worldwide in 2024?",
+      "options": [
+       "$300 billion",
+       "$600 billion",
+       "$1 trillion",
+       "$5 trillion"
+      ],
+      "options_ru": [
+       "$300 миллиардов",
+       "$600 миллиардов",
+       "$1 триллион",
+       "$5 триллионов"
+      ],
+      "options_en": [
+       "$300 billion",
+       "$600 billion",
+       "$1 trillion",
+       "$5 trillion"
+      ],
+      "correct_index": 2,
+      "explanation": "2024-yilda muomaladagi sukuk hajmi $1 trillion chegarasidan o'tdi, bu 2014-yildagi $300 billiondan sezilarli o'sishni ko'rsatadi.",
+      "explanation_ru": "В 2024 году объём сукук в обращении превысил $1 триллион — значительный рост по сравнению с $300 миллиардами в 2014 году.",
+      "explanation_en": "In 2024, sukuk outstanding passed the $1 trillion mark — a major increase from $300 billion in 2014."
+     },
+     {
+      "text": "Buyuk Britaniyaning birinchi suveren sukuki (2014) haqida nima ajralib turadi?",
+      "text_ru": "Что примечательно в первом суверенном сукук Великобритании (2014)?",
+      "text_en": "What stood out about the UK's debut sovereign sukuk (2014)?",
+      "options": [
+       "Xaridor topilmadi va u bozordan olib qo'yilishiga to'g'ri keldi",
+       "Uni faqat musulmon davlatlar oldi, G'arb fondlari emas",
+       "O'n barobar ortiq obuna bo'ldi va formatga ishonch qo'shdi",
+       "U foiz asosida, shariat qoidalaridan tashqarida chiqarildi"
+      ],
+      "options_ru": [
+       "Покупателей не нашлось, и выпуск пришлось снять с рынка",
+       "Его купили только мусульманские страны, но не фонды Запада",
+       "Был переподписан в десять раз и придал формату доверие",
+       "Он был выпущен на процентной основе, вне норм шариата"
+      ],
+      "options_en": [
+       "It failed to find buyers and had to be withdrawn from the market",
+       "Only Muslim-majority states bought it, and no Western funds",
+       "It was oversubscribed ten times, lending the format credibility",
+       "It was issued on an interest basis, outside Shariah rules"
+      ],
+      "correct_index": 2,
+      "explanation": "Buyuk Britaniyaning 2014-yildagi debyut suveren sukuki 10 barobar ortiqcha obuna bo'ldi, bu sukuk formatiga Gʻarb ishonchini qo'shdi.",
+      "explanation_ru": "Дебютный суверенный сукук Великобритании в 2014 году был переподписан в 10 раз, что придало формату сукук западное доверие.",
+      "explanation_en": "The UK's debut sovereign sukuk in 2014 was oversubscribed 10 times, lending Western credibility to the sukuk format."
+     },
+     {
+      "text": "Tipik ijara sukukida investorlar nimaga ega bo'ladi?",
+      "text_ru": "Чем владеют инвесторы в типичном сукук иджара?",
+      "text_en": "In a typical ijara sukuk, what do investors own?",
+      "options": [
+       "Faqat obligatsiya hujjati",
+       "Ijaraga berilgan aktivning ulushi",
+       "Bankning aktsiyalari",
+       "Davlat valyuta zahirasi"
+      ],
+      "options_ru": [
+       "Только облигационный документ",
+       "Долю в сданном в аренду активе",
+       "Акции банка",
+       "Валютные резервы государства"
+      ],
+      "options_en": [
+       "Just a bond document",
+       "A share of a leased asset",
+       "Shares of the bank",
+       "The state's currency reserves"
+      ],
+      "correct_index": 1,
+      "explanation": "Tipik ijara sukukida investorlar ijaraga berilgan real aktivning ulushiga ega bo'lishadi va undan ijara haqi ko'rinishida daromad olishadi.",
+      "explanation_ru": "В типичном сукук иджара инвесторы владеют долей реального сданного в аренду актива и получают доход в виде арендной платы.",
+      "explanation_en": "In a typical ijara sukuk, investors own a share of a real leased asset and earn income from it in the form of rent."
+     },
+     {
+      "text": "Nakheel sukuk nima uchun va qachon chiqarilgan edi?",
+      "text_ru": "Для чего и когда был выпущен сукук Nakheel?",
+      "text_en": "What was the Nakheel sukuk for, and when was it issued?",
+      "options": [
+       "Dubay Palma orollari quruvchisi tomonidan, 2009-yil dekabrida",
+       "Malayziya federal hukumati tomonidan, 1990-yil dekabrida",
+       "Jiddadagi Islom Taraqqiyot Banki tomonidan, 1975-yil iyunida",
+       "O'zbekiston Moliya vazirligi tomonidan, 2026-yil mayida"
+      ],
+      "options_ru": [
+       "Застройщиком дубайских островов Пальм, срок декабрь 2009",
+       "Федеральным правительством Малайзии, срок декабрь 1990",
+       "Исламским банком развития в Джидде, срок июнь 1975 года",
+       "Министерством финансов Узбекистана, срок май 2026 года"
+      ],
+      "options_en": [
+       "By the developer of Dubai's Palm islands, maturing December 2009",
+       "By the federal government of Malaysia, maturing in December 1990",
+       "By the Islamic Development Bank in Jeddah, maturing in June 1975",
+       "By the Ministry of Finance of Uzbekistan, maturing in May 2026"
+      ],
+      "correct_index": 0,
+      "explanation": "Nakheel — Dubayning Palma orollarini qurgan kompaniya bo'lib, 2009-yil dekabrda to'lov muddati bilan o'sha paytdagi eng katta ($3.5 bn) sukukni chiqargan edi.",
+      "explanation_ru": "Nakheel — компания-застройщик дубайских островов Пальм, выпустившая крупнейший на тот момент сукук ($3.5 млрд) со сроком погашения в декабре 2009 года.",
+      "explanation_en": "Nakheel, the developer of Dubai's Palm islands, had issued the then-largest-ever sukuk ($3.5 bn), due December 2009."
+     },
+     {
+      "text": "2009-yilda Nakheel inqirozini qaysi voqea keltirib chiqardi?",
+      "text_ru": "Какое событие вызвало кризис Nakheel в 2009 году?",
+      "text_en": "What event triggered the Nakheel crisis in 2009?",
+      "options": [
+       "Davlat holdingi Dubai World kreditorlardan standstill so'radi",
+       "Abu-Dabi muddati kelgan sukukni sotib olishni rasman rad etdi",
+       "AAOIFI sukukni bekor qilib, investorlarga to'lashni buyurdi",
+       "Malayziya markaziy banki aralashib, to'lovlarni muzlatdi"
+      ],
+      "options_ru": [
+       "Госхолдинг Dubai World попросил кредиторов о моратории",
+       "Абу-Даби публично отказался выкупать погашаемый сукук",
+       "AAOIFI аннулировала сукук и велела вернуть деньги инвесторам",
+       "Центральный банк Малайзии вмешался и заморозил платежи"
+      ],
+      "options_en": [
+       "State holding Dubai World asked its creditors for a standstill",
+       "Abu Dhabi publicly refused to buy out the maturing sukuk issue",
+       "AAOIFI cancelled the sukuk and ordered all investors repaid",
+       "Malaysia's central bank intervened and froze the payments"
+      ],
+      "correct_index": 0,
+      "explanation": "2009-yil noyabrda davlat holdingi Dubai World kreditorlardan to'xtatish (standstill) so'radi, bu global bozorlarni larzaga keltirdi.",
+      "explanation_ru": "В ноябре 2009 года государственная холдинговая компания Dubai World попросила кредиторов о моратории (standstill), что потрясло мировые рынки.",
+      "explanation_en": "In November 2009, state holding company Dubai World asked creditors for a standstill, which shook global markets."
+     },
+     {
+      "text": "Nakheel inqirozi qanday hal qilindi?",
+      "text_ru": "Как был разрешён кризис Nakheel?",
+      "text_en": "How was the Nakheel crisis resolved?",
+      "options": [
+       "Sukuk to'liq defolt bo'ldi va egalariga hech narsa tegmadi",
+       "Abu-Dabi $10 mlrd berdi, sukuk nominal qiymatda to'landi",
+       "Investorlar Palma orollarini egallab, ularni sotib yubordi",
+       "AAOIFI qarzni bekor qilib, emitentni javobgarlikdan ozod etdi"
+      ],
+      "options_ru": [
+       "Сукук полностью дефолтнул, и держатели ничего не получили",
+       "Абу-Даби дал $10 млрд, и сукук погасили по номиналу",
+       "Инвесторы завладели островами Пальм и распродали их",
+       "AAOIFI аннулировала долг и освободила эмитента от выплат"
+      ],
+      "options_en": [
+       "The sukuk defaulted in full and holders recovered nothing",
+       "Abu Dhabi gave $10 bn and the sukuk was repaid at par",
+       "Investors seized the Palm islands and sold them off",
+       "AAOIFI cancelled the debt and released the issuer"
+      ],
+      "correct_index": 1,
+      "explanation": "Abu-Dabi $10 bn mablag' ajratdi va Nakheel sukuki defolt bo'lishidan bir necha kun oldin nominal qiymatda to'landi.",
+      "explanation_ru": "Абу-Даби предоставил $10 млрд, и сукук Nakheel был погашен по номиналу всего за несколько дней до наступления дефолта.",
+      "explanation_en": "Abu Dhabi provided $10 billion, and the Nakheel sukuk was repaid at par just days before it would have defaulted."
+     },
+     {
+      "text": "Nakheel inqirozi \"asset-based\" va \"asset-backed\" sukuk orasidagi qaysi farqni ochib berdi?",
+      "text_ru": "Какое различие между сукук «asset-based» и «asset-backed» раскрыл кризис Nakheel?",
+      "text_en": "What distinction between 'asset-based' and 'asset-backed' sukuk did the Nakheel crisis reveal?",
+      "options": [
+       "Asset-based sukuk chiqarilmaydi, regulyator bu shaklni man etadi",
+       "Hech qanday farq yo'q edi, ikki shakl bir xil huquq beradi",
+       "Asset-backed sukuk ikki huquqiy shakldan har doim xavfliroq",
+       "Egalar Nakheelga da'vo qila olardi, orollarga egalik qila olmasdi"
+      ],
+      "options_ru": [
+       "Сукук asset-based не выпускают, регулятор запрещает эту форму",
+       "Разницы не было вовсе, обе формы дают одинаковые права",
+       "Сукук asset-backed всегда рискованнее из двух правовых форм",
+       "Держатели имели требование к Nakheel, но не владение островами"
+      ],
+      "options_en": [
+       "Asset-based sukuk are never issued, as regulators forbid the form",
+       "There was no difference at all, since both forms give the same rights",
+       "Asset-backed sukuk are always the riskier of the two legal forms",
+       "Holders had a claim on Nakheel, not enforceable ownership of the islands"
+      ],
+      "correct_index": 3,
+      "explanation": "Inqiroz ko'rsatdiki, ko'pchilik sukuk \"asset-based\" (aktivga asoslangan), ya'ni investorlar Nakheelga nisbatan da'vo huquqiga ega, lekin aktivning o'ziga huquqiy egalik (asset-backed) yo'q edi.",
+      "explanation_ru": "Кризис показал, что многие сукук являются «asset-based» (основанными на активе) — инвесторы имели требование к Nakheel, но не юридически закреплённое право собственности (asset-backed) на сам актив.",
+      "explanation_en": "The crisis revealed that many sukuk are 'asset-based' rather than 'asset-backed' — investors held a claim on Nakheel, not enforceable legal ownership of the asset itself."
+     },
+     {
+      "text": "Nakheel inqirozidan olingan asosiy saboq nima?",
+      "text_ru": "Каков главный урок кризиса Nakheel?",
+      "text_en": "What is the main lesson from the Nakheel crisis?",
+      "options": [
+       "Sukuk har doim xavfsiz, chunki shariat kengashi tasdiqlagan",
+       "Islomiy yorliq himoya qilmaydi; shartnoma mazmuni va huquq qiladi",
+       "Faqat davlat sukuki ishonchli; korporativ chiqarishlar barbod bo'ladi",
+       "Reyting agentligi tasdiqlasa, shariat kengashi kerak bo'lmaydi"
+      ],
+      "options_ru": [
+       "Сукук всегда безопасны, ведь их одобряет шариатский совет",
+       "Ярлык «исламский» не защищает; защищает суть договора и закон",
+       "Надёжны только государственные сукук; корпоративные всегда рушатся",
+       "Шариатские советы не нужны, если есть оценка рейтингового агентства"
+      ],
+      "options_en": [
+       "Sukuk are always safe, because a Shariah board approves them",
+       "The Islamic label protects no one; contract substance and law do",
+       "Only sovereign sukuk are reliable; corporate issues always fail",
+       "Shariah boards are unnecessary once a rating agency signs off"
+      ],
+      "correct_index": 1,
+      "explanation": "Asosiy saboq: yorliqlar investorlarni himoya qilmaydi — shartnoma mazmuni va huquqiy asos himoya qiladi, shuning uchun strukturani, nafaqat nomini tekshirish zarur.",
+      "explanation_ru": "Главный урок: ярлыки не защищают инвесторов — защищает суть контракта и закон, поэтому важно изучать структуру, а не только название.",
+      "explanation_en": "The key lesson: labels do not protect investors — contract substance and law do, so it's essential to examine the structure, not just the name."
+     },
+     {
+      "text": "Takafulda ishtirokchilar pulni qanday qo'shishadi?",
+      "text_ru": "Как участники вносят деньги в такафул?",
+      "text_en": "How do participants contribute money in takaful?",
+      "options": [
+       "Operator belgilagan premiya to'lab qoplama sotib olishadi",
+       "Badallarini umumiy mushtarak jamg'armaga xayriya qilishadi",
+       "Kelishilgan foyda stavkasida bankka pul qarz berishadi",
+       "Summani davlatga majburiy soliq sifatida to'lab berishadi"
+      ],
+      "options_ru": [
+       "Покупают покрытие, платя премию, назначенную оператором",
+       "Жертвуют свои взносы в общий совместный фонд участников",
+       "Дают деньги банку в долг под согласованную ставку прибыли",
+       "Платят эту сумму государству как обязательный налог"
+      ],
+      "options_en": [
+       "They buy cover by paying a premium fixed by the operator",
+       "They donate their contributions into a common shared pool",
+       "They lend the money to the bank at an agreed profit rate",
+       "They pay the amount to the state as a compulsory tax"
+      ],
+      "correct_index": 1,
+      "explanation": "Takafulda ishtirokchilar umumiy jamg'armaga xayriya (donation) qilishadi, bu jamg'arma zarar ko'rgan a'zolarga to'lov qiladi — oddiy sug'urta premiyasidan farqli.",
+      "explanation_ru": "В такафуле участники делают пожертвования в общий фонд, который выплачивает средства пострадавшим участникам — в отличие от обычной страховой премии.",
+      "explanation_en": "In takaful, participants donate contributions to a common pool that pays members who suffer losses — unlike a conventional insurance premium."
+     },
+     {
+      "text": "Takaful operatori jamg'armani boshqarganligi uchun qanday haq oladi?",
+      "text_ru": "Как вознаграждается оператор такафул за управление фондом?",
+      "text_en": "How is the takaful operator compensated for managing the pool?",
+      "options": [
+       "Faqat hukumat to'laydigan yillik subsidiya hisobidan",
+       "Wakala agentlik haqi yoki mudaraba foyda ulushi orqali",
+       "Hech narsa olmaydi va faqat ixtiyoriy asosda ishlaydi",
+       "Faqat a'zolardan yig'ilgan zakot ulushi hisobidan"
+      ],
+      "options_ru": [
+       "Только за счёт ежегодной субсидии от государства",
+       "Через агентскую плату wakala или долю прибыли мудараба",
+       "Не получает ничего и работает на добровольной основе",
+       "Только за счёт доли закята, собранного с участников"
+      ],
+      "options_en": [
+       "Only through an annual subsidy paid by the government",
+       "Through a wakala agency fee or a mudaraba profit share",
+       "It receives nothing and works purely on a voluntary basis",
+       "Only through a share of the zakat collected from members"
+      ],
+      "correct_index": 1,
+      "explanation": "Takaful operatori jamg'armani wakala (agentlik haqi) yoki mudaraba (foyda ulushi) asosida boshqaradi.",
+      "explanation_ru": "Оператор такафул управляет фондом на основе вакала (агентской платы) или мудараба (доли прибыли).",
+      "explanation_en": "The takaful operator manages the pool for a wakala (agency) fee or a mudaraba (profit share)."
+     },
+     {
+      "text": "Takafulda jamg'armada ortiqcha mablag' (surplus) qolsa, nima bo'ladi?",
+      "text_ru": "Что происходит, если в фонде такафул остаётся излишек (surplus)?",
+      "text_en": "If a surplus remains in the takaful pool, what happens?",
+      "options": [
+       "Operator butun profitsitni o'z foydasi sifatida oladi",
+       "Davlat uni musodara qilib, budjetga o'tkazib yuboradi",
+       "Jamg'arma egalari — ishtirokchilarga qaytarilishi mumkin",
+       "U har yili hisobdan chiqariladi va shunchaki yo'qoladi"
+      ],
+      "options_ru": [
+       "Оператор забирает весь излишек как собственную прибыль",
+       "Государство конфискует его и переводит в бюджет",
+       "Может быть возвращён участникам — владельцам фонда",
+       "Он ежегодно списывается и просто исчезает бесследно"
+      ],
+      "options_en": [
+       "The operator keeps the whole surplus as its own profit",
+       "The state confiscates it and moves it to the budget",
+       "It may be returned to the participants who own the pool",
+       "It is always written off and simply disappears each year"
+      ],
+      "correct_index": 2,
+      "explanation": "Oddiy sug'urta premiyasidan farqli o'laroq, takafulda ortiqcha mablag' ishtirokchilarga qaytarilishi mumkin, chunki ular jamg'armaning haqiqiy egalari hisoblanishadi.",
+      "explanation_ru": "В отличие от обычной страховой премии, излишек в такафуле может быть возвращён участникам, поскольку они являются фактическими владельцами фонда.",
+      "explanation_en": "Unlike a conventional insurance premium, any surplus in takaful can be returned to participants, since they are the true owners of the pool."
+     },
+     {
+      "text": "Islomiy aktsiya skriningida odatda qaysi mezon qo'llaniladi?",
+      "text_ru": "Какой критерий обычно применяется при исламском скрининге акций?",
+      "text_en": "What criterion is typically applied in Islamic equity screening?",
+      "options": [
+       "Qarz bozor qiymatining uchdan biridan kam, harom sohalar yo'q",
+       "Kompaniya hajmi milliard dollardan ortiq va bitta birjada ro'yxat",
+       "Aksiyalarning kamida yarmi davlatda va mahalliy rezidentlik",
+       "Aksiya narxi ellik dollardan past va har yili dividend to'lanadi"
+      ],
+      "options_ru": [
+       "Долг ниже трети рыночной стоимости и отсутствие харам-секторов",
+       "Размер компании выше миллиарда долларов и листинг на одной бирже",
+       "Не менее половины акций у государства и местная регистрация",
+       "Цена акции ниже пятидесяти долларов и ежегодная выплата дивиденда"
+      ],
+      "options_en": [
+       "Debt below about a third of market value, and no haram sectors",
+       "Company size above a billion dollars, and listing on one exchange",
+       "State ownership of at least half the shares, and a local domicile",
+       "A share price under fifty dollars, and a dividend paid each year"
+      ],
+      "correct_index": 0,
+      "explanation": "Islomiy fondlar harom sohalarni istisno qiladi va qarzi bozor qiymatining taxminan uchdan biridan oshgan kompaniyalarni chiqarib tashlaydi; tasodifiy foiz daromadi xayriyaga beriladi (poklanadi).",
+      "explanation_ru": "Исламские фонды исключают харамные отрасли и компании с долгом, превышающим примерно треть рыночной капитализации; случайный процентный доход направляется на благотворительность (очищается).",
+      "explanation_en": "Islamic funds exclude haram sectors and companies with debt above roughly a third of market value; incidental interest income is given to charity (purified)."
+     },
+     {
+      "text": "2008-yilgi inqirozda islomiy aktsiya indekslari nega ko'proq barqaror bo'lgan?",
+      "text_ru": "Почему исламские фондовые индексы оказались более устойчивыми во время кризиса 2008 года?",
+      "text_en": "Why were Islamic equity indices more resilient during the 2008 crisis?",
+      "options": [
+       "Skrining qoidalari — past leverage va banklarsiz — xatarni filtrladi",
+       "Davlat indeksdagi har bir kompaniyani bozor zararidan kafolatladi",
+       "Indeks aksiyalari savdo qilinmagan, shuning uchun narx tushmadi",
+       "Fondlar faqat oltin quyma ushlagan, u inqirozda qimmatlashdi"
+      ],
+      "options_ru": [
+       "Критерии скрининга — низкий левередж и без банков — отсеяли риск",
+       "Государство гарантировало каждую компанию индекса от убытков",
+       "Акции индекса не торговались, поэтому их цены не могли упасть",
+       "Фонды держали только золото в слитках, подорожавшее в кризис"
+      ],
+      "options_en": [
+       "The screening rules, low leverage and no banks, filtered risk by accident",
+       "The state guaranteed every index constituent against market losses",
+       "The index shares were never traded, so their prices could not fall",
+       "The funds held only gold bullion, which rose through the whole crisis"
+      ],
+      "correct_index": 0,
+      "explanation": "Islomiy skrining mezonlari (past leverage, bank aktsiyalarining yo'qligi) tasodifan xatar filtri vazifasini o'tab, 2008-yilgi inqiroz davrida islomiy indekslarning yaxshiroq natija ko'rsatishiga olib keldi.",
+      "explanation_ru": "Критерии исламского скрининга (низкий левередж, отсутствие банковских акций) случайно сработали как фильтр риска, что привело к лучшим результатам исламских индексов во время кризиса 2008 года.",
+      "explanation_en": "Islamic screening criteria (low leverage, excluding banks) acted as an accidental risk filter, leading Islamic indices to outperform during the 2008 crisis."
+     },
+     {
+      "text": "Tijorat banki va islomiy moliya instituti o'rtasidagi asosiy kontseptual farq nimada?",
+      "text_ru": "В чём основное концептуальное различие между коммерческим банком и исламским финансовым институтом?",
+      "text_en": "What is the core conceptual difference between a commercial bank and an Islamic financial institution?",
+      "options": [
+       "Tijorat banki pul dileri; islomiy institut savdogar, ijaraga beruvchi, sherik",
+       "Ular hamma jihatdan bir xil, faqat nomlari bir-biridan farq qiladi",
+       "Islomiy institutlar o'z operatsiyalaridan hech qachon foyda olmaydi",
+       "Tijorat banklari har bir davlatda faqat davlatga tegishli bo'ladi"
+      ],
+      "options_ru": [
+       "Коммерческий банк — дилер денег; исламский — торговец, арендодатель, партнёр",
+       "Они полностью идентичны во всех отношениях, различаются лишь названия",
+       "Исламские институты никогда не получают прибыли от своих операций",
+       "Коммерческие банки в любой стране принадлежат только государству"
+      ],
+      "options_en": [
+       "A commercial bank deals in money; an Islamic one trades, leases, invests",
+       "They are identical in every respect and only the two names differ",
+       "Islamic institutions never earn any profit on their own operations",
+       "Commercial banks are always owned by the state in every country"
+      ],
+      "correct_index": 0,
+      "explanation": "Konseptual yadro: tijorat banki pul va kredit dileri, islomiy moliya instituti esa savdogar, ijarachi va investitsiya sherigi sifatida faoliyat yuritadi.",
+      "explanation_ru": "Концептуальное ядро: коммерческий банк — дилер денег и кредита, тогда как исламский финансовый институт выступает как торговец, арендодатель и инвестиционный партнёр.",
+      "explanation_en": "The conceptual core: a commercial bank is a dealer in money and credit, while an Islamic financial institution acts as a trader, lessor, and investment partner."
+     },
+     {
+      "text": "Tijorat bankida moliyalashtirilgan aktivdagi xatarni kim ko'taradi?",
+      "text_ru": "Кто несёт риск по финансируемому активу в коммерческом банке?",
+      "text_en": "In a commercial bank, who bears the risk on the financed asset?",
+      "options": [
+       "Bank",
+       "Qarz oluvchi (borrower)",
+       "Markaziy bank",
+       "Hech kim"
+      ],
+      "options_ru": [
+       "Банк",
+       "Заёмщик",
+       "Центральный банк",
+       "Никто"
+      ],
+      "options_en": [
+       "The bank",
+       "The borrower",
+       "The central bank",
+       "No one"
+      ],
+      "correct_index": 1,
+      "explanation": "An'anaviy bankda aktiv faqat garov vazifasini o'taydi — barcha xatar qarz oluvchiga tushadi.",
+      "explanation_ru": "В традиционном банке актив служит лишь залогом — весь риск ложится на заёмщика.",
+      "explanation_en": "In a conventional bank, the asset is only collateral — all risk falls on the borrower."
+     },
+     {
+      "text": "Islomiy bankda kechikkan to'lov uchun olingan har qanday jarima qayerga yo'naltiriladi?",
+      "text_ru": "Куда направляется любая комиссия за просрочку платежа в исламском банке?",
+      "text_en": "In an Islamic bank, where do any late-payment charges go?",
+      "options": [
+       "Bankning moliya yilidagi sof foydasiga qo'shiladi",
+       "Xayriyaga, shuning uchun bank daromadi bo'lmaydi",
+       "Markaziy bankka tartibga solish jarimasi sifatida",
+       "Aksiyadorlarga qo'shimcha dividend sifatida to'lanadi"
+      ],
+      "options_ru": [
+       "В чистую прибыль банка за текущий финансовый год",
+       "На благотворительность, не становясь доходом банка",
+       "Центральному банку в виде регуляторного штрафа",
+       "Акционерам, в виде дополнительных дивидендов"
+      ],
+      "options_en": [
+       "Into the bank's net profit for the financial year",
+       "To charity, so they never become bank income",
+       "To the central bank as a regulatory penalty",
+       "To shareholders, paid out as extra dividends"
+      ],
+      "correct_index": 1,
+      "explanation": "Islomiy bankda kechikish uchun olingan to'lovlar bankning shaxsiy daromadiga aylanmaydi — ular xayriyaga yo'naltiriladi, chunki pulga foiz sifatida qaytim olish taqiqlangan.",
+      "explanation_ru": "В исламском банке сборы за просрочку не становятся личным доходом банка — они направляются на благотворительность, поскольку начисление процента на деньги запрещено.",
+      "explanation_en": "In an Islamic bank, late-payment fees do not become the bank's personal income — they go to charity, since charging interest on money is prohibited."
+     },
+     {
+      "text": "Islomiy institutlarda qanday qo'shimcha boshqaruv organi mavjud, tijorat banklarida esa yo'q?",
+      "text_ru": "Какой дополнительный орган управления есть в исламских институтах, но отсутствует в коммерческих банках?",
+      "text_en": "What additional governance body exists in Islamic institutions but not in commercial banks?",
+      "options": [
+       "Aksiyadorlar tayinlagan tashqi auditorlik firmasi",
+       "Har bir shartnomani ko'radigan Shariat Kuzatuv Kengashi",
+       "Mahsulot liniyasini ishlab chiqadigan marketing bo'limi",
+       "Bankning asosiy tizimlarini yurituvchi IT bo'limi"
+      ],
+      "options_ru": [
+       "Внешняя аудиторская фирма, назначенная акционерами",
+       "Шариатский наблюдательный совет, проверяющий договоры",
+       "Отдел маркетинга, разрабатывающий линейку продуктов",
+       "ИТ-отдел, обслуживающий основные системы банка"
+      ],
+      "options_en": [
+       "An external audit firm appointed by the shareholders",
+       "A Shariah Supervisory Board reviewing every contract",
+       "A marketing department that designs the product range",
+       "An IT department running the bank's core systems"
+      ],
+      "correct_index": 1,
+      "explanation": "Islomiy institutlarda kengash va regulyatordan tashqari Shariat Kuzatuv Kengashi ham mavjud, bu tijorat banklarida bo'lmaydi.",
+      "explanation_ru": "В исламских институтах, помимо совета директоров и регулятора, также есть Шариатский наблюдательный совет, которого нет в коммерческих банках.",
+      "explanation_en": "Islamic institutions have a Shariah Supervisory Board in addition to the board and regulator — something commercial banks do not have."
+     },
+     {
+      "text": "Islomiy va tijorat banklari bir xil prudensial (ehtiyotkorlik) qoidalarga bo'ysunadimi?",
+      "text_ru": "Подчиняются ли исламские и коммерческие банки одним и тем же пруденциальным правилам?",
+      "text_en": "Do Islamic and commercial banks follow the same prudential rules?",
+      "options": [
+       "Yo'q, islomiy banklar soliq va kapital qoidalaridan to'liq ozod",
+       "Yo'q, islomiy banklar hech qanday prudensial qoidaga bo'ysunmaydi",
+       "Yo'q, faqat tijorat banklari litsenziyalanadi va nazorat qilinadi",
+       "Ha, bir xil litsenziya, IFSB orqali Basel kapital qoidalari va to'lov tizimi"
+      ],
+      "options_ru": [
+       "Нет, исламские банки полностью освобождены от налогов и капитала",
+       "Нет, исламские банки не соблюдают никаких пруденциальных правил",
+       "Нет, лицензии и надзор регулятора есть только у коммерческих банков",
+       "Да, те же лицензии, правила капитала Basel через IFSB и платёжные системы"
+      ],
+      "options_en": [
+       "No, Islamic banks are fully exempt from taxes and capital rules",
+       "No, Islamic banks follow no prudential capital rules of any kind",
+       "No, only commercial banks are licensed and supervised by the regulator",
+       "Yes, the same licences, Basel capital rules via IFSB and payment systems"
+      ],
+      "correct_index": 3,
+      "explanation": "Leksiyaga ko'ra, bir xil regulyator litsenziyalari, kapital qoidalari (IFSB orqali moslashtirilgan Basel) va to'lov tizimlari qo'llaniladi — farq faqat shartnoma va boshqaruvda, prudensial qoidalardan ozodlikda emas.",
+      "explanation_ru": "Согласно лекции, применяются те же лицензии регулятора, правила капитала (Basel, адаптированные через IFSB) и платёжные системы — различие лишь в контрактах и управлении, а не в освобождении от пруденциальных норм.",
+      "explanation_en": "According to the lecture, the same regulator licenses, capital rules (Basel via IFSB adaptations), and payment systems apply — the difference lies in contracts and governance, not exemption from prudential rules."
+     },
+     {
+      "text": "Islomiy bank balansida \"investment accounts\" (investitsiya hisoblari) nima uchun \"kvazi-kapital\" (quasi-equity) deb ataladi?",
+      "text_ru": "Почему «инвестиционные счета» в балансе исламского банка называются «квазикапиталом» (quasi-equity)?",
+      "text_en": "Why are 'investment accounts' on an Islamic bank's balance sheet called 'quasi-equity'?",
+      "options": [
+       "Daromadi bankning haqiqiy foydasiga bog'liq va zararni ham bo'lishadi",
+       "Bankka joylashtirilgan pulning hech qaysi qismi qaytarilmaydi",
+       "Davlat omonat sug'urtasi fondi tomonidan to'liq kafolatlangan",
+       "Faqat bankning o'z ro'yxatdagi aksiyadorlari uchun mavjud bo'ladi"
+      ],
+      "options_ru": [
+       "Их доход меняется с реальной прибылью банка, и убытки делятся",
+       "Они вообще не возвращают размещённые в банке деньги клиента",
+       "Они полностью гарантированы государственным фондом вкладов",
+       "Они доступны только зарегистрированным акционерам банка"
+      ],
+      "options_en": [
+       "Their return varies with the bank's real profit and they share losses",
+       "They never return any of the money placed with the bank at all",
+       "They are fully guaranteed by the state deposit insurance fund",
+       "They are available only to the bank's own registered shareholders"
+      ],
+      "correct_index": 0,
+      "explanation": "Investitsiya hisob egalari kvazi-kapital hisoblanadi, chunki ularning daromadi bankning haqiqiy foydasiga bog'liq va printsipial jihatdan zararni ham baham ko'rishadi — oddiy kafolatlangan depozitdan farqli.",
+      "explanation_ru": "Держатели инвестиционных счетов считаются квазикапиталом, поскольку их доход зависит от фактической прибыли банка, и в принципе они разделяют убытки — в отличие от обычного гарантированного депозита.",
+      "explanation_en": "Investment-account holders are quasi-equity because their return varies with the bank's actual profit, and in principle they share losses — unlike an ordinary guaranteed deposit."
+     },
+     {
+      "text": "\"Displaced commercial risk\" (siljigan tijorat xatari) nimani anglatadi?",
+      "text_ru": "Что означает «смещённый коммерческий риск» (displaced commercial risk)?",
+      "text_en": "What does 'displaced commercial risk' mean?",
+      "options": [
+       "Bank raqobat uchun hisob daromadini silliqlaydi, zaxira kerak bo'ladi",
+       "Davlat qonun bo'yicha bankning butun tijorat xatarini o'ziga oladi",
+       "Mijozlar zarar ko'rmaydi, chunki foyda shartnomada qat'iy yozilgan",
+       "Xatar har doim chet eldagi ona bankka o'tkazib yuboriladi"
+      ],
+      "options_ru": [
+       "Банк сглаживает доходность счетов для конкуренции, нужны резервы",
+       "Государство по закону принимает на себя весь риск банка",
+       "Клиенты не несут убытков, так как прибыль закреплена договором",
+       "Риск всегда переносится за границу, в материнский банк"
+      ],
+      "options_en": [
+       "The bank smooths account returns to stay competitive, needing reserves",
+       "The state assumes all of the bank's commercial risk under the law",
+       "Customers never bear any loss, as profit is fixed in the contract",
+       "The risk is always transferred abroad to a foreign parent bank"
+      ],
+      "correct_index": 0,
+      "explanation": "Amaliyotda banklar raqobatbardosh bo'lish uchun investitsiya hisoblari daromadini silliqlaydi (nazariy zarar baham ko'rishdan chetlanadi) — regulyatorlar buning uchun maxsus zaxiralar (PER/IRR) talab qiladi.",
+      "explanation_ru": "На практике банки сглаживают доходность инвестиционных счетов ради конкурентоспособности (отклоняясь от теоретического разделения убытков) — регуляторы требуют для этого специальных резервов (PER/IRR).",
+      "explanation_en": "In practice, banks smooth investment-account returns to stay competitive (deviating from theoretical loss-sharing) — regulators require special reserves (PER/IRR) for this."
+     },
+     {
+      "text": "Shariat Kuzatuv Kengashi odatda nechta olimdan iborat bo'ladi?",
+      "text_ru": "Из скольких учёных обычно состоит Шариатский наблюдательный совет?",
+      "text_en": "How many scholars typically sit on a Shariah Supervisory Board?",
+      "options": [
+       "1 ta",
+       "3–5 ta",
+       "20 ta",
+       "100 ta"
+      ],
+      "options_ru": [
+       "1",
+       "3–5",
+       "20",
+       "100"
+      ],
+      "options_en": [
+       "1",
+       "3–5",
+       "20",
+       "100"
+      ],
+      "correct_index": 1,
+      "explanation": "Shariat Kuzatuv Kengashi odatda 3–5 olimdan iborat bo'lib, mahsulotlarni tasdiqlaydi va faoliyatni audit qiladi.",
+      "explanation_ru": "Шариатский наблюдательный совет обычно состоит из 3–5 учёных, которые утверждают продукты и проводят аудит деятельности.",
+      "explanation_en": "A Shariah Supervisory Board typically consists of 3–5 scholars, who approve products and audit operations."
+     },
+     {
+      "text": "\"Shariah non-compliance risk\" (shariatga nomuvofiqlik xatari) yuz bersa, nima bo'ladi?",
+      "text_ru": "Что происходит при возникновении «риска несоответствия шариату» (Shariah non-compliance risk)?",
+      "text_en": "What happens if 'Shariah non-compliance risk' occurs?",
+      "options": [
+       "Hech narsa bo'lmaydi, bu real xatar turi deb qaralmaydi",
+       "Daromad xayriyaga poklanadi va obro'ga putur yetadi",
+       "Bank o'z regulyatori tomonidan avtomatik yopib qo'yiladi",
+       "Davlat aktivlarning bir foizi hajmida jarima soladi"
+      ],
+      "options_ru": [
+       "Ничего не происходит, это не считается реальным риском",
+       "Доход очищается на благотворительность, страдает репутация",
+       "Банк автоматически закрывается собственным регулятором",
+       "Государство налагает штраф в размере процента активов"
+      ],
+      "options_en": [
+       "Nothing happens, as it is not treated as a real risk class",
+       "The income must be purified to charity and reputation suffers",
+       "The bank is automatically shut down by its own regulator",
+       "The state imposes a fixed fine of one percent of assets"
+      ],
+      "correct_index": 1,
+      "explanation": "Agar bitim shariatga nomuvofiq deb topilsa, undan olingan daromad poklanishi (xayriyaga berilishi) kerak va bu bankning obro'siga putur yetkazadi — yangi xatar turi.",
+      "explanation_ru": "Если сделка признана несоответствующей шариату, полученный от неё доход должен быть очищен (отдан на благотворительность), что наносит репутационный ущерб — это новый класс риска.",
+      "explanation_en": "If a deal is found Shariah non-compliant, its income must be purified (given to charity), and reputational damage follows — a distinct risk class."
+     },
+     {
+      "text": "Xalqaro darajada AAOIFI va IFSB standartlarini qanday farqlash mumkin?",
+      "text_ru": "Как на международном уровне можно различить стандарты AAOIFI и IFSB?",
+      "text_en": "At the international level, how can AAOIFI and IFSB standards be distinguished?",
+      "options": [
+       "AAOIFI shariat va buxgalteriya, IFSB prudensial standart belgilaydi",
+       "Ikkalasi ham faqat islomiy banklar uchun soliq qoidasini belgilaydi",
+       "AAOIFI faqat Malayziyada, IFSB faqat Saudiya Arabistonida ishlaydi",
+       "Ular ikki xil qisqartma ostida ishlaydigan yagona tashkilot"
+      ],
+      "options_ru": [
+       "AAOIFI задаёт шариат и учёт, IFSB — пруденциальные нормы",
+       "Обе задают только налоговые правила для исламских банков",
+       "AAOIFI работает только в Малайзии, IFSB — только в Саудии",
+       "Это одна организация под двумя разными аббревиатурами"
+      ],
+      "options_en": [
+       "AAOIFI sets Shariah and accounting rules; IFSB prudential ones",
+       "Both of them set only tax rules for Islamic banking groups",
+       "AAOIFI works only in Malaysia and the IFSB only in Saudi Arabia",
+       "They are a single organisation using two different acronyms"
+      ],
+      "correct_index": 0,
+      "explanation": "AAOIFI shariat va buxgalteriya standartlarini, IFSB esa prudensial (bank ehtiyotkorlik) standartlarini belgilaydigan xalqaro tashkilotlardir.",
+      "explanation_ru": "AAOIFI — международная организация, устанавливающая шариатские и бухгалтерские стандарты, а IFSB устанавливает пруденциальные (банковские) стандарты.",
+      "explanation_en": "AAOIFI is the international body that sets Shariah and accounting standards, while the IFSB sets prudential (banking) standards."
+     },
+     {
+      "text": "Fatvolarning oshkora e'lon qilinishi (published) nima uchun muhim deb ta'kidlanadi?",
+      "text_ru": "Почему подчёркивается важность публикации фатв (published)?",
+      "text_en": "Why is the publication of fatwas emphasized as important?",
+      "options": [
+       "Faqat reklama uchun, yangi mijozlarni jalb qilish uchun",
+       "Kengashga shaffoflik intizomini yuklaydi va ta'minlaydi",
+       "Muassasa foydasidan to'lanadigan soliqni kamaytirish uchun",
+       "Investorlarni mahsulot tuzilmasi haqida chalg'itish uchun"
+      ],
+      "options_ru": [
+       "Только ради рекламы, чтобы привлечь новых клиентов",
+       "Это обеспечивает совету дисциплину прозрачности",
+       "Чтобы снизить налог, уплачиваемый с прибыли института",
+       "Чтобы запутать инвесторов насчёт структуры продукта"
+      ],
+      "options_en": [
+       "Purely for advertising, to attract new retail customers",
+       "It enforces a discipline of transparency on the board",
+       "To reduce the tax the institution pays on its profit",
+       "To confuse investors about the product's real structure"
+      ],
+      "correct_index": 1,
+      "explanation": "Shariat kengashi qarorlarining oshkora e'lon qilinishi shaffoflik intizomini ta'minlaydi, bu bozor ishonchini mustahkamlaydi.",
+      "explanation_ru": "Публикация решений шариатского совета обеспечивает дисциплину прозрачности, укрепляя доверие рынка.",
+      "explanation_en": "Publishing the Shariah board's rulings ensures a discipline of transparency, strengthening market trust."
+     },
+     {
+      "text": "Nazariya bo'yicha, islomiy banklar nima uchun ko'proq barqaror deb hisoblanadi?",
+      "text_ru": "Почему, согласно теории, исламские банки считаются более стабильными?",
+      "text_en": "In theory, why are Islamic banks considered more stable?",
+      "options": [
+       "Ularni faqat davlat boshqaradi va har qanday kamomadni qoplaydi",
+       "Ular hech qachon zarar ko'rmaydi, chunki har bir bitim kafolatlangan",
+       "Ular umuman soliq to'lamaydi, shuning uchun kapitali tezroq o'sadi",
+       "Aktiv ta'minoti, PLS depoziti, spekulyatsiya skrini — leverage past"
+      ],
+      "options_ru": [
+       "Ими управляет только государство, покрывающее любую недостачу",
+       "Они никогда не несут убытков, ведь каждая сделка гарантирована",
+       "Они вовсе не платят налогов, поэтому капитал растёт быстрее",
+       "Обеспечение активами, депозиты PLS и фильтр спекуляций снижают левередж"
+      ],
+      "options_en": [
+       "They are run only by the state, which always covers any shortfall",
+       "They never suffer any losses, since every deal is fully guaranteed",
+       "They pay no taxes at all, so their capital base grows much faster",
+       "Asset backing, PLS deposits and speculation screens keep leverage lower"
+      ],
+      "correct_index": 3,
+      "explanation": "Aktiv bilan ta'minlanganlik toksik qarz zanjirlarini oldini oladi, PLS depozitlari zarbalarni kapital kabi so'radi, spekulyatsiya skriningi murakkab hosilaviy mahsulotlardan uzoqlashtiradi — bularning barchasi leverage ni pasaytiradi.",
+      "explanation_ru": "Обеспеченность активами предотвращает токсичные долговые цепочки, депозиты PLS поглощают шоки подобно капиталу, скрининг против спекуляций отдаляет от сложных деривативов — всё это снижает левередж.",
+      "explanation_en": "Asset-backing prevents toxic debt chains, PLS deposits absorb shocks like equity, and speculation screens keep banks away from exotic derivatives — all lowering leverage."
+     },
+     {
+      "text": "Islomiy banklarning amaliy zaifliklariga quyidagilardan qaysi biri kiradi?",
+      "text_ru": "Что из перечисленного входит в практические слабости исламских банков?",
+      "text_en": "Which of the following is a practical weakness of Islamic banks?",
+      "options": [
+       "Ko'chmas mulkka konsentratsiya, kam xedjing vositasi, qiyin likvidlik",
+       "Ular foyda ola olmaydi, chunki marjasi qonun bilan cheklangan",
+       "Ular faqat bitta davlatda ishlaydi, chegaradan o'tish taqiqlangan",
+       "Ular prudensial qoidalardan ozod, kapital buferi majburiy emas"
+      ],
+      "options_ru": [
+       "Концентрация в недвижимости, мало хеджа, сложная ликвидность",
+       "Они не могут получать прибыль, их маржа ограничена законом",
+       "Они работают лишь в одной стране, сделки за рубежом запрещены",
+       "Они свободны от пруденциальных норм, буфер капитала не нужен"
+      ],
+      "options_en": [
+       "Concentration in property, fewer hedging tools, harder liquidity work",
+       "They can never earn a profit, as all their margins are capped by law",
+       "They may operate in only one country, as cross-border deals are banned",
+       "They are exempt from prudential rules, so capital buffers are optional"
+      ],
+      "correct_index": 0,
+      "explanation": "Halol caveatlar: ko'chmas mulk/tovarlarga konsentratsiya, kam xeджing vositalari, cheklangan shariatga mos interbank aktivlari sababli qiyinroq likvidlik boshqaruvi, kichikroq va kam diversifikatsiyalangan banklar.",
+      "explanation_ru": "Честные оговорки: концентрация в недвижимости/товарах, меньше инструментов хеджирования, более сложное управление ликвидностью из-за ограниченных шариатских межбанковских активов, меньшие и менее диверсифицированные банки.",
+      "explanation_en": "The honest caveats: concentration in real estate/commodities, fewer hedging tools, harder liquidity management due to limited Shariah-compliant interbank assets, and smaller, less diversified banks."
+     },
+     {
+      "text": "Hasan & Dridi (IMF, 2010) tadqiqotiga ko'ra, 2008-yilda islomiy banklar qanday natija ko'rsatdi?",
+      "text_ru": "Согласно исследованию Хасана и Дриди (МВФ, 2010), как показали себя исламские банки в 2008 году?",
+      "text_en": "According to Hasan & Dridi (IMF, 2010), how did Islamic banks perform in 2008?",
+      "options": [
+       "Foyda va kredit yaxshiroq saqlandi, subprime aktivlari yo'q edi",
+       "Foyda va kredit keskin yomonlashdi, subprime aktivlari ko'p edi",
+       "Ular darhol bankrot bo'lib, markaziy banklar tomonidan qutqarildi",
+       "An'anaviy banklardan umuman o'lchovli farq bo'lmagan edi"
+      ],
+      "options_ru": [
+       "Прибыль и кредит держались лучше, субстандартных активов не было",
+       "Прибыль и кредит резко упали из-за крупных субстандартных активов",
+       "Они сразу обанкротились и были спасены центральными банками",
+       "Никакой измеримой разницы с традиционными банками не было"
+      ],
+      "options_en": [
+       "Profit and credit held up better, with no structured subprime exposure",
+       "Profit and credit worsened sharply, because of heavy subprime holdings",
+       "They went bankrupt at once and were rescued by their central banks",
+       "There was no measurable difference from conventional banks at all"
+      ],
+      "correct_index": 0,
+      "explanation": "IMF tadqiqotiga ko'ra, 2008-yilda islomiy banklarning foydaliligi va krediti yaxshiroq saqlandi, chunki ular strukturaviy subprime aktivlariga ta'sirlanmagan edi.",
+      "explanation_ru": "Согласно исследованию МВФ, в 2008 году прибыльность и кредитование исламских банков держались лучше, поскольку у них не было вложений в структурированные субстандартные активы.",
+      "explanation_en": "Per the IMF study, Islamic banks' profitability and credit held up better in 2008, since they had no exposure to structured subprime assets."
+     },
+     {
+      "text": "Hasan & Dridi tadqiqotiga ko'ra, 2009-yilda nima yuz berdi?",
+      "text_ru": "Согласно исследованию Хасана и Дриди, что произошло в 2009 году?",
+      "text_en": "According to Hasan & Dridi, what happened in 2009?",
+      "options": [
+       "Ular yana yaxshi natija ko'rsatdi, mulk narxi o'sishda davom etdi",
+       "Barcha islomiy banklar yopildi va litsenziyalari olib qo'yildi",
+       "Ba'zilari ko'proq zarar ko'rdi, mulk iqtisodiyoti sekinlashdi",
+       "Hech narsa o'zgarmadi, portfellari to'liq xedjlangan edi"
+      ],
+      "options_ru": [
+       "Они снова показали хороший результат, цены на жильё росли",
+       "Все исламские банки закрылись, а их лицензии были отозваны",
+       "Некоторые пострадали сильнее: экономика недвижимости замедлилась",
+       "Ничего не изменилось, их портфели были полностью захеджированы"
+      ],
+      "options_en": [
+       "They again performed well, since property prices kept rising",
+       "All Islamic banks closed down and their licences were revoked",
+       "Some suffered more, as the property economy they finance slowed",
+       "Nothing changed at all, as their portfolios were fully hedged"
+      ],
+      "correct_index": 2,
+      "explanation": "2009-yilda ba'zi islomiy banklar ko'proq qiynaldi, chunki ular moliyalashtirgan real-ko'chmas mulk iqtisodiyoti sekinlashdi — bu ularning real iqtisodiyot tsikllariga to'liq ta'sirlanishini ko'rsatadi.",
+      "explanation_ru": "В 2009 году некоторые исламские банки пострадали сильнее, поскольку замедлилась финансируемая ими экономика недвижимости — это показывает их полную подверженность реальным экономическим циклам.",
+      "explanation_en": "In 2009, some Islamic banks suffered more as the real-estate economy they finance slowed — showing their full exposure to real-economy cycles."
+     },
+     {
+      "text": "2008–09-yillarda islomiy banklarning kredit va aktiv o'sishi konventsional banklarga nisbatan qanday bo'ldi?",
+      "text_ru": "Каким был рост кредитования и активов исламских банков в 2008–09 годах по сравнению с традиционными банками?",
+      "text_en": "How did Islamic banks' credit and asset growth compare to conventional banks in 2008–09?",
+      "options": [
+       "An'anaviy banklarga nisbatan taxminan ikki barobar past edi",
+       "An'anaviy banklarga nisbatan taxminan ikki barobar yuqori edi",
+       "Ko'rfaz an'anaviy banklaridagi bilan aynan bir xil bo'ldi",
+       "Nolga tushdi, an'anaviy banklarda esa kredit o'sib bordi"
+      ],
+      "options_ru": [
+       "Он был примерно вдвое ниже, чем у традиционных банков",
+       "Он оставался примерно вдвое выше, чем у обычных банков",
+       "Он был точно таким же, как у традиционных банков Залива",
+       "Он упал до нуля, тогда как у обычных банков кредит рос"
+      ],
+      "options_en": [
+       "It was about half as high as that of conventional banks",
+       "It stayed roughly twice as high as at conventional banks",
+       "It was exactly the same as at conventional banks of the Gulf",
+       "It fell to zero while conventional bank lending kept growing"
+      ],
+      "correct_index": 1,
+      "explanation": "IMF tadqiqotiga ko'ra, islomiy banklarning kredit va aktiv o'sishi 2008–09-yillarda konventsional banklarnikidan taxminan ikki baravar yuqori bo'lib qoldi, bu barqarorlikni qo'llab-quvvatlaydi.",
+      "explanation_ru": "По данным исследования МВФ, рост кредитования и активов исламских банков в 2008–09 годах оставался примерно вдвое выше, чем у традиционных банков, что подтверждает стабильность.",
+      "explanation_en": "Per the IMF study, Islamic banks' credit and asset growth stayed roughly twice as high as conventional banks' through 2008–09, supporting the stability thesis."
+     },
+     {
+      "text": "Leksiyaning muvozanatli xulosasiga ko'ra, islomiy moliya qanday tavsiflanadi?",
+      "text_ru": "Как сбалансированный вывод лекции характеризует исламские финансы?",
+      "text_en": "How does the lecture's balanced conclusion characterize Islamic finance?",
+      "options": [
+       "Muhandislik inqirozidan qochadi, real iqtisod tsikliga to'liq duch keladi",
+       "Ular butunlay xatarsiz, chunki har bir aktivi real va moddiy",
+       "Faqat budjet profitsiti katta bo'lgan boy neft davlatlariga mos",
+       "Hech qachon zarar keltirmaydi, shartnomalar kapitalni kafolatlaydi"
+      ],
+      "options_ru": [
+       "Избегают кризисов инженерии, но полностью открыты циклам экономики",
+       "Они полностью безрисковые, ведь каждый их актив материален",
+       "Подходят только богатым нефтяным странам с профицитом бюджета",
+       "Никогда не приносят убытков, договоры гарантируют капитал"
+      ],
+      "options_en": [
+       "They avoid engineering crises but face real-economy cycles in full",
+       "They are completely risk-free, because every asset they hold is real",
+       "They suit only wealthy oil countries with large budget surpluses",
+       "They never produce losses, as all contracts guarantee the capital"
+      ],
+      "correct_index": 0,
+      "explanation": "Muvozanatli xulosa: islomiy moliya moliyaviy-muhandislik inqirozlaridan (masalan, toksik derivativlardan) qochadi, lekin real iqtisodiyot tsikllariga to'liq ta'sirlangan — u boshqacha, lekin xatarsiz emas.",
+      "explanation_ru": "Сбалансированный вывод: исламские финансы избегают кризисов финансовой инженерии (например, токсичных деривативов), но полностью подвержены реальным экономическим циклам — они другие, но не безрисковые.",
+      "explanation_en": "The balanced conclusion: Islamic finance avoids financial-engineering crises (like toxic derivatives) but remains fully exposed to real-economy cycles — it is different, not risk-free."
+     },
+     {
+      "text": "O'zbekiston Islom Taraqqiyot Bankiga (IsDB) qachon qo'shilgan?",
+      "text_ru": "Когда Узбекистан присоединился к Исламскому банку развития (IsDB)?",
+      "text_en": "When did Uzbekistan join the Islamic Development Bank (IsDB)?",
+      "options": [
+       "1991-yilda",
+       "2003-yilda",
+       "2015-yilda",
+       "2026-yilda"
+      ],
+      "options_ru": [
+       "В 1991 году",
+       "В 2003 году",
+       "В 2015 году",
+       "В 2026 году"
+      ],
+      "options_en": [
+       "In 1991",
+       "In 2003",
+       "In 2015",
+       "In 2026"
+      ],
+      "correct_index": 1,
+      "explanation": "O'zbekiston 2003-yilda Islom Taraqqiyot Bankiga (IsDB) qo'shilgan, undan keyin ICD kredit liniyalari kelgan.",
+      "explanation_ru": "Узбекистан присоединился к Исламскому банку развития (IsDB) в 2003 году, после чего последовали кредитные линии ICD.",
+      "explanation_en": "Uzbekistan joined the Islamic Development Bank (IsDB) in 2003, with ICD credit lines following afterward."
+     },
+     {
+      "text": "O'zbekistonda Islomiy moliya to'g'risidagi qonun qachon to'liq tasdiqlangan?",
+      "text_ru": "Когда в Узбекистане был окончательно утверждён закон об исламских финансах?",
+      "text_en": "When was Uzbekistan's Law on Islamic Finance fully approved?",
+      "options": [
+       "2003-yilda",
+       "2018-yilda",
+       "2025-yilda (birinchi o'qishda)",
+       "2026-yilda"
+      ],
+      "options_ru": [
+       "В 2003 году",
+       "В 2018 году",
+       "В 2025 году (в первом чтении)",
+       "В 2026 году"
+      ],
+      "options_en": [
+       "In 2003",
+       "In 2018",
+       "In 2025 (first reading)",
+       "In 2026"
+      ],
+      "correct_index": 3,
+      "explanation": "Qonun 2025-yilda birinchi o'qishdan o'tgan, 2026-yilda esa to'liq tasdiqlangan — islomiy banklar, darchalar va mikromoliya tashkilotlariga ruxsat berilgan.",
+      "explanation_ru": "Закон прошёл первое чтение в 2025 году, а в 2026 году был окончательно утверждён — разрешены исламские банки, окна и микрофинансовые организации.",
+      "explanation_en": "The law passed its first reading in 2025 and was fully approved in 2026 — permitting Islamic banks, windows, and microfinance institutions."
+     },
+     {
+      "text": "O'zbekistonda aholining taxminan necha foizi musulmon hisoblanadi?",
+      "text_ru": "Какой примерно процент населения Узбекистана составляют мусульмане?",
+      "text_en": "What percentage of Uzbekistan's population is approximately Muslim?",
+      "options": [
+       "50%",
+       "68%",
+       "90%",
+       "99%"
+      ],
+      "options_ru": [
+       "50%",
+       "68%",
+       "90%",
+       "99%"
+      ],
+      "options_en": [
+       "50%",
+       "68%",
+       "90%",
+       "99%"
+      ],
+      "correct_index": 2,
+      "explanation": "38 million aholining taxminan 90% i musulmon hisoblanadi — bu islomiy moliyaga katta potentsial talab manbai.",
+      "explanation_ru": "Около 90% из 38 миллионов населения составляют мусульмане — это крупный потенциальный источник спроса на исламские финансы.",
+      "explanation_en": "About 90% of the 38 million population is Muslim — a large potential source of demand for Islamic finance."
+     },
+     {
+      "text": "UNDP keltirgan so'rovlarga ko'ra, O'zbekiston aholisi va bizneslarining qanday ulushi diniy sabablarga ko'ra an'anaviy bank xizmatlaridan qochadi?",
+      "text_ru": "Согласно опросам, на которые ссылается ПРООН, какая доля населения и бизнеса Узбекистана избегает традиционного банкинга по религиозным причинам?",
+      "text_en": "Per UNDP-cited surveys, what share of Uzbekistan's population and businesses avoid conventional banking for religious reasons?",
+      "options": [
+       "10% aholi, 5% biznes",
+       "68% aholi, 60% biznes",
+       "30% aholi, 20% biznes",
+       "100% aholi, 100% biznes"
+      ],
+      "options_ru": [
+       "10% населения, 5% бизнеса",
+       "68% населения, 60% бизнеса",
+       "30% населения, 20% бизнеса",
+       "100% населения, 100% бизнеса"
+      ],
+      "options_en": [
+       "10% of people, 5% of businesses",
+       "68% of people, 60% of businesses",
+       "30% of people, 20% of businesses",
+       "100% of people, 100% of businesses"
+      ],
+      "correct_index": 1,
+      "explanation": "So'rovlarga ko'ra, 68% aholi va 60% biznes diniy sabablarga ko'ra an'anaviy bank xizmatlaridan qochadi — bu o'z-o'zini istisno qiluvchi ulkan bozorni ko'rsatadi.",
+      "explanation_ru": "По данным опросов, 68% населения и 60% бизнеса избегают традиционного банкинга по религиозным причинам — это указывает на огромный самоисключённый рынок.",
+      "explanation_en": "According to the surveys, 68% of people and 60% of businesses avoid conventional banking for religious reasons — pointing to a vast self-excluded market."
+     },
+     {
+      "text": "O'zbekistonning 2026-yildagi islomiy moliya qonuni qaysi shartnomalarni rasman belgilaydi?",
+      "text_ru": "Какие контракты официально определяет закон Узбекистана об исламских финансах 2026 года?",
+      "text_en": "Which contracts does Uzbekistan's 2026 Islamic finance law officially define?",
+      "options": [
+       "Faqat murabaha, qolgan shartnomalar keyingi qoidalarga qoldirilgan",
+       "Murabaha, mudaraba, musharaka, wakala va salam shartnomalari",
+       "Faqat sukuk chiqarish, bank shartnomalari kiritilmagan",
+       "Faqat takaful sug'urtasi, bank shartnomalari 2030-yilga qolgan"
+      ],
+      "options_ru": [
+       "Только мурабаха, остальные договоры оставлены на будущее",
+       "Договоры мурабаха, мудараба, мушарака, вакала и салям",
+       "Только выпуск сукук, банковские договоры не включены",
+       "Только страхование такафул, банковские договоры позже"
+      ],
+      "options_en": [
+       "Only murabaha, with all other contracts left to later rules",
+       "Murabaha, mudaraba, musharaka, wakala and salam contracts",
+       "Only sukuk issuance, with bank contracts left out entirely",
+       "Only takaful insurance, with banking contracts left for 2030"
+      ],
+      "correct_index": 1,
+      "explanation": "2026-yildagi qonun murabaha, mudaraba, musharaka, wakala va salam shartnomalarini rasman belgilaydi, islomiy banklar, darchalar va mikromoliyaga ruxsat beradi.",
+      "explanation_ru": "Закон 2026 года официально определяет контракты мурабаха, мудараба, мушарака, вакала и салям, разрешая исламские банки, окна и микрофинансирование.",
+      "explanation_en": "The 2026 law formally defines murabaha, mudaraba, musharaka, wakala, and salam contracts, permitting Islamic banks, windows, and microfinance."
+     },
+     {
+      "text": "Malayziya saboqlariga asoslanib, O'zbekiston uchun \"qilinadigan ishlar ro'yxati\"ga nima kirmaydi?",
+      "text_ru": "Что НЕ входит в «список задач» для Узбекистана, основанный на уроках Малайзии?",
+      "text_en": "Based on Malaysia's lessons, which of the following is NOT on Uzbekistan's 'to-do list'?",
+      "options": [
+       "Ikki martalik savdo bitimlari uchun soliq betarafligi",
+       "Markaziy shariat vakolatli organi",
+       "Islomiy banklar uchun likvidlik vositalari",
+       "Barcha konventsional banklarni yopish"
+      ],
+      "options_ru": [
+       "Налоговая нейтральность для сделок с двумя передачами",
+       "Центральный шариатский орган",
+       "Инструменты ликвидности для исламских банков",
+       "Закрытие всех традиционных банков"
+      ],
+      "options_en": [
+       "Tax neutrality for two-transfer trades",
+       "A central Shariah authority",
+       "Liquidity instruments for Islamic banks",
+       "Shutting down all conventional banks"
+      ],
+      "correct_index": 3,
+      "explanation": "Qilinadigan ishlar ro'yxati: ikki martalik savdo bitimlari uchun soliq betarafligi, markaziy shariat vakolatli organi, likvidlik vositalari va malakali kadrlar — konventsional banklarni yopish emas, Malayziyada ham dual tizim saqlangan.",
+      "explanation_ru": "Список задач: налоговая нейтральность для сделок с двумя передачами, центральный шариатский орган, инструменты ликвидности и обученный персонал — а не закрытие традиционных банков, ведь в Малайзии тоже сохранена двойная система.",
+      "explanation_en": "The to-do list includes tax neutrality for two-transfer trades, a central Shariah authority, liquidity instruments, and trained personnel — not shutting down conventional banks, since Malaysia itself kept a dual system."
+     },
+     {
+      "text": "Bank jihoz sotib oladi $40,000 ga va uni murabaha orqali 3 yil davomida 12% umumiy ustama bilan sotadi. Oylik to'lov qancha bo'ladi?",
+      "text_ru": "Банк покупает оборудование за $40,000 и продаёт его по мурабаха с общей наценкой 12% на 3 года. Каков ежемесячный платёж?",
+      "text_en": "A bank buys equipment for $40,000 and sells it by murabaha with a 12% total markup over 3 years. What is the monthly installment?",
+      "options": [
+       "$1,111.11",
+       "$1,244.44",
+       "$1,333.33",
+       "$1,500.00"
+      ],
+      "options_ru": [
+       "$1,111.11",
+       "$1,244.44",
+       "$1,333.33",
+       "$1,500.00"
+      ],
+      "options_en": [
+       "$1,111.11",
+       "$1,244.44",
+       "$1,333.33",
+       "$1,500.00"
+      ],
+      "correct_index": 1,
+      "explanation": "Umumiy narx = $40,000 × 1.12 = $44,800. 36 oyga bo'linsa: $44,800 / 36 = $1,244.44.",
+      "explanation_ru": "Общая цена = $40,000 × 1.12 = $44,800. Разделив на 36 месяцев: $44,800 / 36 = $1,244.44.",
+      "explanation_en": "Total price = $40,000 × 1.12 = $44,800. Divided over 36 months: $44,800 / 36 = $1,244.44."
+     },
+     {
+      "text": "Yuqoridagi murabaha misoli 12% li oddiy kreditdan huquqiy jihatdan nimasi bilan farq qiladi?",
+      "text_ru": "Чем вышеуказанный пример мурабаха юридически отличается от обычного кредита под 12%?",
+      "text_en": "How does the murabaha example above differ legally from a plain 12% loan?",
+      "options": [
+       "Oddiy foizli kredit oshkor qilinsa, shariatga mos hisoblanadi",
+       "Hech qanday farq yo'q; ikkisi huquqiy jihatdan bir xil bitim",
+       "Murabaha har doim arzonroq, ustamasi besh foiz bilan cheklangan",
+       "Bank jihozni haqiqatan sotib olib egalik qiladi, so'ng sotadi"
+      ],
+      "options_ru": [
+       "Обычный процентный кредит соответствует шариату при раскрытии",
+       "Разницы нет вовсе; юридически это две одинаковые сделки",
+       "Мурабаха всегда дешевле, её наценка ограничена пятью процентами",
+       "Банк реально покупает оборудование, владеет им и продаёт его"
+      ],
+      "options_en": [
+       "A plain interest loan is Shariah-compliant if it is disclosed clearly",
+       "There is no difference at all; the two are legally identical deals",
+       "Murabaha is always cheaper, as its markup is capped at five percent",
+       "The bank really buys and owns the kit, then sells it at a sale price"
+      ],
+      "correct_index": 3,
+      "explanation": "Huquqiy farq: murabahada bank aktivni sotib olib, uni haqiqatan egallaydi va keyin sotadi — ustama savdo narxining qismi, pulga to'g'ridan-to'g'ri foiz emas.",
+      "explanation_ru": "Юридическое отличие: в мурабахе банк действительно покупает и владеет активом, а затем продаёт его — наценка является частью цены продажи, а не прямым процентом на деньги.",
+      "explanation_en": "The legal difference: in murabaha, the bank genuinely buys and owns the asset, then sells it — the markup is part of a sale price, not direct interest on money."
+     },
+     {
+      "text": "$60,000 mudaraba, foyda nisbati 65:35 (investor:menejer). Foyda $20,000 bo'lsa, menejer qancha oladi?",
+      "text_ru": "Мудараба на $60,000, соотношение прибыли 65:35 (инвестор:менеджер). Если прибыль $20,000, сколько получит менеджер?",
+      "text_en": "A $60,000 mudaraba has a 65:35 profit split (investor:manager). If the profit is $20,000, how much does the manager receive?",
+      "options": [
+       "$6,000",
+       "$7,000",
+       "$13,000",
+       "$20,000"
+      ],
+      "options_ru": [
+       "$6,000",
+       "$7,000",
+       "$13,000",
+       "$20,000"
+      ],
+      "options_en": [
+       "$6,000",
+       "$7,000",
+       "$13,000",
+       "$20,000"
+      ],
+      "correct_index": 1,
+      "explanation": "Menejer ulushi = $20,000 × 35% = $7,000.",
+      "explanation_ru": "Доля менеджера = $20,000 × 35% = $7,000.",
+      "explanation_en": "Manager's share = $20,000 × 35% = $7,000."
+     },
+     {
+      "text": "Uy narxi $150,000, bank ulushi 80% ($120,000). Mijoz har oy $2,000 bankning ulushini sotib olsa, necha oydan keyin mijoz 100% egalik qiladi?",
+      "text_ru": "Дом стоит $150,000, доля банка 80% ($120,000). Если клиент ежемесячно выкупает долю банка на $2,000, через сколько месяцев клиент станет полным собственником?",
+      "text_en": "A house costs $150,000, with the bank's share at 80% ($120,000). If the client buys $2,000 of the bank's share each month, after how many months does the client own 100%?",
+      "options": [
+       "50 oy",
+       "60 oy",
+       "75 oy",
+       "80 oy"
+      ],
+      "options_ru": [
+       "50 месяцев",
+       "60 месяцев",
+       "75 месяцев",
+       "80 месяцев"
+      ],
+      "options_en": [
+       "50 months",
+       "60 months",
+       "75 months",
+       "80 months"
+      ],
+      "correct_index": 1,
+      "explanation": "Bankning ulushi $120,000. $120,000 / $2,000 = 60 oy — shu muddatdan keyin mijoz bankning butun ulushini sotib oladi.",
+      "explanation_ru": "Доля банка составляет $120,000. $120,000 / $2,000 = 60 месяцев — после этого срока клиент полностью выкупит долю банка.",
+      "explanation_en": "The bank's share is $120,000. $120,000 / $2,000 = 60 months — after that, the client has bought out the bank's entire share."
+     },
+     {
+      "text": "Wakala shartnomasi nimani anglatadi?",
+      "text_ru": "Что означает договор вакала?",
+      "text_en": "What does a wakala contract mean?",
+      "options": [
+       "Agentlik shartnomasi — biri haq evaziga ikkinchisi nomidan ish qiladi",
+       "Qarzni kechirish shartnomasi — qarz oluvchi majburiyati bekor qilinadi",
+       "Ikki tomonlama sug'urta shartnomasi — har ikki tomon zarari qoplanadi",
+       "Sud tomonidan qarzdorga qarshi chiqarilgan mulk musodarasi qarori"
+      ],
+      "options_ru": [
+       "Агентский договор: одна сторона действует за другую за плату",
+       "Договор прощения долга, отменяющий обязательство заёмщика",
+       "Двусторонний договор страхования убытков обеих сторон сделки",
+       "Судебное решение о конфискации имущества у должника банка"
+      ],
+      "options_en": [
+       "An agency contract where one party acts for another for a fee",
+       "A debt forgiveness contract cancelling the borrower's obligation",
+       "A two-way insurance contract covering both parties' losses",
+       "An asset confiscation order issued by a court against a debtor"
+      ],
+      "correct_index": 0,
+      "explanation": "Wakala — vositachilik (agentlik) shartnomasi bo'lib, bir tomon ikkinchisi nomidan belgilangan haq evaziga harakat qiladi; takaful operatorlari ko'pincha shu asosda ishlaydi.",
+      "explanation_ru": "Вакала — это договор агентирования, при котором одна сторона действует от имени другой за установленное вознаграждение; операторы такафул часто работают на этой основе.",
+      "explanation_en": "Wakala is an agency contract where one party acts on behalf of another for a set fee; takaful operators often work on this basis."
+     },
+     {
+      "text": "Kafala shartnomasi qaysi tushunchaga mos keladi?",
+      "text_ru": "Какому понятию соответствует договор кафала?",
+      "text_en": "Which concept does a kafala contract correspond to?",
+      "options": [
+       "Kafolat — biri boshqasining majburiyatini ta'minlaydi",
+       "Ijara — egasi aktivni ma'lum muddatga ijaraga beradi",
+       "Sukuk chiqarish — sertifikatlar investorlarga sotiladi",
+       "Aksiya skrini — aksiyalar qarz darajasi bo'yicha filtrlanadi"
+      ],
+      "options_ru": [
+       "Гарантия: одна сторона обеспечивает обязательство другой",
+       "Иджара: владелец сдаёт актив в аренду на определённый срок",
+       "Выпуск сукук: сертификаты продаются инвесторам фонда",
+       "Скрининг акций: отбор акций по уровню долга компании"
+      ],
+      "options_en": [
+       "A guarantee, where one party backs another's obligation",
+       "A lease, where an owner rents an asset out for a period",
+       "A sukuk issue, where certificates are sold to investors",
+       "An equity screen, where shares are filtered by debt level"
+      ],
+      "correct_index": 0,
+      "explanation": "Kafala — bir tomon boshqa birovning majburiyatini bajarishga kafolat beradigan yordamchi shartnoma bo'lib, qarz yoki bitim ta'minotida ishlatiladi.",
+      "explanation_ru": "Кафала — вспомогательный договор, по которому одна сторона гарантирует исполнение обязательства другой стороной; используется для обеспечения долга или сделки.",
+      "explanation_en": "Kafala is a supporting contract in which one party guarantees the performance of another's obligation, used to secure a debt or deal."
+     },
+     {
+      "text": "Retakaful nima?",
+      "text_ru": "Что такое ретакафул?",
+      "text_en": "What is retakaful?",
+      "options": [
+       "Takafulning qayta sug'urta (reinsurance) analogi",
+       "Takafulni bekor qilish jarayoni",
+       "Faqat davlat tomonidan boshqariladigan fond",
+       "Murabaha shartnomasining boshqa nomi"
+      ],
+      "options_ru": [
+       "Аналог перестрахования для такафул",
+       "Процесс аннулирования такафул",
+       "Фонд, управляемый только государством",
+       "Другое название договора мурабаха"
+      ],
+      "options_en": [
+       "The reinsurance analogue of takaful",
+       "A process for cancelling takaful",
+       "A fund run only by the state",
+       "Another name for a murabaha contract"
+      ],
+      "correct_index": 0,
+      "explanation": "Retakaful — takaful operatorlari o'z xatarlarini qayta taqsimlash uchun foydalanadigan, konventsional qayta sug'urtaning islomiy analogidir.",
+      "explanation_ru": "Ретакафул — исламский аналог перестрахования, который операторы такафул используют для перераспределения собственных рисков.",
+      "explanation_en": "Retakaful is the Islamic analogue of reinsurance, used by takaful operators to redistribute their own risks."
+     },
+     {
+      "text": "Qard hasan nima va u odatda qanday foiz talab qiladi?",
+      "text_ru": "Что такое кард хасан и какой процент он обычно предполагает?",
+      "text_en": "What is qard hasan, and what interest does it typically carry?",
+      "options": [
+       "Foizli tijorat krediti",
+       "Foizsiz xayrli qarz",
+       "Davlat subsidiyasi",
+       "Sug'urta puli"
+      ],
+      "options_ru": [
+       "Процентный коммерческий кредит",
+       "Беспроцентный благой заём",
+       "Государственная субсидия",
+       "Страховая выплата"
+      ],
+      "options_en": [
+       "An interest-bearing commercial loan",
+       "An interest-free benevolent loan",
+       "A government subsidy",
+       "An insurance payout"
+      ],
+      "correct_index": 1,
+      "explanation": "Qard hasan — foizsiz xayrli qarz bo'lib, qarz oluvchi faqat asl summani qaytaradi; bu islomiy moliyaning redistribution (qayta taqsimlash) tamoyiliga misol.",
+      "explanation_ru": "Кард хасан — это беспроцентный благой заём, при котором заёмщик возвращает только основную сумму; пример принципа перераспределения в исламских финансах.",
+      "explanation_en": "Qard hasan is an interest-free benevolent loan, where the borrower repays only the principal — an example of Islamic finance's redistribution principle."
+     }
+    ]
+   },
+   {
+    "title": "5-mavzu: Moliyaviy institutlar",
+    "title_ru": "Тема 5: Финансовые институты",
+    "title_en": "Topic 5: Financial Institutions",
+    "cards": [],
+    "questions": []
+   }
+  ]
+ }
+]

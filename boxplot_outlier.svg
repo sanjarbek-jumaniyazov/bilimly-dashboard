@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <line x1="40" y1="200" x2="40" y2="20" stroke="#888" stroke-width="2"/>
+  <!-- whisker line -->
+  <line x1="200" y1="175" x2="200" y2="60" stroke="#3c3c3c" stroke-width="2.5"/>
+  <!-- whisker caps -->
+  <line x1="160" y1="175" x2="240" y2="175" stroke="#3c3c3c" stroke-width="2.5"/>
+  <line x1="160" y1="60"  x2="240" y2="60"  stroke="#3c3c3c" stroke-width="2.5"/>
+  <!-- box (Q1 to Q3) -->
+  <rect x="140" y="90" width="120" height="60" fill="rgba(28,176,246,0.15)" stroke="#1cb0f6" stroke-width="3"/>
+  <!-- median -->
+  <line x1="140" y1="118" x2="260" y2="118" stroke="#1899d6" stroke-width="3"/>
+  <!-- outlier -->
+  <circle cx="200" cy="30" r="7" fill="#ff4b4b"/>
+</svg>

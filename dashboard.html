@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilimly Analytics Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --accent: #ec4899;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--dark) 0%, #1e293b 100%);
+            color: #1e293b;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .auth-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .login-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 50px 40px;
+            max-width: 450px;
+            width: 100%;
+            animation: slideUp 0.6s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo h1 {
+            font-size: 32px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .logo p {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1e293b;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .btn-login {
+            width: 100%;
+            padding: 12px 16px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-login:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.6);
+        }
+
+        .btn-login:active {
+            transform: translateY(0);
+        }
+
+        .dashboard {
+            display: none;
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 24px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 28px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-controls {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .refresh-status {
+            font-size: 12px;
+            color: #64748b;
+            padding: 6px 12px;
+            background: #f1f5f9;
+            border-radius: 6px;
+        }
+
+        .refresh-status.updating {
+            color: var(--primary);
+        }
+
+        .btn-refresh, .btn-logout {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-refresh {
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        .btn-refresh:hover {
+            background: #e2e8f0;
+        }
+
+        .btn-refresh.spinning {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .btn-logout {
+            background: linear-gradient(135deg, var(--danger) 0%, #dc2626 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-logout:hover {
+            box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .stat-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-icon {
+            font-size: 28px;
+        }
+
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 8px;
+        }
+
+        .stat-change {
+            font-size: 13px;
+            color: var(--success);
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            background: white;
+            padding: 8px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 12px 16px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            color: #64748b;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .content-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border);
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #f8fafc;
+            padding: 16px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            color: #64748b;
+            border-bottom: 2px solid var(--border);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 16px;
+            border-bottom: 1px solid var(--border);
+            font-size: 14px;
+        }
+
+        tr:hover {
+            background: #f8fafc;
+        }
+
+        .user-cell {
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .user-username {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 2px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .status-onboarded {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status-pending {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #e2e8f0;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 4px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+            transition: width 0.3s ease;
+        }
+
+        .accuracy-text {
+            font-size: 12px;
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin-top: 20px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .error-message {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--danger);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #64748b;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e2e8f0;
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 16px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            background: white;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination button.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .theme-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .theme-card:hover {
+            transform: translateX(4px);
+            background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+        }
+
+        .theme-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 12px;
+        }
+
+        .theme-name {
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .theme-subject {
+            font-size: 12px;
+            color: #64748b;
+        }
+
+        .theme-stats {
+            display: flex;
+            gap: 24px;
+            font-size: 13px;
+        }
+
+        .theme-stat {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .theme-stat-label {
+            color: #64748b;
+            margin-bottom: 2px;
+        }
+
+        .theme-stat-value {
+            font-weight: 600;
+            color: var(--dark);
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 16px;
+                align-items: flex-start;
+            }
+
+            .header-controls {
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            .tabs {
+                flex-direction: column;
+            }
+
+            .tab-btn {
+                text-align: left;
+            }
+        }
+
+        .last-updated {
+            text-align: center;
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+    <!-- Auth Screen -->
+    <div id="auth-screen" class="auth-screen">
+        <div class="login-card">
+            <div class="logo">
+                <h1>📊 Bilimly</h1>
+                <p>Analytics Dashboard</p>
+            </div>
+            <form onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="password">Admin Password</label>
+                    <input type="password" id="password" placeholder="Enter admin password" required autofocus>
+                </div>
+                <button type="submit" class="btn-login">🔓 Access Dashboard</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboard" class="dashboard">
+        <div class="container">
+            <header>
+                <h1>📊 Bilimly Analytics</h1>
+                <div class="header-controls">
+                    <div class="refresh-status" id="refresh-status">
+                        Auto-refresh: <span id="refresh-countdown">30s</span>
+                    </div>
+                    <button class="btn-refresh" id="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
+                    <button class="btn-logout" onclick="handleLogout()">Logout</button>
+                </div>
+            </header>
+
+            <div id="error-container"></div>
+
+            <div class="stats-grid" id="stats-grid">
+                <div class="stat-card"><div class="loading"><div class="spinner"></div></div></div>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('users')">👥 Users</button>
+                <button class="tab-btn" onclick="switchTab('themes')">📚 Popular Themes</button>
+            </div>
+
+            <!-- Users Tab -->
+            <div id="users" class="tab-content active">
+                <div class="content-card">
+                    <div class="table-wrapper" id="users-table-wrapper">
+                        <div class="loading"><div class="spinner"></div></div>
+                    </div>
+                    <div class="pagination" id="users-pagination"></div>
+                </div>
+            </div>
+
+            <!-- Themes Tab -->
+            <div id="themes" class="tab-content">
+                <div class="content-card" id="themes-container">
+                    <div class="loading"><div class="spinner"></div></div>
+                </div>
+            </div>
+
+            <div class="last-updated" id="last-updated"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = window.location.origin;
+        let adminPassword = localStorage.getItem('admin_password');
+        let currentTab = 'users';
+        let currentPage = 0;
+        const pageSize = 50;
+        let refreshTimer = null;
+        let countdownTimer = null;
+
+        // Initialize
+        if (adminPassword) {
+            showDashboard();
+        }
+
+        function handleLogin(e) {
+            e.preventDefault();
+            const password = document.getElementById('password').value;
+            adminPassword = password;
+            localStorage.setItem('admin_password', password);
+            testAuth();
+        }
+
+        async function testAuth() {
+            try {
+                const res = await axios.get(`${API_URL}/api/admin/stats?password=${encodeURIComponent(adminPassword)}`);
+                showDashboard();
+            } catch (err) {
+                showError('Invalid password or API unreachable');
+                adminPassword = null;
+                localStorage.removeItem('admin_password');
+            }
+        }
+
+        function handleLogout() {
+            adminPassword = null;
+            localStorage.removeItem('admin_password');
+            document.getElementById('auth-screen').style.display = 'flex';
+            document.getElementById('dashboard').style.display = 'none';
+            document.getElementById('password').value = '';
+            document.getElementById('password').focus();
+            clearInterval(refreshTimer);
+            clearInterval(countdownTimer);
+        }
+
+        function showDashboard() {
+            document.getElementById('auth-screen').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'block';
+            loadAllData();
+            startAutoRefresh();
+        }
+
+        function showError(message) {
+            const container = document.getElementById('error-container');
+            container.innerHTML = `<div class="error-message">⚠️ ${message}</div>`;
+            setTimeout(() => { container.innerHTML = ''; }, 5000);
+        }
+
+        async function apiCall(endpoint) {
+            try {
+                const res = await axios.get(`${API_URL}${endpoint}?password=${encodeURIComponent(adminPassword)}`);
+                return res.data;
+            } catch (err) {
+                if (err.response?.status === 401) {
+                    handleLogout();
+                } else {
+                    showError('API Error: ' + (err.message || 'Unknown error'));
+                }
+                return null;
+            }
+        }
+
+        async function loadAllData() {
+            document.getElementById('refresh-btn').classList.add('spinning');
+            await Promise.all([loadStats(), loadUsers(), loadThemes()]);
+            document.getElementById('refresh-btn').classList.remove('spinning');
+            updateLastUpdated();
+        }
+
+        async function loadStats() {
+            const data = await apiCall('/api/admin/stats');
+            if (!data) return;
+
+            const html = `
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div>
+                            <div class="stat-label">👥 Total Users</div>
+                            <div class="stat-value">${data.total_users}</div>
+                        </div>
+                        <div class="stat-icon">👥</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div>
+                            <div class="stat-label">✅ Onboarded</div>
+                            <div class="stat-value">${data.onboarded_users}</div>
+                            <div class="stat-change">${Math.round(100 * data.onboarded_users / data.total_users)}% active</div>
+                        </div>
+                        <div class="stat-icon">✅</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div>
+                            <div class="stat-label">📝 Total Attempts</div>
+                            <div class="stat-value">${data.total_attempts}</div>
+                            <div class="stat-change">${Math.round(data.total_attempts / Math.max(1, data.total_users))} per user</div>
+                        </div>
+                        <div class="stat-icon">📝</div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('stats-grid').innerHTML = html;
+        }
+
+        async function loadUsers() {
+            const data = await apiCall(`/api/admin/users?limit=${pageSize}&offset=${currentPage * pageSize}`);
+            if (!data) return;
+
+            const tbody = data.map(user => `
+                <tr>
+                    <td>
+                        <div class="user-cell">${user.full_name || user.username || 'Unknown'}</div>
+                        <div class="user-username">@${user.username || 'N/A'}</div>
+                    </td>
+                    <td><span class="status-badge ${user.is_onboarded ? 'status-onboarded' : 'status-pending'}">${user.is_onboarded ? '✓ Onboarded' : '⏳ Pending'}</span></td>
+                    <td>${user.course_year || '—'}</td>
+                    <td>${user.group_name || '—'}</td>
+                    <td>${user.attempts_count}</td>
+                    <td>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${user.accuracy}%"></div>
+                        </div>
+                        <div class="accuracy-text">${user.accuracy}%</div>
+                    </td>
+                    <td>${user.themes_started}</td>
+                    <td>${user.last_activity ? new Date(user.last_activity).toLocaleDateString() : '—'}</td>
+                </tr>
+            `).join('');
+
+            const table = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Status</th>
+                            <th>Year</th>
+                            <th>Group</th>
+                            <th>Attempts</th>
+                            <th>Accuracy</th>
+                            <th>Themes</th>
+                            <th>Last Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>${tbody}</tbody>
+                </table>
+            `;
+
+            document.getElementById('users-table-wrapper').innerHTML = table;
+            updatePagination(data.length);
+        }
+
+        function updatePagination(dataLength) {
+            const pagination = document.getElementById('users-pagination');
+            const btns = `
+                <button ${currentPage === 0 ? 'disabled' : ''} onclick="prevPage()">← Previous</button>
+                <button>${currentPage + 1}</button>
+                <button ${dataLength < pageSize ? 'disabled' : ''} onclick="nextPage()">Next →</button>
+            `;
+            pagination.innerHTML = btns;
+        }
+
+        function nextPage() {
+            currentPage++;
+            loadUsers();
+        }
+
+        function prevPage() {
+            if (currentPage > 0) currentPage--;
+            loadUsers();
+        }
+
+        async function loadThemes() {
+            const data = await apiCall('/api/admin/subjects');
+            if (!data) return;
+
+            const html = data.map(theme => `
+                <div class="theme-card">
+                    <div class="theme-header">
+                        <div>
+                            <div class="theme-name">📚 ${theme.theme_name}</div>
+                            <div class="theme-subject">${theme.subject_name}</div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${theme.accuracy}%"></div>
+                    </div>
+                    <div class="theme-stats">
+                        <div class="theme-stat">
+                            <div class="theme-stat-label">Attempts</div>
+                            <div class="theme-stat-value">${theme.attempts}</div>
+                        </div>
+                        <div class="theme-stat">
+                            <div class="theme-stat-label">Accuracy</div>
+                            <div class="theme-stat-value">${theme.accuracy}%</div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            document.getElementById('themes-container').innerHTML = html || '<p>No theme data yet</p>';
+        }
+
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(tab).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function refreshData() {
+            loadAllData();
+            resetCountdown();
+        }
+
+        function startAutoRefresh() {
+            clearInterval(refreshTimer);
+            clearInterval(countdownTimer);
+
+            let seconds = 30;
+            document.getElementById('refresh-countdown').textContent = seconds + 's';
+
+            countdownTimer = setInterval(() => {
+                seconds--;
+                document.getElementById('refresh-countdown').textContent = seconds + 's';
+            }, 1000);
+
+            refreshTimer = setInterval(() => {
+                loadAllData();
+                seconds = 30;
+            }, 30000);
+        }
+
+        function resetCountdown() {
+            clearInterval(countdownTimer);
+            clearInterval(refreshTimer);
+            startAutoRefresh();
+        }
+
+        function updateLastUpdated() {
+            const now = new Date();
+            document.getElementById('last-updated').textContent = '🕐 Last updated: ' + now.toLocaleTimeString();
+        }
+    </script>
+</body>
+</html>

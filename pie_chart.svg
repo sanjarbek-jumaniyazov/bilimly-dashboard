@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#ffffff" stroke-width="2">
+    <path d="M200,110 L200,20 A90,90 0 0,1 252.9,182.81 Z" fill="#58cc02"/>
+    <path d="M200,110 L252.9,182.81 A90,90 0 0,1 114.4,137.81 Z" fill="#1cb0f6"/>
+    <path d="M200,110 L114.4,137.81 A90,90 0 0,1 147.1,37.19 Z" fill="#ffc800"/>
+    <path d="M200,110 L147.1,37.19 A90,90 0 0,1 200,20 Z" fill="#ff4b4b"/>
+  </g>
+</svg>
