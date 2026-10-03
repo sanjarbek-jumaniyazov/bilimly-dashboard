@@ -40,5 +40,10 @@ async def main() -> None:
         refresher.cancel()
 
 
-if __name__ == "__main__":
-    asyncio.run(main())
+from fastapi import FastAPI
+
+app = FastAPI()   # must be top-level and named exactly "app"
+
+@app.get("/")
+def home():
+    return {"status": "ok"}
